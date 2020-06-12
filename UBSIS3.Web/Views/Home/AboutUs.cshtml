@@ -1,0 +1,583 @@
+﻿@inject IViewLocalizer localizer
+@{
+    string lan = ViewBag.browserCulture;
+}
+
+@section Head {
+    <title>@localizer["About Us. UBSIS is an international company providing Low-Cost Healthcare Softwares and Integrated Health Services with its international corporate identity."]</title>
+
+    <meta name="description" content="@localizer["Some of Our Softwares; HR Management, Hospital and Laboratory Information Management, Vaccine Management, PACS, Blood Products and Transfusion Management"]" />
+}
+
+@*BreadCrumb*@
+<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('/images/parallax.jpg'); padding: 120px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+
+    <div class="container clearfix">
+        <h1>UBSIS</h1>
+        <span>@localizer["International Project and Management"]</span>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">@localizer["Home"]</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@localizer["About Us"]</li>
+        </ol>
+    </div>
+</section>
+
+
+
+@*Map*@
+<div class="section nomargin nobg">
+    <div class="container clearfix">
+        <div class="heading-block center mt-0 divcenter nobottomborder clearfix" style="max-width: 700px">
+            <h2>@localizer["International Project and Management"]</h2>
+            <p>@localizer["UBSIS is an international company providing Integrated Health Services with its international corporate identity, high technology and experience capacity. UBSIS is also the founder and manager of International Health Management Group (IHMG)"]</p>
+        </div>
+
+        <div class="heading-block center mt-0 divcenter nobottomborder clearfix">
+            @if (lan.Equals("tr"))
+            {
+                <img src="~/images/logo/ubsisCompanyLogoTR.png" style="height:300px; width:auto;" alt="ubsis-company-logo" class="image responsive-sticky-header serv" />
+            }
+            else
+            {
+                <img src="~/images/logo/ubsisCompanyLogoEN.png" style="height:300px; width:auto" class="image responsive-sticky-header serv" />
+            }
+        </div>
+
+        <div class="row">
+            <div class="col-lg-5 col-md-6">
+                <div class="heading-block mt-md-3 mt-0">
+                    <div class="before-heading color">@localizer["Our Network"]</div>
+                    <h3 class=" nott ls0">@localizer["UBSIS has successfully completed hundreds of projects in several countries around the world."]</h3>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="iconlist ml-0">
+                            <li><img src="~/images/flags/TurkeyFlag.png" alt="Ubsis company headquarter is located in Ankara, Turkey">@localizer["Turkey"]</li>
+                            <li><img src="~/images/flags/UnitedKingdom.png" alt="Ubsis has more than 200 business partners in United Kingdom which use our softwares">@localizer["United Kingdom"]</li>
+                            <li><img src="~/images/flags/UzbekistanFlag.png" alt="Ubsis manages the software infrastructure supported transformation project of the health sector in Uzbekistan.">@localizer["Uzbekistan"]</li>
+                            <li><img src="~/images/flags/PakistanFlag.jpg" alt="Ubsis has more than 50 business partners in Pakistan which use our softwares">@localizer["Pakistan"]</li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="iconlist ml-0">
+                            <li><img src="~/images/flags/RussiaFlag.png" alt="Ubsis has more than 400 business partners in Russia which use our softwares">@localizer["Russia"]</li>
+                            <li><img src="~/images/flags/AzerbaijanFlag.jpg" alt="Ubsis has 18 business partners in Azerbaijan which use our softwares">@localizer["Azerbaijan"]</li>
+                            <li><img src="/images/flags/JapanFlag.png" alt="Ubsis has 11 business partners in Japan which use our softwares">@localizer["Japan"]</li>
+                            <li><img src="~/images/flags/EgyptFlag.jpg" alt="Ubsis has more than 150 business partners in Egypt which use our softwares">@localizer["Egypt"]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6">
+                <div id="hotspot-img" class="hotspot-img mt-2 responsive-hotspot-wrap">
+                    <img src="/images/ubsisWordlwideProjectManagement.png" class="img-responsive" alt="ubsis-wordlwide-project-management">
+
+                    <!-- Circle #1 -->
+                    <!-- Circle #2 -->
+                    <div class="hot-spot" x="2250" y="534">
+                        <div class="circle"></div>
+                        <div class="tooltip"><p>@localizer["Tokyo"]</p></div>
+                    </div>
+                    <!-- Circle #3 -->
+                    <div class="hot-spot" x="1690" y="474">
+                        <div class="circle"></div>
+                        <div class="tooltip"><p>@localizer["Tashkent"]</p></div>
+                    </div>
+                    <!-- Circle #4 -->
+                    <div class="hot-spot" x="1222" y="395">
+                        <div class="circle"></div>
+                        <div class="tooltip"><p>@localizer["London"]</p></div>
+                    </div>
+                    <!-- Circle #5 -->
+                    <div class="hot-spot" x="1422" y="395">
+                        <div class="circle"></div>
+                        <div class="tooltip"><p>@localizer["Moscow"]</p></div>
+                    </div>
+                    <!-- Circle #6 -->
+                    <div class="hot-spot" x="1580" y="474">
+                        <div class="circle"></div>
+                        <div class="tooltip"><p>@localizer["Baku"]</p></div>
+                    </div>
+                    <!-- Circle #7 -->
+                    <div class="hot-spot" x="1470" y="514">
+                        <div class="circle"></div>
+                        <div class="tooltip"><p>@localizer["Ankara"]</p></div>
+                    </div>
+                    <!-- Circle #8 -->
+                    <div class="hot-spot" x="1720" y="564">
+                        <div class="circle"></div>
+                        <div class="tooltip"><p>@localizer["Islamabad"]</p></div>
+                    </div>
+                    <!-- Circle #8 -->
+                    <div class="hot-spot" x="1430" y="604">
+                        <div class="circle"></div>
+                        <div class="tooltip"><p>@localizer["Cairo"]</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="divider divider-short divider-center" id="pacs"><i class="icon-circle"></i></div>
+
+@*Macro icons*@
+<section id="macro" class="page-section topmargin-lg" style="margin-top: 0px !important; margin-bottom: 20px !important; padding-bottom: 20px !important;">
+
+    <div class="heading-block center bottommargin-lg">
+        <h2> <span>UBSIS</span><br />@localizer["Macro Health Services Project Management"]</h2>
+        <h5>@localizer["The development and structuring of national and Regional Health Systems is involved in this area."]</h5>
+    </div>
+
+    <div class="container clearfix">
+        <div class="col_one_third">
+            <div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn">
+                <div class="fbox-icon">
+                    <a href="#" onclick="ActivateMacroTab('stjPln');return false;"><i class="icon-et-strategy"></i></a>
+                </div>
+                <h3>@localizer["Country Health Services <br />Strategic Planning Management"]</h3>
+                @*<p>
+                        Country Health Services <br />Strategic Planning Management
+                    </p>*@
+            </div>
+        </div>
+
+        <div class="col_one_third">
+            <div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="200">
+                <div class="fbox-icon">
+                    <a href="#" onclick="ActivateMacroTab('service');return false;"><i class="icon-handshake1"></i></a>
+                </div>
+                <h3>@localizer["Servıce Procurement<br/>Management"]</h3>
+            </div>
+        </div>
+
+        <div class="col_one_third col_last">
+            <div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="400">
+                <div class="fbox-icon">
+                    <a href="#" onclick="ActivateMacroTab('quaEff');return false;"><i class="icon-health"></i></a>
+                </div>
+                <h3>@localizer["Quality And Efficiency Management In Health"]</h3>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="col_one_third">
+            <div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="600">
+                <div class="fbox-icon">
+                    <a href="#" onclick="ActivateMacroTab('pbHlthIns');return false;"><i class="icon-realestate-house7"></i></a>
+                </div>
+                <h3>@localizer["Configuration Management of Public Health Institutions"]</h3>
+            </div>
+        </div>
+
+        <div class="col_one_third">
+            <div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="800">
+                <div class="fbox-icon">
+                    <a href="#" onclick="ActivateMacroTab('eHealth');return false;"><i class="icon-mobile-alt"></i></a>
+                </div>
+                <h3>@localizer["E-Health <br />Configuration"]</h3>
+            </div>
+        </div>
+
+        <div class="col_one_third col_last">
+            <div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="1000">
+                <div class="fbox-icon">
+                    <a href="#" onclick="ActivateMacroTab('twin');return false;"><i class="icon-project-diagram"></i></a>
+                </div>
+                <h3>@localizer["Application of <br />Twinning Projects"]</h3>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</section>
+
+@*Macro Tabs*@
+<section id="tabsMacro" class="container topmargin-lg cleafix" style="padding-top:0px;">
+    <div class="row">
+        <div class="col-xs-12 ">
+            @*Links*@
+            <nav>
+                <div class="aaa nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+
+                    <a class="aaa nav-item nav-link active" id="nav-stjPln-tab" data-toggle="tab" href="#nav-stjPln" role="tab" aria-controls="nav-stjPln" aria-selected="true">@localizer["Strategic <br />Planning"]</a>
+
+                    <a class="aaa nav-item nav-link" id="nav-service-tab" data-toggle="tab" href="#nav-service" role="tab" aria-controls="nav-service" aria-selected="false">@localizer["Service Procurement <br/>Management"]</a>
+
+                    <a class="aaa nav-item nav-link" id="nav-quaEff-tab" data-toggle="tab" href="#nav-quaEff" role="tab" aria-controls="nav-quaEff" aria-selected="false">@localizer["Quality and <br />Efficiency"]</a>
+
+                    <a class="aaa nav-item nav-link" id="nav-pbHlthIns-tab" data-toggle="tab" href="#nav-pbHlthIns" role="tab" aria-controls="nav-pbHlthIns" aria-selected="false">@localizer["Public Health <br />Instutitions"]</a>
+
+                    <a class="aaa nav-item nav-link" id="nav-eHealth-tab" data-toggle="tab" href="#nav-eHealth" role="tab" aria-controls="nav-eHealth" aria-selected="false">@localizer["E-Health <br />Configuration"]</a>
+
+                    <a class="aaa nav-item nav-link" id="nav-twin-tab" data-toggle="tab" href="#nav-twin" role="tab" aria-controls="nav-twin" aria-selected="false">@localizer["Twinning <br />Projects"]</a>
+
+                </div>
+            </nav>
+            @*Texts*@
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                <div class="aaa tab-pane fade show active" id="nav-stjPln" role="tabpanel" aria-labelledby="nav-stjPln-tab">
+                    <img src="~/images/strategic-planning.png" width="260" alt="ubsis has 20 years of experience in the strategic planning and transformation projects of the health sector." class="img-thumbnail alignleft">
+                    <p>@localizer["The most important requirement of large-scale projects is to set goals correctly. Preparing a Strategic Plan to guide these goals is decisive in the quality of the studies. Activities we carry out in our works;"]</p>
+                    <div class="row clearfix">
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Country Health Service Delivery Status Analysis"]</li>
+                                <li><i class="icon-ok"></i> @localizer["Expectation Analysis from Healthcare Parties"]</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Defining Strategic Goals and Objectives"]</li>
+                                <li><i class="icon-ok"></i> @localizer["Defining Responsibility and Duties of Strategic Plan Parties within the Plan"]</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Standardizing Time-Based Action Plans"]</li>
+                                <li><i class="icon-ok"></i> @localizer["Standardization of Plan Monitoring and Evaluation Methods"]</li>
+                                <li><i class="icon-ok"></i> @localizer["Training and Certification of Strategic Plan Parties"]</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="aaa tab-pane fade" id="nav-service" role="tabpanel" aria-labelledby="nav-service-tab">
+                    <p>@localizer["Private Sector Dynamics is important for increasing the quality of service delivery in health transformation. Standardizing the procurement management within the framework of the cooperation with the Private Sector is very important in the success of the Transformation Project. Studies under this service;"]</p>
+                    <div class="row clearfix">
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Determination of sectoral development areas in the country and region"]</li>
+                                <li><i class="icon-ok"></i> @localizer["Determination of public investment and private sector investment needs"]</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Determination of service procurement frameworks from the private sector and ensuring tender standardization"]</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Standardization of tender construction evaluation and service implementation processes"]</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="aaa tab-pane fade" id="nav-quaEff" role="tabpanel" aria-labelledby="nav-quaEff-tab">
+                    <p>
+                        @localizer["The purpose of all transformation and restructuring projects is to ensure Citizen Satisfaction as well as Medical Quality. Therefore, it is necessary to establish and implement decisive national standards for all health institutions. Studies Under This Service;"]
+                        <div class="row clearfix">
+                            <div class="col-md-4">
+                                <ul class="iconlist nobottommargin">
+                                    <li><i class="icon-ok"></i> @localizer["Preparation of National Health Quality Standards"]</li>
+                                    <li><i class="icon-ok"></i> @localizer["Structuring of the Quality Control System"]</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="iconlist nobottommargin">
+                                    <li><i class="icon-ok"></i> @localizer["Training of National Health Quality Auditors"]</li>
+                                    <li><i class="icon-ok"></i> @localizer["Standardization of Health Organization Quality and Efficiency Performance Criteria"]</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <ul class="iconlist nobottommargin">
+                                    <li><i class="icon-ok"></i> @localizer["Standardization of Building Standards and Physical Licensing Methods for Healthcare Facilities"]</li>
+                                    <li><i class="icon-ok"></i> @localizer["Standardization of Satisfaction Determination and Improvement Studies"]</li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                <div class="aaa tab-pane fade" id="nav-pbHlthIns" role="tabpanel" aria-labelledby="nav-pbHlthIns-tab">
+                    <div class="clear-bottommargin-sm">
+                        <div class="row clearfix">
+                            <div class="col-md-9 bottommargin-sm">
+                                <p> @localizer["The most important step of the health transformation is the structuring the institutions that will take part in the transformation. Successful transformation of institutions is decisive in the success of Health Transformation. Studies Under This Service;"]</p>
+                                <div class="row clearfix">
+                                    <div class="col-md-6">
+                                        <ul class="iconlist nobottommargin">
+                                            <li><i class="icon-ok"></i> @localizer["Making the Reorganization Plan of the Ministry of Health and Affiliated Institutions"]</li>
+                                            <li><i class="icon-ok"></i> @localizer["Establishing the Required Standardization for Health Transformation and Creating the Standardization Required for Continuity"]</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="iconlist nobottommargin">
+                                            <li><i class="icon-ok"></i> @localizer["Establishing the Standardization Required for the Coordination of the Ministry of Health and Social Security Authority"]</li>
+                                            <li><i class="icon-ok"></i> @localizer["Realization and Certification of the Responsible and Authorized Trainers"]</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3 bottommargin-sm">
+                                <img src="~/images/logo/ubsisLogo.png" alt="ubsis-company-logo" class="img-thumbnail" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aaa tab-pane fade" id="nav-eHealth" role="tabpanel" aria-labelledby="nav-eHealth-tab">
+                    <img src="~/images/eHealth.jpg" width="260" alt="Our company ubsis manages the e-health transformation projects of countries without software infrastructure." class="img-thumbnail alignleft">
+                    <p>@localizer["Standardization of the Health System is one of the most important projects in developing countries. The System Infrastructure required for the Standardization of the Health System is the e-Health System. Content of e-Health Configuration;"]</p>
+                    <div class="row clearfix">
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Defining a country-specific e-Health Project"]</li>
+                                <li><i class="icon-ok"></i> @localizer["Configuring the e-Health Responsibility and Authorization Standardization in the country's corporate resources"]</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Structuring digitalization projects suitable for the country in the Health and Social Security System"]</li>
+                                <li><i class="icon-ok"></i> @localizer["Configuring the digitization legislation"]</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Managing the necessary preparations in institutions"]</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="aaa tab-pane fade" id="nav-twin" role="tabpanel" aria-labelledby="nav-twin-tab">
+                    <img src="~/images/twinningProjectImplementation.png" width="260" alt="ubsis implements twinning projects based on previous experiences and produces solutions in a short time." class="img-thumbnail alignleft">
+                    <p>@localizer["Matching with countries with Advanced Health Systems is very important for the development of developing countries in the Health System. Training, orientation exchange and co-development programs are carried out especially among Health Education Institutions and Health Service Providers within this framework."].</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="divider divider-short divider-center topmargin-lg" style="margin:0px 0px !important;"><i class="icon-star3"></i></div>
+
+
+@*Micro Icons*@
+<section id="micro" class="page-section topmargin-lg" style="margin-top: 0px !important;">
+
+    <div class="heading-block center bottommargin-lg">
+        <h2> <span>UBSIS</span><br />@localizer["Micro Health Services Project Management"]</h2>
+    </div>
+
+    <div class="container clearfix">
+        <div class="col_one_fourth">
+            <div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn">
+                <div class="fbox-icon">
+                    <a href="#" onclick="ActivateMicroTab('bfhf');return false;"><i class="icon-hospital2"></i></a>
+                </div>
+                <h3> @localizer["Building Featured <br />Health Facilities"]</h3>
+            </div>
+        </div>
+
+        <div class="col_one_fourth">
+            <div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="200">
+                <div class="fbox-icon">
+                    <a href="#" onclick="ActivateMicroTab('quaaaea');return false;"><i class="icon-et-target"></i></a>
+                </div>
+                <h3>@localizer["Quality, Accreditation and Efficiency Applications"]</h3>
+            </div>
+        </div>
+
+        <div class="col_one_fourth">
+            <div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="400">
+                <div class="fbox-icon">
+                    <a href="#" onclick="ActivateMicroTab('mhlts');return false;"><i class="icon-et-mobile"></i></a>
+                </div>
+                <h3>@localizer["Mobile Health <br />Services"]</h3>
+            </div>
+        </div>
+
+        <div class="col_one_fourth col_last">
+            <div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn" data-delay="400">
+                <div class="fbox-icon">
+                    <a href="#" onclick="ActivateMicroTab('diaapp');return false;"><i class="icon-diagnoses"></i></a>
+                </div>
+                <h3>@localizer["Diagnostic <br /> Applications"]</h3>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</section>
+
+@*Micro Tabs*@
+<section id="tabsMicro" class="container topmargin-lg cleafix" style="padding-top:0px;">
+    <div class="row">
+        <div class="col-xs-12 ">
+            @*Links*@
+            <nav>
+                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                    <a class="ccc nav-item nav-link active" id="nav-bfhf-tab" data-toggle="tab" href="#nav-bfhf" role="tab" aria-controls="nav-bfhf" aria-selected="true">@localizer["Building Featured <br />Health Facilities"]</a>
+
+                    <a class="ccc nav-item nav-link" id="nav-quaaaea-tab" data-toggle="tab" href="#nav-quaaaea" role="tab" aria-controls="nav-quaaaea" aria-selected="false">
+                        @localizer["Quality, Accreditation<br/>and Efficiency Applications"]
+                    </a>
+
+                    <a class="ccc nav-item nav-link" id="nav-mhlts-tab" data-toggle="tab" href="#nav-mhlts" role="tab" aria-controls="nav-mhlts" aria-selected="false">@localizer["Mobile Health<br/> Services"]</a>
+
+                    <a class="ccc nav-item nav-link" id="nav-diaapp-tab" data-toggle="tab" href="#nav-diaapp" role="tab" aria-controls="nav-diaapp" aria-selected="false">
+                        @localizer["Diagnostic <br /> Applications"]
+                    </a>
+                </div>
+            </nav>
+            @*Text*@
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                <div class="ccc tab-pane fade show active" id="nav-bfhf" role="tabpanel" aria-labelledby="nav-bfhf-tab">
+                    <img src="/images/QualityAccreditationEfficiencyApplications.jpg" width="260" alt="Ubsis provides Hospital Quality/Accreditation and Efficiency Applications" class="img-thumbnail alignleft">
+                    <p>@localizer["Health enterprises are private buildings. It contains important details during the construction phase as well as the complete design. It is only about work experience and coordination ability that tens of suppliers do the right thing together during the construction phase. Business Management Group provides a smooth project management with consultancy, supervision and supervision services from the beginning to the end in the production of Healthcare Business Buildings. All stages from Rough Construction to Fine Manufacturing, Air Conditioning Systems to Furniture and Latest Biomedical Configuration are under the supervision and supervision of our Business Management group.Our team, working with the understanding of Proactive Manufacturing Management, provides consultancy by transferring all the details to the production supervisors before manufacturing, thereby eliminating the risk of faulty or poor quality manufacturing. Each of our staff and units in the team has hundreds of hospital building experience, and consists of individuals and structures that have a high level of project management methodology. Our team in the Configuration Management works in continuous cooperation and coordination with the planning (design) team and provides concrete construction of thought product designs."]</p>
+                </div>
+                <div class="ccc tab-pane fade" id="nav-quaaaea" role="tabpanel" aria-labelledby="nav-quaaaea-tab">
+                    <p>@localizer["Hospital Quality/Accreditation and Productivity Practices"]</p>
+                    <div class="row clearfix">
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Financial Management Consultancy in Healthcare Institutions"]</li>
+                                <li><i class="icon-ok"></i> @localizer["Marketing Consultancy in Healthcare Institutions"]</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Quality Management Consultancy in Hospitals"]</li>
+                                <li><i class="icon-ok"></i> @localizer["Health Institutions Management Consultancy"]</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="iconlist nobottommargin">
+                                <li><i class="icon-ok"></i> @localizer["Accreditation Consultancy in Hospitals (JCI)"]</li>
+                                <li><i class="icon-ok"></i> @localizer["Cost Management Consultancy in Healthcare Institutions"]</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="ccc tab-pane fade" id="nav-mhlts" role="tabpanel" aria-labelledby="nav-mhlts-tab">
+                    <img src="~/images/ubsisMobilePandemicUnits.jpg" width="260" alt="IHMG has an important experience in Mobile Health Units." class="img-thumbnail alignleft">
+                    <p> @localizer["IHMG has an important experience especially in Mobile Health Units, which is an effective application for access to service. With its Mobile Health Units, which has been designed and out of approved production error, the institution, which wants to provide regional mobile and wide-area health services, can produce important solutions for organizations. Thus, IHMG, which resolves all the resources within itself, offers important advantages in terms of cost in catching the quality in Mobile Units at a high level."]</p>
+                </div>
+                <div class="ccc tab-pane fade" id="nav-diaapp" role="tabpanel" aria-labelledby="nav-diaapp-tab">
+                    <img src="~/images/UbsisMedicalLab.jpg" width="260" alt="IHMG establishes and operates Medical Laboratories and Imaging Centers." class="img-thumbnail alignleft">
+                    <p>@localizer["IHMG establishes and operates Medical Laboratories and Imaging Centers with its experience and competence through its own Diagnostic Centers. Within our services; System Setups Provision for Results Laboratory and Radiology Service Delivery Having the necessary equipment, consumables management and human resources especially in service delivery, IHMG actively manages all processes from installation to producing qualified reports. Especially for businesses that want to stay away from installation costs, MIS / UBSİS, which offers Result-Back Service Solutions, establishes the infrastructure suitable for capacity and charges only the produced result with the determined service prices."]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="divider divider-short divider-center" id="mobileHealth"><i class="icon-circle"></i></div>
+
+@section Styles{
+
+    <link rel="stylesheet" href="/css/hosting.css" type="text/css" />
+    <style>
+        p {
+            text-align: justify;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+            section .section-title {
+                text-align: center;
+                margin-bottom: 50px;
+                text-transform: uppercase;
+            }
+
+        #tabs {
+        }
+
+            #tabs h6.section-title {
+            }
+
+            #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+                color: black;
+                background-color: transparent;
+                border-color: transparent transparent #f3f3f3;
+                border-bottom: 4px solid !important;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            #tabs .nav-tabs .nav-link {
+                border: 1px solid transparent;
+                border-top-left-radius: .25rem;
+                border-top-right-radius: .25rem;
+                font-size: 18px;
+                padding: 0.5rem 0.5rem;
+            }
+
+
+        @@media screen and (max-width:767px) {
+            .nav-tabs {
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+
+            .nav-link {
+                display: block !important;
+                width: 100%;
+                margin: 0px;
+            }
+
+                .nav-link.active {
+                    border-bottom: 1px solid #ddd !important;
+                    margin: 0px;
+                }
+        }
+    </style>
+
+}
+
+@section Scripts{
+
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/plugins.js"></script>
+
+    <script src="~/js/jquery.hotspot.js"></script>
+
+    <script>
+        jQuery(document).ready(function () {
+
+
+            elementCPU.ionRangeSlider({
+                grid: false,
+                values: [1, 2, 4, 6, 8],
+                postfix: ' Core',
+                onStart: function (data) {
+                    pricingCPU = data.from_value;
+                }
+            });
+
+
+            elementRAM.ionRangeSlider({
+                grid: false,
+                step: 1,
+                min: 1,
+                from: 1,
+                max: 32,
+                postfix: ' GB',
+                onStart: function (data) {
+                    pricingRAM = data.from;
+                    console.log(data);
+                }
+            });
+
+
+
+            elementStorage.ionRangeSlider({
+                grid: false,
+                step: 10,
+                min: 10,
+                max: 100,
+                postfix: ' GB',
+                onStart: function (data) {
+                    pricingStorage = data.from;
+                }
+            });
+
+
+            calculatePrice(pricingCPU, pricingRAM, pricingStorage);
+
+
+        });
+
+        jQuery(window).on('load', function () {
+            $('#hotspot-img').hotSpot();
+        });
+    </script>
+
+}

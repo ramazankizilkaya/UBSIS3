@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="100% compatible with Oracle, MS-SQL and Postgre Oracle" xml:space="preserve">
+    <value>Oracle, MS-SQL ve Postgre ile %100 uyumlu</value>
+  </data>
+  <data name="A software that manages all health operations of hospitals and can also produce strategies for diagnosis and treatment processes and for the hospital financial system" xml:space="preserve">
+    <value>Hastanelerin tüm sağlık operasyonlarını yöneten ve ayrıca teşhis ve tedavi süreçleri ile hastane finansal sistemi için stratejiler üretebilen bir yazılım</value>
+  </data>
+  <data name="A software that speeds up the laboratory work processes in health institutions and enables the complete processing of the data and analysis of the results." xml:space="preserve">
+    <value>Sağlık kurumlarında bulunan laboratuvar iş süreçlerini hızlandırarak verilerin eksiksiz bir şekilde işlenmesini ve sonuçlarının analiz edilmesini sağlayan bir yazılım.</value>
+  </data>
+  <data name="Ability to compare real inventory with virtual inventory to maintain accuracy of counts." xml:space="preserve">
+    <value>Sayıların doğruluğunu korumak için gerçek envanteri sanal envanterle karşılaştırabilme.</value>
+  </data>
+  <data name="Ability to quickly record vaccine shipments to inventory either via bar code scanner or  manual entry." xml:space="preserve">
+    <value>Barkod tarayıcı veya manuel giriş yoluyla aşı gönderilerini envantere hızlı bir şekilde kaydetme yeteneği.</value>
+  </data>
+  <data name="adaptive analysis capability on indicator basis" xml:space="preserve">
+    <value>indikatör bazında uyarlanabilir analiz yeteneği</value>
+  </data>
+  <data name="Administrative Systems:" xml:space="preserve">
+    <value>İdari Sistemler:</value>
+  </data>
+  <data name="Advantages of map analysis software" xml:space="preserve">
+    <value>Sağlık kurumları harita analiz yazılımının Avantajları</value>
+  </data>
+  <data name="Alerts &amp; Notifications" xml:space="preserve">
+    <value>Uyarılar ve Bildirimler</value>
+  </data>
+  <data name="All information related to blood donation (blood collection time, blood group, product volume, product type such as TDP-Whole Blood etc.) can be recorded in the system. In case the blood product comes from another blood center, information about the product and the blood center from which it comes can be recorded in the system." xml:space="preserve">
+    <value>Kan bağışı ile ilgili tüm bilgiler (kan toplama süresi, kan grubu, ürün hacmi, TDP gibi ürün tipi-tam kan vb.) sisteme kaydedilebilir. Kan ürünü başka bir kan merkezinden gelirse, ürün ve geldiği kan Merkezi hakkında bilgi sisteme kaydedilebilir.</value>
+  </data>
+  <data name="All the features you seek in a standard DICOM viewer (Pan, Zoom, Window, Level, measurements…) and more." xml:space="preserve">
+    <value>Standart bir DICOM görüntüleyicide aradığınız tüm özellikler (Pan, Zoom, Window, Level, ölçümler…) ve daha fazlası.</value>
+  </data>
+  <data name="Antibody Screening and Identification" xml:space="preserve">
+    <value>Antikor Tarama ve Tanımlaması</value>
+  </data>
+  <data name="AON Analysis" xml:space="preserve">
+    <value>AON Analizi</value>
+  </data>
+  <data name="Apheresis and Therapeutic Apheresis Procedures" xml:space="preserve">
+    <value>Afarez ve Terapatik Afarez İşlemleri</value>
+  </data>
+  <data name="Appointment Management (Robotic Appointment, Internet Appointment)" xml:space="preserve">
+    <value>Randevu Yönetimi (Robotik Randevu, İnternet Randevusu)</value>
+  </data>
+  <data name="Appointment Reminders" xml:space="preserve">
+    <value>Randevu Hatırlatıcıları</value>
+  </data>
+  <data name="Appointment Scheduling" xml:space="preserve">
+    <value>Randevu Zamanlaması</value>
+  </data>
+  <data name="As Low as" xml:space="preserve">
+    <value>En Düşük</value>
+  </data>
+  <data name="At the stage of rejection or acceptance of the donor, if necessary, help can be obtained regarding the diseases of the donor or the drugs they are using. Final/temporary rejection: demographic information of the donor or patient can be recorded in the system.The donor may be denied or accepted, either definitively or temporarily, based on the answers he or she gives on the acceptance form and the findings of the physical examination.Physical examination findings can be recorded in the system." xml:space="preserve">
+    <value>Donörün red veya kabul edilmesi aşamasında gerekirse donörün hastalıkları veya kullandıkları ilaçlarla ilgili olarak yardım alabilir.
+Kesin/Geçici Red:
+Donörün veya hastanın demografik bilgileri sisteme kaydedilebilir, donörün kabul formunda verdiği cevaplar ve fiziki muayene bulgularına göre kesin/geçici reddedilebilir veya donör olarak kabulü yapılabilir, fiziki muayene bulguları sisteme kaydedilebilir.</value>
+  </data>
+  <data name="Automatic Registration from Kiosk" xml:space="preserve">
+    <value>Kiosk'tan Otomatik Kayıt</value>
+  </data>
+  <data name="Before blood is taken into the bag or before the apharesis procedure begins, test results (such as blood type) to the patient or donor can be recorded in the system." xml:space="preserve">
+    <value>Torbaya kan alınmadan önce veya afarez işlemi başlamadan önce hasta veya donöre yapılan test sonuçları (kan grubu gibi) sisteme kaydedilebilir.</value>
+  </data>
+  <data name="Best For All Healthcare Professionals" xml:space="preserve">
+    <value>Sağlık Hizmetinizi Ayağınıza Getiren Teknoloji</value>
+  </data>
+  <data name="Blood Center (Blood Bank)" xml:space="preserve">
+    <value>Kan Merkezi (Kan Bankası)</value>
+  </data>
+  <data name="Blood Group Separation" xml:space="preserve">
+    <value>Kan Grubu Ayrımı</value>
+  </data>
+  <data name="Blood Products and Transfusıon &lt;/span&gt;Informatıon Management System Software" xml:space="preserve">
+    <value>Kan Ürünleri ve Transfüzyon&lt;/span&gt; Bilgi Yönetim Sistemi Yazılımı</value>
+  </data>
+  <data name="Both web-based and client/server architecture &lt;br/&gt;according to need" xml:space="preserve">
+    <value>İhtiyaca göre hem web tabanlı hem de istemci/sunucu mimari</value>
+  </data>
+  <data name="Cardiology, Oncology (Radiotherapy, Chemotherapy), Psychology, Orthopedics, Hemodialysis, Physiotherapy, Emergency Module, Oral and Dental Health, Audiology, Pathology, Nuclear Medicine(NMIS)" xml:space="preserve">
+    <value>Kardiyoloji, Onkoloji (Radyoterapi, Kemoterapi), Psikoloji, Ortopedi, Hemodiyaliz, Fizyoterapi, Acil Modül, Ağız ve Diş Sağlığı, Odyoloji, Patoloji, Nükleer Tıp (NMIS)</value>
+  </data>
+  <data name="Clinical Modules:" xml:space="preserve">
+    <value>Klinik Modüller:</value>
+  </data>
+  <data name="Compatibility with all devices (iPad, iPhone, Android) with cross-platform feature" xml:space="preserve">
+    <value>Cross-platform özelliği ile tüm cihazlara (iPad, iPhone, Android) uyumluluk</value>
+  </data>
+  <data name="Critical Stock Level Identification" xml:space="preserve">
+    <value>Kritik Stok Seviyesi Tanımlaması</value>
+  </data>
+  <data name="Cross-Match Records" xml:space="preserve">
+    <value>Başka bir hasta için kullanılacak ürünle ilgili cross-match  bilgilerin sisteme kaydedilebilmesi</value>
+  </data>
+  <data name="Defining as many indicators in need" xml:space="preserve">
+    <value>İhtiyaç duyulan sayıda indikatör tanımlanabilme</value>
+  </data>
+  <data name="Designate staff members to order, access, track, charge and maintain medical supply inventory levels. The tool also monitors equipment repairs and sterilization, as well as manages vendors and purchases. Detailed reports are readily available for repairs, sterilization, inventory, reorders and items list." xml:space="preserve">
+    <value>Sistem sayesinde tıbbi malzeme envanteri seviyelerini sipariş etmek, erişmek, takip etmek, ücretlendirmek ve bakımını yapmak için personel atayabilirsiniz. Ayrıca ekipman onarımlarını ve sterilizasyonu izleyebilir, satıcıları ve satın alımları yönetebilirsiniz. Sistemin onarımlar, sterilizasyon, envanter, yeniden siparişler ve ürün listesi için ayrıntılı raporlama kabiliyeti mevcuttur.</value>
+  </data>
+  <data name="Developments in IT and mobile technology allows telemedicine softwares become very accessible and useful, and especially helpful in monitoring patients with bad conditions, even at a distance." xml:space="preserve">
+    <value>BT ve mobil teknolojideki gelişmeler, teletıp yazılımlarının çok erişilebilir ve kullanışlı olmasını sağlar ve özellikle uzak mesafelerde bile kötü durumdaki hastaların izlenmesinde yardımcı olur.</value>
+  </data>
+  <data name="Device integration library" xml:space="preserve">
+    <value>Cihaz entegrasyon kütüphanesi</value>
+  </data>
+  <data name="Distance and density analysis on the map" xml:space="preserve">
+    <value>Harita üzerinde mesafe ve yoğunluk analizi</value>
+  </data>
+  <data name="Document collection module helps you send out pre-defined email templates and collect documents and other information from the Employees, Consultants &amp; Vendors using self-service portal link. Integrated Notes module helps track all the notes associated with each Employee." xml:space="preserve">
+    <value>Belge toplama modülü, self servis portal bağlantısını kullanarak önceden tanımlanmış e-posta şablonları göndermenize ve çalışanlardan, danışmanlardan ve satıcılardan belge ve diğer bilgileri toplamanıza yardımcı olur. Entegre notlar modülü, her çalışanla ilişkili tüm notların izlenmesine yardımcı olur.</value>
+  </data>
+  <data name="Donor Acceptance Form: The donor acceptance form used in the Blood Bank can be introduced to VITALIS, default answers can be entered in advance, the donor's answers to the questions in this form can be recorded in the system, and statistical reports can be obtained regarding these records when necessary." xml:space="preserve">
+    <value>Donör Kabul Formu: Kan Bankasında kullanılan donör kabul formu VITALIS’e tanıtılabilir, varsayılan cevaplar önceden girilebilir, donörün bu formdaki sorulara verdiği cevaplar sisteme kaydedilebilir, gerektiğinde bu kayıtlarla ilgili istatistikî raporlar alınabilir.</value>
+  </data>
+  <data name="Donor Information:" xml:space="preserve">
+    <value>Donör Bilgisi:</value>
+  </data>
+  <data name="E-Prescribing" xml:space="preserve">
+    <value>E-Reçete</value>
+  </data>
+  <data name="Effective guiding factor in large scale transformation projects" xml:space="preserve">
+    <value>Büyük çaplı dönüşüm projelerinde etkin yol gösterici unsur</value>
+  </data>
+  <data name="Electronic Health Record" xml:space="preserve">
+    <value>Elektronik Sağlık Kaydı</value>
+  </data>
+  <data name="Electronic warehouse demand and tracking system" xml:space="preserve">
+    <value>Elektronik depo talep ve takip sistemi</value>
+  </data>
+  <data name="Eliminate human errors caused by manual data entry." xml:space="preserve">
+    <value>Manuel veri girişinden kaynaklanan insan hatalarını ortadan kaldırın.</value>
+  </data>
+  <data name="Expiry date Tracking" xml:space="preserve">
+    <value>Miat Takibi</value>
+  </data>
+  <data name="Facilitates unlimited image capture, video capture and storage of patient records" xml:space="preserve">
+    <value>Sınırsız görüntü yakalama, video yakalama ve hasta kayıtlarının saklanmasını kolaylaştırır</value>
+  </data>
+  <data name="Featured Systems (Sterilization, Operating Room, Intensive Care)" xml:space="preserve">
+    <value>Özellikli Sistemler (Sterilizasyon, Ameliyathane, Yoğun Bakım)</value>
+  </data>
+  <data name="Features of Blood Products and Transfusion Information Management System Software" xml:space="preserve">
+    <value>Kan ürünleri ve transfüzyon bilgi yönetim sistemi yazılımı özellikleri</value>
+  </data>
+  <data name="Features of Laboratory Information Management System Software" xml:space="preserve">
+    <value>Laboratuvar Bilgi Yönetim Sistemi Yazılımının Özellikleri</value>
+  </data>
+  <data name="Find over and under-served areas" xml:space="preserve">
+    <value>Fazla ve az hizmet alanlarını bulma</value>
+  </data>
+  <data name="Fully automated Vaccine Management System" xml:space="preserve">
+    <value>Tam otomasyonlu Aşı Yönetim Sistemi</value>
+  </data>
+  <data name="Give your employees the opportunity to focus on value-added jobs." xml:space="preserve">
+    <value>Çalışanlarınıza katma değerli işlere odaklanma fırsatı verin.</value>
+  </data>
+  <data name="Health at Home" xml:space="preserve">
+    <value>Evde Sağlık</value>
+  </data>
+  <data name="Health Instutıtıon &lt;/span&gt;Mapper Software" xml:space="preserve">
+    <value>Sağlık Kurumları &lt;/span&gt;Haritalandırma Analiz Yazılımı</value>
+  </data>
+  <data name="High efficiency at low connection speeds" xml:space="preserve">
+    <value>Düşük bağlantı hızlarında yüksek verimlilik</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Anasayfa</value>
+  </data>
+  <data name="Hospital Informatıon Management System &lt;/span&gt;Software" xml:space="preserve">
+    <value>Hastane Bilgi Yönetim Sistemi &lt;/span&gt; Yazılımı</value>
+  </data>
+  <data name="Human Resource Management system provides all the essential modules to manage your Human capital. This complete HR system streamlines administrative tasks, improves communication, reduces costs, and provides instant alerts, reports and analytics." xml:space="preserve">
+    <value>İnsan Kaynakları Yönetim sistemi, İnsan sermayenizi yönetmek için gerekli tüm modülleri sağlar. Bu eksiksiz İK sistemi idari görevleri kolaylaştırır, iletişimi geliştirir, maliyetleri düşürür ve anında uyarılar, raporlar ve analizler sağlar.</value>
+  </data>
+  <data name="Human Resources And Asset &lt;/span&gt;Management Software" xml:space="preserve">
+    <value>İnsan Kaynakları ve Envanter &lt;/span&gt; Yönetim Yazılımı</value>
+  </data>
+  <data name="Human Resources Management... &lt;br /&gt;The most efficient way to manage your most valuable assets..." xml:space="preserve">
+    <value>İnsan Kaynakları Yönetimi ... &lt;br /&gt;En değerli varlıklarınızı yönetmenin en verimli yolu ...</value>
+  </data>
+  <data name="Human Resources, Salary, Additional Payment, Seizure-Shift, PDKS, Demand Management and Purchasing, Budget and Accounting, Stock-Fixture and Material Management, Clinical Engineering (Medical Device Tracking), Medical Record Archive Statistics and Reporting Module, Business Intelligence Practice(BI)" xml:space="preserve">
+    <value>İnsan Kaynakları, Maaş, Ek Ödeme, Nöbet-Vardiya, PDKS, Talep Yönetimi ve Satın Alma, Bütçe ve Muhasebe, Stok Fikstürü ve Malzeme Yönetimi, Klinik Mühendisliği (Tıbbi Cihaz Takibi), Tıbbi Kayıt Arşiv İstatistikleri ve Raporlama Modülü, İşletme İstihbarat Uygulaması (BI)</value>
+  </data>
+  <data name="Image &amp; Video Management" xml:space="preserve">
+    <value>Görüntü ve Video Yönetimi</value>
+  </data>
+  <data name="In traditional workflow automation tools, a software developer produces a list of actions to automate a task and interface to the back-end system using internal application programming interfaces (APIs) or dedicated scripting language. In contrast, RPA systems develop the action list by watching the user perform that task in the application's user interface, and then perform the automation by repeating those tasks directly in the user interface. RPA tools have strong technical similarities to graphical user interface testing tools. These tools also automate interactions with the user interface, and often do so by repeating a set of demonstration actions performed by a user. RPA tools differ from such systems that allow data to be handled in and between multiple applications, for instance, receiving email containing an invoice, extracting the data, and then typing that into a bookkeeping system." xml:space="preserve">
+    <value>Geleneksel iş akışı otomasyon araçlarında, bir yazılım geliştiricisi, dahili uygulama programlama arabirimleri (API) veya özel komut dosyası dili kullanarak bir görevi ve arka uç sisteme arabirimi otomatikleştirmek için bir eylemler listesi üretir. Buna karşılık, RPA sistemleri, kullanıcının bu görevi uygulamanın kullanıcı arabiriminde gerçekleştirmesini izleyerek eylem listesini geliştirir ve ardından bu görevleri doğrudan kullanıcı arabiriminde tekrarlayarak otomasyonu gerçekleştirir. RPA araçları, grafik kullanıcı arabirimi test araçlarıyla güçlü teknik benzerliklere sahiptir. Bu araçlar ayrıca kullanıcı arayüzü ile etkileşimleri otomatik hale getirir ve bunu genellikle bir kullanıcı tarafından gerçekleştirilen bir dizi gösteri eylemini tekrarlayarak yapar. RPA araçları, verilerin birden fazla uygulama içinde ve arasında işlenmesine izin veren bu tür sistemlerden farklıdır; örneğin, fatura içeren bir e-posta almak, verileri ayıklamak ve daha sonra bunu bir defter tutma sistemine yazmak.</value>
+  </data>
+  <data name="Increase your efficiency with robots that are always on duty." xml:space="preserve">
+    <value>Her zaman görevde olan robotlarla verimliliğinizi artırın.</value>
+  </data>
+  <data name="Increase/decrease the bots you use according to your needs." xml:space="preserve">
+    <value>Kullandığınız botları ihtiyaçlarınıza göre artırın/azaltın.</value>
+  </data>
+  <data name="Infection Prevention &amp; Scope Tracking" xml:space="preserve">
+    <value>Enfeksiyon Önleme ve Kapsam Takibi</value>
+  </data>
+  <data name="Information Desk System" xml:space="preserve">
+    <value>Danışma Masası Sistemi</value>
+  </data>
+  <data name="Instant access from any device without any setup" xml:space="preserve">
+    <value>Herhangi bir kuruluma gerek olmadan istediğiniz cihazdan anında erişim</value>
+  </data>
+  <data name="Integrated vaccination reporting system" xml:space="preserve">
+    <value>Entegre aşı raporlama sistemi</value>
+  </data>
+  <data name="Integration in IHE standards" xml:space="preserve">
+    <value>IHE standartlarında entegrasyon</value>
+  </data>
+  <data name="Integration with Other Blood Bank Centers" xml:space="preserve">
+    <value>Diğer Kan Merkezleri İle Entegrasyon</value>
+  </data>
+  <data name="Intelligent audit request management" xml:space="preserve">
+    <value>Akıllı tetkik istem yönetimi</value>
+  </data>
+  <data name="Introduction of Forward, Reverse and RH Subgroups" xml:space="preserve">
+    <value>forward, reverse ve RH subgrupların sisteme tanıtılabilmesi</value>
+  </data>
+  <data name="Inventory Tracking and Management" xml:space="preserve">
+    <value>Stok Takibi ve Envanter Yönetimi</value>
+  </data>
+  <data name="ISO 15189 support" xml:space="preserve">
+    <value>ISO 15189 desteği</value>
+  </data>
+  <data name="Laboratory Business Intelligence and unlimited statistical solutions" xml:space="preserve">
+    <value>Laboratuvar İş Zekası ve sınırsız istatistik çözümleri</value>
+  </data>
+  <data name="Laboratory Information Management System" xml:space="preserve">
+    <value>Laboratuvar Bilgi Yönetim Sistemi</value>
+  </data>
+  <data name="Laboratory Information Management System (LIS) is a system that speeds up the laboratory business processes in health institutions and enables the data to be processed completely and to analyze the results. It works fully integrated and compatible with the Hospital Information Management System used in health institutions. The process that starts with the request of the audit ends with the conclusion of the result to the concerned." xml:space="preserve">
+    <value>Laboratuvar Bilgi Yönetim Sistemi, sağlık kurumlarında bulunan laboratuvar iş süreçlerini hızlandırarak verilerin eksiksiz bir şekilde işlenmesini ve sonuçlarının analiz edilmesini sağlayan bir sistemdir. Sağlık kuruluşlarında kullanılan Hastane Bilgi Yönetim Sistemi ile tam entegre ve uyumlu çalışmaktadır. Tetkiğin istenmesi ile başlayan süreç, sonucun ilgililere ulaşması ile sona ermektedir</value>
+  </data>
+  <data name="Laboratory Informatıon&lt;/span&gt; Management System (LIS) Software" xml:space="preserve">
+    <value>Laboratuvar Bilgi Yönetim &lt;/span&gt; Sistemi (LIS) Yazılımı</value>
+  </data>
+  <data name="Leverage the system based on your needs – vaccine inventory only or complete patient vaccine management." xml:space="preserve">
+    <value>Sistemi ihtiyaçlarınıza göre kullanın - yalnızca aşı envanter modülü veya tam hasta yönetim modülü.</value>
+  </data>
+  <data name="LOINC coding system" xml:space="preserve">
+    <value>LOINC kodlama sistemi</value>
+  </data>
+  <data name="Main Features of Vaccine Management Software" xml:space="preserve">
+    <value>Aşı Yönetim Yazılımının Temel Özellikleri</value>
+  </data>
+  <data name="Maintain patient vaccine records – view vaccines given for each vaccine per patient." xml:space="preserve">
+    <value>Hasta aşı kayıtlarını saklayın - hasta başına her aşı için verilen aşıları görüntüleyin.</value>
+  </data>
+  <data name="Many health instutitions are still using either a paper process or a manual process for vaccine inventory management and recording administration of vaccines.  These manual processes take hours of time each month and most have problems with accuracy and consistency." xml:space="preserve">
+    <value>Birçok sağlık kuruluşu hala aşı envanteri yönetimi ve aşıların yönetiminin kaydedilmesi için bir kağıt işlemi veya manuel bir işlem kullanmaktadır. Bu manuel işlemler her ay saatlerce zaman alır ve çoğunun doğruluk ve tutarlılıkla ilgili sorunları vardır.</value>
+  </data>
+  <data name="Medical Billing" xml:space="preserve">
+    <value>Tıbbi Faturalandırma</value>
+  </data>
+  <data name="MiddleWare Solution" xml:space="preserve">
+    <value>MiddleWare çözümü</value>
+  </data>
+  <data name="Modules of Our Hospital Information Management System Software" xml:space="preserve">
+    <value>Hastane Bilgi Yönetim Sistemi Yazılımının Modülleri</value>
+  </data>
+  <data name="Monitoring Blood Exits by Time/Date" xml:space="preserve">
+    <value>Kan Çıkışlarının Saat/tarih ile İzlenmesi</value>
+  </data>
+  <data name="Monitoring Tests" xml:space="preserve">
+    <value>Testlerin İzlenmesi</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>aylık</value>
+  </data>
+  <data name="Multıscope &lt;/span&gt;Software" xml:space="preserve">
+    <value>Multıscope &lt;/span&gt; Yazılımı</value>
+  </data>
+  <data name="Next generation HTML5 DICOM viewer" xml:space="preserve">
+    <value>Yeni nesil HTML5 DICOM görüntüleyici</value>
+  </data>
+  <data name="No trace on client devices (Zero footprint)" xml:space="preserve">
+    <value>İstemci cihazlarda hiçbir iz bırakmama (Zero footprint)</value>
+  </data>
+  <data name="Notes &amp; Documents management" xml:space="preserve">
+    <value>Not ve Belge yönetimi</value>
+  </data>
+  <data name="Onboarding with e-signature integration" xml:space="preserve">
+    <value>E-imza entegrasyonu ile işe alım</value>
+  </data>
+  <data name="One of the most important advantages of UBSIS PACS is that digital images can be sent to health centers anywhere in the world." xml:space="preserve">
+    <value>UBSİS PACS’in en önemli avantajlarından biri de dijital görüntülerin dünyanın herhangi bir yerindeki sağlık merkezine gönderilebilmesidir.</value>
+  </data>
+  <data name="One-to-One Messaging" xml:space="preserve">
+    <value>Bire Bir Mesajlaşma</value>
+  </data>
+  <data name="Oracle 10x and above or MS SQL Server 2005 or Postgre 9.x and above" xml:space="preserve">
+    <value>Oracle 10x ve üzeri veya MS SQL Server 2005 üzeri veya Postgre 9.x ve üzeri</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Satın al</value>
+  </data>
+  <data name="Our application allow patients to ask questions whenever they need, wherever they are." xml:space="preserve">
+    <value>Uygulamamız hastaların ihtiyaç duydukları her yerde, nerede olurlarsa olsunlar soru sormalarını sağlar.</value>
+  </data>
+  <data name="Our Hospital Information Management System software has an infrastructure that manages all health processes of a hospital and also has the ability to generate valuable information that can produce strategies for diagnosis and treatment processes and for the hospital financial system." xml:space="preserve">
+    <value>Hastane Bilgi Yönetim Sistemi yazılımımız, bir hastanenin tüm sağlık süreçlerini yöneten bir altyapıya sahiptir ve ayrıca teşhis ve tedavi süreçleri ile hastane finansal sistemi için stratejiler üretebilecek değerli bilgiler üretme yeteneğine sahiptir.</value>
+  </data>
+  <data name="Our map analysis software is the most important part of the decision making mechanism in health transformation projects. According to the geographical data, the location, capacity, ability to meet the demands of the location of the health institutions, distances to each other and many other indicator analysis allow." xml:space="preserve">
+    <value>Harita analiz yazılımımız, sağlık dönüşüm projelerinde karar verme mekanizmasının en önemli parçasını teşkil etmektedir. Coğrafi verilere göre sağlık kuruluşlarının yeri, kapasitesi, bulunduğu lokasyonun taleplerini karşılama yeteneği, birbirine olan uzaklıkları ve daha birçok indikatör analizine olanak sağlamaktadır.</value>
+  </data>
+  <data name="Our software has the flexibility to analyze all institutions as well as being used mostly in health institutions analysis. It has the capability of automatically pouring all information into statistical graphs by making serial and cross comparisons according to the data entered." xml:space="preserve">
+    <value>Yazılımımız çoğunlukla sağlık kurumları analizindekullanılmasının yanısıra tüm kurumların analizini yapabilecek esnekliğe sahiptir. Girilen verilere göre seri ve çapraz karşılaştırmalar yaparak otomatik olarak tüm bilgileri istatistiksel grafiklere dökme yeteneği mevucttur.</value>
+  </data>
+  <data name="Our system can be used as web-based and desktop technology. The database is independent and there is no need to make large investments for the database. Supported languages are; English,  Russian and Arabic. Due to its multi-language supporting infrastructure, it can easily be adapted to other languages. It has an integration infrastructure with insurance institutions." xml:space="preserve">
+    <value>Sistemimiz web tabanlı ve masaüstü teknolojisi olarak kullanılabilir. Veritabanı bağımsızdır ve veritabanı için büyük yatırım yapmaya gerek yoktur. Desteklenen diller; İngilizce, Rusça ve Arapça'dır. Çok dilli destek altyapısı sayesinde diğer dillere kolayca uyarlanabilir. Sigorta kurumları ile entegrasyon altyapısına sahiptir.</value>
+  </data>
+  <data name="Our telemedicine software allows doctors and patients to communicate via video conference and share files. Our software also makes easy to get medical help when, traveling can be difficult and even dangerous for patients with bad health conditions." xml:space="preserve">
+    <value>Teletıp yazılımımız, doktorların ve hastaların video konferans yoluyla iletişim kurmasına ve dosya paylaşmasına olanak tanır. Yazılımımız, kötü sağlık koşullarına sahip hastalar için seyahat etmenin zor ve hatta tehlikeli olabileceği durumlarda tıbbi yardım almayı da kolaylaştırır.</value>
+  </data>
+  <data name="PACS can be defined as a system of digital acquisition, archiving and transmission of panoramic and local radiological images. UBSİS PACS System not only provides digitally obtained images to be stored, but also enables these images to be transmitted to any computer or other centers within the health center through computer networks." xml:space="preserve">
+    <value>PACS panoramik ve yerel radyolojik görüntülerin dijital olarak elde edilmesi, arşivlenmesi ve iletilmesi sistemi olarak tanımlanabilir. UBSİS PACS Sistemi, dijital olarak elde edilen görüntülerin saklanmasını sağladığı gibi, bu görüntülerin bilgisayar ağları aracılığı ile sağlık merkezinin içinde yer alan herhangi bir bilgisayara veya başka merkezlere ulaştırılmasına da olanak tanıyor.</value>
+  </data>
+  <data name="Patient Admission and Registration" xml:space="preserve">
+    <value>Hasta Kabul ve Kayıt</value>
+  </data>
+  <data name="Patient Portal" xml:space="preserve">
+    <value>Hasta Portalı</value>
+  </data>
+  <data name="Pharmaceutical Information System" xml:space="preserve">
+    <value>İlaç Bilgi Sistemi</value>
+  </data>
+  <data name="Pharmacy Information System" xml:space="preserve">
+    <value>Eczane Bilgi Sistemi</value>
+  </data>
+  <data name="Picture Archiving and Communication System" xml:space="preserve">
+    <value>Radyolojik Görüntüleme ve Arşivleme Sistemi</value>
+  </data>
+  <data name="Please contact us for further information and pricing details." xml:space="preserve">
+    <value>Daha fazla bilgi ve fiyatlandırma detayları için lütfen bizimle iletişime geçin.</value>
+  </data>
+  <data name="Practice Management" xml:space="preserve">
+    <value>Uygulama Yönetimi</value>
+  </data>
+  <data name="Predict the estimated use of each vaccine type (MMR, Influenza, HPV, Zoster) based on actual use." xml:space="preserve">
+    <value>Her bir aşı tipinin (MMR, Grip, HPV, Zoster) fiili kullanıma göre tahmini kullanımını öngörün.</value>
+  </data>
+  <data name="Procedure Documentation" xml:space="preserve">
+    <value>Detaylı Dokümantasyon</value>
+  </data>
+  <data name="Provides accelerated image retrieval, economical storage and simultaneous access to images across multiple healthcare sites." xml:space="preserve">
+    <value>Hızlandırılmış görüntü alma, ekonomik depolama ve birden fazla sağlık alanında görüntülere eşzamanlı erişim sağlar.</value>
+  </data>
+  <data name="Providing end-to-end solution for consulting, staffing, recruiting and professional services organizations." xml:space="preserve">
+    <value>Danışmanlık, personel alımı, işe alım ve profesyonel hizmet kuruluşları için uçtan uca çözüm.</value>
+  </data>
+  <data name="Radiology Information System and PACS" xml:space="preserve">
+    <value>Radyoloji Bilgi Sistemi ve PACS</value>
+  </data>
+  <data name="Recording All Transactions" xml:space="preserve">
+    <value>Tüm İşlemlerin Kayıt altına alınabilmesi</value>
+  </data>
+  <data name="Recording of Blood Collection Information:" xml:space="preserve">
+    <value>Kan Alma Bilgilerinin Kaydı:</value>
+  </data>
+  <data name="Reduce operation costs." xml:space="preserve">
+    <value>İşletme maliyetlerini azaltın.</value>
+  </data>
+  <data name="Reduce the error rate" xml:space="preserve">
+    <value>Hata oranını azaltın</value>
+  </data>
+  <data name="Registration by Registration Staff" xml:space="preserve">
+    <value>Kayıt Personeli Tarafından Kayıt</value>
+  </data>
+  <data name="Registration of Test Results:" xml:space="preserve">
+    <value>Test Sonuçlarının Kaydı:</value>
+  </data>
+  <data name="Reminder Management" xml:space="preserve">
+    <value>Hatırlatma Yönetimi</value>
+  </data>
+  <data name="Remote Treatment Plans" xml:space="preserve">
+    <value>Uzaktan Tedavi Planları</value>
+  </data>
+  <data name="Request Demo" xml:space="preserve">
+    <value>Demo Talebi</value>
+  </data>
+  <data name="Results tracking on LOT basis" xml:space="preserve">
+    <value>LOT bazında sonuç takibi</value>
+  </data>
+  <data name="Robotic Process &lt;/span&gt; Automation (RPA)" xml:space="preserve">
+    <value>Robotik Süreç &lt;/span&gt; Otomasyon (RPA)</value>
+  </data>
+  <data name="Robotic Process Automation (RPA) bots with Automation Anywhere, Picture Archiving and Communication System (RIS-PACS), Hospital Information Management Software" xml:space="preserve">
+    <value>Automation Anywhere ile Robotik Süreç Otomasyonu (RPA), Resim Arşivleme ve İletişim Sistemi (RIS-PACS), Hastane Bilgi Sistemi, Kan Hizmetleri ve Bilgi Sistemi</value>
+  </data>
+  <data name="Robotic process automation (RPA) is a form of business process automation technology based on metaphorical software robots (bots) or artificial intelligence (AI) workers" xml:space="preserve">
+    <value>Robotik süreç otomasyonu (Robotic Process Automation – RPA), yapay zeka (Artificial Intelligence – AI) ile yazılımın kullanımı ve daha önce insanlar için gerekli olan yüksek hacimli, tekrarlanabilir görevleri ele alan makine öğrenme yetenekleridir.</value>
+  </data>
+  <data name="Robotic Process Automation (RPA) Solutions" xml:space="preserve">
+    <value>Robotik Süreç Otomasyonu (RPA) Çöümleri</value>
+  </data>
+  <data name="RPA Power" xml:space="preserve">
+    <value>RPA Gücü</value>
+  </data>
+  <data name="Sample location tracking" xml:space="preserve">
+    <value>Örnek lokasyon takibi</value>
+  </data>
+  <data name="See “real time” the number of doses per vaccine for commercial and VFC in your inventory." xml:space="preserve">
+    <value>Envanterinizdeki ticari ve VFC için aşı başına doz sayısını “gerçek zamanlı” görün.</value>
+  </data>
+  <data name="Self-Service Employee Portals" xml:space="preserve">
+    <value>Self Servis Çalışan Portalları</value>
+  </data>
+  <data name="Separation or reservation of blood product" xml:space="preserve">
+    <value>Ürünün gerekirse başka bir hasta için rezerve edilebilmesi</value>
+  </data>
+  <data name="Social Services" xml:space="preserve">
+    <value>Sosyal Hizmetler</value>
+  </data>
+  <data name="Software" xml:space="preserve">
+    <value>Yazılımı</value>
+  </data>
+  <data name="Software can work integrated with the Electronic Registration Systems of Hospitals. It can work with MsSQL and Oracle databases. The software language is DELPHI.The system works with software and databases that are easily available on the market.If there is a server used, the system runs on the existing server, and even low capacity devices on the market are sufficient for terminals and printers." xml:space="preserve">
+    <value>Yazılım Hastanelerin Elektronik Kayıt Sistemleri İle Entegre çalışabilmektedir.  MsSQL ve Oracle veri tabanlar ile çalışabilmektedir. Yazılım dili DELPHI'dir. Sistem, piyasada kolaylıkla bulunan yazılım ve veri tabanlarıyla çalışmaktadır. Kullanılan bir sunucu varsa, sistem mevcut sunucu üzerinde çalışmakta, terminaller ve yazıcılar için ise piyasadaki düşük kapasiteli cihazlar bile yeterli olmaktadır.</value>
+  </data>
+  <data name="Software Solutions" xml:space="preserve">
+    <value>Yazılım çözümleri</value>
+  </data>
+  <data name="Software Solutions for Healthcare Instutitions" xml:space="preserve">
+    <value>Sağlık Kurumları için Yazılım Çözümleri</value>
+  </data>
+  <data name="Softwares" xml:space="preserve">
+    <value>Yazılım</value>
+  </data>
+  <data name="Spot geographic trends" xml:space="preserve">
+    <value>Coğrafi eğilimleri tespit edin</value>
+  </data>
+  <data name="Statistical reporting system adaptable to demand" xml:space="preserve">
+    <value>İsteğe göre uyarlanabilir istatistiksel raporlama sistemi</value>
+  </data>
+  <data name="Storage Information of the Blood Products:" xml:space="preserve">
+    <value>Kan ürünlerinin depolama bilgileri:</value>
+  </data>
+  <data name="Structured Reports (SR)" xml:space="preserve">
+    <value>Yapısal Raporlar (SR)</value>
+  </data>
+  <data name="Supported languages are; English,  Russian and Arabic. Due to its multi-language supporting infrastructure, it can easily be adapted to other languages. Our LIS Solution Having successfully passed the IHE(Integrating the Healthcare Enterprise) tests, which is considered as the only criterion of interoperability with other systems in the international platform, it has an IHE declaration in laboratory field knowledge." xml:space="preserve">
+    <value>Dil olarak İngilizce Rusça ve Arapçadır. Çok dil destekli altyapısı nedeni ile diğer dillere uyarlanabilinir.
+LIS Çözümümüz 
+Uluslararası platformda diğer sistemlerle birlikte çalışabilirliğin tek ölçütü sayılan IHE (Integrating the Healthcare Enterprise) testlerinden başarıyla geçerek, laboratuvar alan bilgisinde IHE deklarasyonuna sahiptir.</value>
+  </data>
+  <data name="Telemedıcıne &lt;/span&gt;Software" xml:space="preserve">
+    <value>Tele &lt;/span&gt; tıp Yazılımı</value>
+  </data>
+  <data name="The Blood Products and Transfusion Information Management System is designed to be flexible enough to meet all registration, reporting and retention requirements of Blood Banks." xml:space="preserve">
+    <value>Kan Ürünleri ve Transfüzyon Bilgi Yönetim Sistemi, Kan Bankalarının tüm kayıt, raporlama ve saklama gereksinimlerini karşılayacak esneklikte tasarlanmıştır.</value>
+  </data>
+  <data name="The inability to perform any other operation other than the disposal of unsuitable blood" xml:space="preserve">
+    <value>Uygun Olmayan Kanın İmha İşlemi Dışında Çıkışının Yapılamaması</value>
+  </data>
+  <data name="The registration of the blood product to the stock and the location information where it is stored can be recorded in the system, if necessary, barcode can be printed with or without ISBT standard or pre-printed ready barcodes can be used." xml:space="preserve">
+    <value>Kan ürünlerinin stoğa kaydı ve  saklandığı dolapla ilgili lokasyon bilgileri sisteme kaydedilebilir, gerekirse bu torba ile ilgili olarak ISBT standardında olan veya olmayan barkod basılabilir veya önceden basılmış hazır barkodlar kullanılabilir.</value>
+  </data>
+  <data name="Through the connection between the hospital Information System, radiology information system and PACS, radiological images, as well as reports of images and other recorded information of the patient can be observed via the intranet.So when the doctor presses a button, he can access all of the patient's information from his desk and make a comparative evaluation." xml:space="preserve">
+    <value>Hastane Bilgi Sistemi, Radyoloji Bilgi Sistemi ve PACS arasında kurulan bağlantı sayesinde radyolojik görüntülerin yanı sıra, görüntülerin raporları ve hastanın kayıtlı bulunan diğer bilgileri de intranet yoluyla gözlenebilir. Böylece doktor bir tuşa bastığında, masasından hastanın bütün bilgilerine ulaşabilir ve karşılaştırmalı değerlendirme yapabilir.</value>
+  </data>
+  <data name="Time &amp; Expense Modules" xml:space="preserve">
+    <value>Zaman ve Masraf Modülleri</value>
+  </data>
+  <data name="Transfusion Reporting" xml:space="preserve">
+    <value>Transfuzyon Raporu</value>
+  </data>
+  <data name="Turn Around Time Analysis" xml:space="preserve">
+    <value>Turn Around Zaman Analizi</value>
+  </data>
+  <data name="UBSIS Blood Products and Transfusion Information Management System Software" xml:space="preserve">
+    <value>UBSİS Kan Ürünleri ve Transfüzyon Bilgi Yönetim Sistemi Yazılımı</value>
+  </data>
+  <data name="UBSIS Healthcare Instutitions Visual Analysis Software" xml:space="preserve">
+    <value>UBSİS Sağlık Kurumları Görsel Analiz Yazılımı</value>
+  </data>
+  <data name="UBSIS Hospital Information Management System Software" xml:space="preserve">
+    <value>UBSİS Hastane Bilgi Yönetim Sistemi Yazılımı</value>
+  </data>
+  <data name="UBSIS Human Resources and Asset Management Software" xml:space="preserve">
+    <value>UBSİS İnsan Kaynakları ve Envanter Yönetimi yazılımı</value>
+  </data>
+  <data name="UBSIS Laboratory Information Management System (LIMS) Software" xml:space="preserve">
+    <value>UBSİS Llaboratuvar Bilgi Yönetim Sistemi (LIMS) Yazılımı</value>
+  </data>
+  <data name="UBSIS Multiscope Software" xml:space="preserve">
+    <value>UBSİS Multiscope Yazılımı</value>
+  </data>
+  <data name="UBSIS Picture Archiving and Communication Software (PACS)" xml:space="preserve">
+    <value>UBSİS Radyolojik Görüntüleme ve Arşivleme Sistemi Yazılımı</value>
+  </data>
+  <data name="UBSIS provides Robotic Process Automation (RPA) solutions with our business partner Automation Anywhere" xml:space="preserve">
+    <value>UBSİS olarak, iş ortağımız Automation Anywhere desteğinde Robotik Süreç Otomasyonu (RPA) Çözümleri Sunmaktayız.</value>
+  </data>
+  <data name="UBSIS Software team is developing brillant Software Solutions and RPA bots for Hospitals, Clinics and Labs, located in England, Turkey and Russia." xml:space="preserve">
+    <value>UBSIS yazılım ekibi, İngiltere, Türkiye ve Rusya'da bulunan hastaneler, klinikler ve diğer sağlık kurumlarında kullanılan mükemmel yazılım çözümleri ve RPA botları geliştirmektedir.</value>
+  </data>
+  <data name="UBSIS Telemedicine Software" xml:space="preserve">
+    <value>UBSİS Teletıp Yazılımı</value>
+  </data>
+  <data name="UBSIS Vaccine Management Software" xml:space="preserve">
+    <value>UBSİS Aşı Yönetim Yazılımı</value>
+  </data>
+  <data name="UBSİS PACS Server DICOM 3.0 format images from all kinds of digital modalities are archived on the PACS server. Archived images are sent to UBSİS PACS Workstations with DICOM Query / Retrieve feature. Images on the PACS server can also be accessed over the intranet and the Internet via UBSİS PACS WADO. UBSİS PACS Server can run smoothly with Workstations of other manufacturers. Thanks to the lossless compression feature, the images can be compressed and archived at an average of 3 times the physical capacity of the server. The images that come to the PACS server can be automatically sent to different Workstations and PACS servers within the framework of the defined rule." xml:space="preserve">
+    <value>UBSİS PACS Server DICOM 3.0 formatında her türlü dijital modalitelerden gelen görüntüler PACS sunucusunda arşivlenir. Arşivlenen görüntüler UBSİS PACS İş İstasyonlarına DICOM Query/Retrieve özelliği ile gönderilir. PACS sunucusu üzerindeki görüntülere UBSİS PACS WADO üzerinden de intranet ve internet üzerinden erişilebilmektedir. Diğer üreticilerin İş İstasyonları ile UBSİS PACS Server sorunsuz çalışabilmektedir. Kayıpsız sıkıştırma özelliği sayesinde görüntüler sıkıştırılarak sunucu üzerinde fiziksel kapasitesinin ortalama 3 katı oranında arşivleme yapılabilmektedir. PACS sunucusuna gelene görüntüler tanımlanan kural çerçevesinde otomatik olarak farklı iş İstasyonuna ve PACS sunucularına otomatik olarak gönderilebilmektedir.</value>
+  </data>
+  <data name="Understanding the big picture" xml:space="preserve">
+    <value>Büyük resmi anlama</value>
+  </data>
+  <data name="Vaccines have big importance in healtcare sector. Most vaccine management systems use paper or manual tools (like Excel spreadsheet) for tracking/managing of their vaccine inventory. While this system is widely in use, there is now a better choice , the power of software. With Vaccine management software you can enhance your vaccine management, facilitate overall administration burden and decrease possible faults nearly  %100 percent." xml:space="preserve">
+    <value>Sağlık sektöründe aşılar büyük önem taşımaktadır. Çoğu aşı yönetim sistemi, aşı envanterini izlemek / yönetmek için kağıt veya manuel araçlar (Excel elektronik tablosu gibi) kullanır. Bu sistem yaygın olarak kullanılmasına rağmen, şimdi daha iyi bir seçim, yazılımın gücü var. Aşı yönetim yazılımı ile aşı yönetiminizi geliştirebilir, genel yönetim yükünü kolaylaştırabilir ve olası hataları neredeyse% 100 azaltabilirsiniz.</value>
+  </data>
+  <data name="Vaccıne &lt;/span&gt; Management Software" xml:space="preserve">
+    <value>Aşı&lt;/span&gt; Yönetim Yazılımı</value>
+  </data>
+  <data name="Video Conferencing" xml:space="preserve">
+    <value>Video konferans</value>
+  </data>
+  <data name="Visual analysis helping to see the big picture in health care systems" xml:space="preserve">
+    <value>Sağlık sistemlerinde büyük resmi görmeye yardımcı olan görsel analiz</value>
+  </data>
+  <data name="We develop fabulous softwares for healthcare services..." xml:space="preserve">
+    <value>Sağlık hizmetleri için benzersiz yazılımlar geliştiriyoruz...</value>
+  </data>
+  <data name="Web-based Health Insurance Portability and Accountability (HIPAA) compliant telemedicine system." xml:space="preserve">
+    <value>Web Tabanlı Sağlık Sigortası Taşınabilirlik ve Hesap Verebilirlik (HIPAA) uyumlu teletıp sistemi.</value>
+  </data>
+  <data name="What is Robotic Process Automation (RPA)? Robotic Process Automation; It is the automation of high volume, rule - based, repetitive and human processes that do not need added value with 'software robots'. Software Robots; While performing a task, employees can learn and imitate the steps and interaction movements on software systems, enter applications and programs, read and process data, analyze and report the result." xml:space="preserve">
+    <value>Robotik Süreç Otomasyonu (RPA) nedir? Robotik Süreç Otomasyonu; yüksek hacimli, kural temelli, tekrarlanan ve insan katma değerine ihtiyaç duyulmayan operasyonel süreçlerin “yazılım robotları” ile otomatize edilmesidir. Yazılım Robotları; çalışanların, bir görevi yerine getirirken yazılım sistemleri üzerinde uyguladığı adımları ve etkileşim hareketlerini bire bir öğrenip taklit ederek uygulama ve programlara girebilir, veri okuyup işleyebilir, analiz edip sonucu raporlayabilirler.</value>
+  </data>
+  <data name="While routine operations in existing applications and systems are working continuously and error-free, 24/7; saves time and transaction costs as well as employees have the opportunity to focus on value - added jobs and increase productivity." xml:space="preserve">
+    <value>Mevcut uygulama ve sistemlerdeki rutin işlemler, 7 gün 24 saat kesintisiz ve hatasız bir şekilde çalışırken; hem zaman ve işlem maliyetlerinde tasarruf sağlanır hem de çalışanlar katma değerli işlere odaklanma imkânı bulur ve verimlilik artar.</value>
+  </data>
+  <data name="With our software, pulling patient images from paper files is a thing of the past. Now all images can be retrieved and viewed through a computer workstation safely and securely anytime. You can even view images via the internet through your handheld or tablet device. Share images among attending or referring physicians or any parties concerned with the care of the patient with the click of a button." xml:space="preserve">
+    <value>Yazılımımızla hasta görüntülerini kağıt dosyalardan çekmek geçmişte kaldı. Artık tüm görüntüler bir bilgisayar ya da iş istasyonunda her zaman güvenli bir şekilde alınabilir ve izlenebilir. İnternet üzerinden elde taşınır cihazınız veya tablet bilgisayarınız aracılığıyla da görüntüleri izleyebilirsiniz. Tek bir tıklamayla görüntüleri katılan veya yönlendiren doktorlar veya hastanın bakımı ile ilgili herhangi bir taraf arasında paylaşın.</value>
+  </data>
+  <data name="With Robotic Process Automation;" xml:space="preserve">
+    <value>Robotik Proses Otomasyonu ile;</value>
+  </data>
+  <data name="Workforce/Employee Management" xml:space="preserve">
+    <value>İşgücü / Çalışan Yönetimi</value>
+  </data>
+</root>

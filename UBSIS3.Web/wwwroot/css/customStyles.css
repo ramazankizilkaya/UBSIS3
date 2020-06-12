@@ -1,0 +1,131 @@
+﻿.revo-slider-emphasis-text {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px 20px;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+.revo-slider-desc-text {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    width: 650px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.revo-slider-caps-text {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tp-video-play-button {
+    display: none !important;
+}
+
+.tp-caption {
+    white-space: nowrap;
+}
+
+/*Whatsapp Button*/
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+.serv:hover {
+    background-color: bisque;
+    box-shadow: 0 18px 26px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 25px;
+}
+
+#takip {
+    position: fixed;
+    right: 0%;
+    bottom: 1%;
+    z-index: 999999;
+}
+
+.takip {
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 45px;
+    top: 10px;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 8px;
+}
+
+    .takip img {
+        width: 100%;
+    }
+
+.serv:hover {
+    background-color: bisque;
+    box-shadow: 0 18px 26px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /*border-radius: 25px;*/
+}
+
+
+.serv2:hover {
+    background-color: #abf7e8;
+    box-shadow: 0 48px 48px 0 rgba(0,0,0,0.2), 0 16px 30px 0 rgba(0,0,0,0.19);
+    /*border-radius: 25px;*/
+}
+
+
+
+/*İkonlar*/
+ul.icons-list {
+    list-style: none;
+}
+
+    ul.icons-list li {
+        float: left;
+        width: 25%;
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+        ul.icons-list li i {
+            position: relative;
+            top: 5px;
+            margin-right: 20px;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+.device-lg ul.icons-list li {
+    width: 33.333%;
+}
+
+.device-md ul.icons-list li,
+.device-sm ul.icons-list li {
+    width: 50%;
+}
+
+.device-xs ul.icons-list li {
+    width: 100%;
+}

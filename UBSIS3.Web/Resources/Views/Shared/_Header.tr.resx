@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="/en/ubsis-about-us" xml:space="preserve">
+    <value>/tr/ubsis-hakkimizda</value>
+  </data>
+  <data name="/en/ubsis-career" xml:space="preserve">
+    <value>/tr/ubsis-kariyer</value>
+  </data>
+  <data name="/en/ubsis-contact" xml:space="preserve">
+    <value>/tr/ubsis-iletisim</value>
+  </data>
+  <data name="/en/ubsis-software-solutions" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#blood" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri#blood</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#Endoscopy" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri#Endoscopy</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#HealthMapper" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri#HealthMapper</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#HIS" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri#HIS</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#HRM" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri#HRM</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#LIMS" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri#LIMS</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#PACS" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri#PACS</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#RPA" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri#RPA</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#Telemedicine" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri#Telemedicine</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#vaccine" xml:space="preserve">
+    <value>/tr/ubsis-yazilim-cozumleri#vaccine</value>
+  </data>
+  <data name="About IHMG" xml:space="preserve">
+    <value>IHMG Hakkında</value>
+  </data>
+  <data name="ABOUT US" xml:space="preserve">
+    <value>HAKKIMIZDA</value>
+  </data>
+  <data name="Be a Partner" xml:space="preserve">
+    <value>IHMG'ye Katılın</value>
+  </data>
+  <data name="Blood Products and Transfusion Information Management System Software" xml:space="preserve">
+    <value>Kan Ürünleri ve Transfüzyon Bilgi Yönetim Sistemi Yazılımı</value>
+  </data>
+  <data name="Building Featured Health&lt;br /&gt; Facilities" xml:space="preserve">
+    <value>Anahtar Teslim Sağlık Tesisleri İnşası</value>
+  </data>
+  <data name="Business Partners" xml:space="preserve">
+    <value>İş Ortakları</value>
+  </data>
+  <data name="CAREER" xml:space="preserve">
+    <value>KARİYER</value>
+  </data>
+  <data name="Configuration Management of &lt;br /&gt;Public Health Institutions" xml:space="preserve">
+    <value>Kamusal Sağlık Kurumlarının &lt;br/&gt; Konfigürasyon Yönetimi</value>
+  </data>
+  <data name="CONTACT" xml:space="preserve">
+    <value>İLETİŞİM</value>
+  </data>
+  <data name="Country Health Services &lt;br /&gt;Strategic Planning Management" xml:space="preserve">
+    <value>Ülke Sağlık Hizmetleri &lt;br/&gt; Stratejik Planlama Yönetimi</value>
+  </data>
+  <data name="Diagnostic Applications" xml:space="preserve">
+    <value>Teşhis Uygulamaları</value>
+  </data>
+  <data name="E-Health &lt;br /&gt;SubManagement" xml:space="preserve">
+    <value>E-Sağlık Yönetimi</value>
+  </data>
+  <data name="E-Health Brain" xml:space="preserve">
+    <value>E-Health Brain</value>
+  </data>
+  <data name="E-Health Configuration" xml:space="preserve">
+    <value>E-Sağlık Konfigürasyonu</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>İngilizce</value>
+  </data>
+  <data name="Going on Projects" xml:space="preserve">
+    <value>Devam Eden Projeler</value>
+  </data>
+  <data name="Health Institution Analyzer" xml:space="preserve">
+    <value>Sağlık Kurumları Harita Analizi</value>
+  </data>
+  <data name="HOME" xml:space="preserve">
+    <value>ANASAYFA</value>
+  </data>
+  <data name="Hospital Information System" xml:space="preserve">
+    <value>Hastane Bilgi Sistemi</value>
+  </data>
+  <data name="Hospital Information&lt;br/&gt;Management System" xml:space="preserve">
+    <value>Hastane Bilgi &lt;br/&gt;Sistem Yönetimi</value>
+  </data>
+  <data name="Human Resources &lt;br/&gt;Management" xml:space="preserve">
+    <value>İnsan Kaynakları&lt;br/&gt; Yönetimi</value>
+  </data>
+  <data name="Human Resources and Asset Management" xml:space="preserve">
+    <value>İnsan Kaynakları ve &lt;br/&gt;Demirbaş Yönetimi</value>
+  </data>
+  <data name="IHMG" xml:space="preserve">
+    <value>IHMG</value>
+  </data>
+  <data name="Laboratory Information System" xml:space="preserve">
+    <value>Laboratuvar Bilgi Sistemi</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="Macro Health Service&lt;br /&gt; Technologies" xml:space="preserve">
+    <value>Makro Sağlık&lt;br/&gt; Hizmet Teknolojileri</value>
+  </data>
+  <data name="Macro Health Services &lt;br/&gt; Management" xml:space="preserve">
+    <value>Makro Sağlık &lt;br/&gt;Hizmetleri Yönetimi</value>
+  </data>
+  <data name="Micro Health Service&lt;br/&gt;Technologies" xml:space="preserve">
+    <value>Mikro Sağlık Hizmet Teknolojileri</value>
+  </data>
+  <data name="Micro Health Services Management" xml:space="preserve">
+    <value>Mikro Sağlık &lt;br/&gt;Hizmetleri Yönetimi</value>
+  </data>
+  <data name="Mobile Health Services" xml:space="preserve">
+    <value>Mobil Sağlık Hizmetleri</value>
+  </data>
+  <data name="Multiscope &lt;br/&gt;Software" xml:space="preserve">
+    <value>Multiscope&lt;br/&gt; Yazılımı</value>
+  </data>
+  <data name="Multiscope Endosoftware" xml:space="preserve">
+    <value>Endoksopi Yazılımı</value>
+  </data>
+  <data name="PACS&lt;br/&gt; Software" xml:space="preserve">
+    <value>PACS&lt;br/&gt; Yazılımı</value>
+  </data>
+  <data name="Presenting Featured &lt;br /&gt;Health Services" xml:space="preserve">
+    <value>Özellikli Sağlık &lt;br/&gt;Hizmet Sunumu</value>
+  </data>
+  <data name="Project Management" xml:space="preserve">
+    <value>Proje Yönetimi</value>
+  </data>
+  <data name="Public Health Management" xml:space="preserve">
+    <value>Halk Sağlığı Yönetimi</value>
+  </data>
+  <data name="Public Private Sector &lt;br /&gt;Cooperatıon Management" xml:space="preserve">
+    <value>Kamu ve Özel Sektör &lt;br/&gt; İşbirliği Yönetimi</value>
+  </data>
+  <data name="Quality And Efficiency&lt;br /&gt; Management In Health" xml:space="preserve">
+    <value>Sağlık Hizmetlerinde &lt;br/&gt; Kalite ve Etkinlik Yönetimi</value>
+  </data>
+  <data name="Quality, Accreditation and&lt;br /&gt; Efficiency Applications" xml:space="preserve">
+    <value>Kalite, Akreditasyon ve &lt;br/&gt;Verimlilik Uygulamaları</value>
+  </data>
+  <data name="RIS-Pacs" xml:space="preserve">
+    <value>RIS-Pacs</value>
+  </data>
+  <data name="Robotic Process Automation (RPA) Solutions" xml:space="preserve">
+    <value>Robotik Süreç Otomasyonu (RPA) Çözümleri</value>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>Rusça</value>
+  </data>
+  <data name="Social Security &lt;br /&gt;Systmes Automation" xml:space="preserve">
+    <value>Sosyal Güvenlik &lt;br /&gt;Sistem Otomasyonu</value>
+  </data>
+  <data name="SOFTWARE SOLUTIONS" xml:space="preserve">
+    <value>YAZILIM ÇÖZÜMLERİ</value>
+  </data>
+  <data name="System Digital" xml:space="preserve">
+    <value>Sistem Dijital</value>
+  </data>
+  <data name="TECHNOLAB LIMS" xml:space="preserve">
+    <value>TECHNOLAB LIMS</value>
+  </data>
+  <data name="Telemedicine &lt;br/&gt;Software" xml:space="preserve">
+    <value>Teletıp &lt;br/&gt;Yazılımı</value>
+  </data>
+  <data name="Telemedicine&lt;br /&gt;&amp;emsp;&lt;br /&gt;&amp;emsp;" xml:space="preserve">
+    <value>Teletıp&lt;br /&gt;&amp;emsp;&lt;br /&gt;&amp;emsp;</value>
+  </data>
+  <data name="Treatment Service Management" xml:space="preserve">
+    <value>Tedavi Hizmet Yönetimi</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Tükçe</value>
+  </data>
+  <data name="Twinning Projects" xml:space="preserve">
+    <value>Eşleştirme Projeleri</value>
+  </data>
+  <data name="Vaccine &lt;br/&gt;Management" xml:space="preserve">
+    <value>Aşı &lt;br/&gt;Yönetimi</value>
+  </data>
+</root>

@@ -1,0 +1,192 @@
+﻿@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.Extensions.Options
+
+@inject IViewLocalizer _localizer
+@inject IOptions<RequestLocalizationOptions> LocOptions
+@{
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+    var cultureItems = LocOptions.Value.SupportedCultures
+        .Select(c => new SelectListItem { Value = c.Name, Text = c.DisplayName })
+        .ToList();
+}
+
+<!-- Header
+        ============================================= -->
+<header id="header" class="full-header">
+
+    <div id="header-wrap">
+
+        <div class="container clearfix">
+
+            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+            <!-- Logo
+            ============================================= -->
+            <div id="logo">
+                <a href="/" class="standard-logo" data-dark-logo="/images/logo-dark.png"><img src="/images/logo/logo.png" alt="Ubsis Software Company Logo"></a>
+                <a href="/" class="retina-logo" data-dark-logo="/images/logo-dark@2x.png"><img src="/images/logo/logo@2x.png" alt="Ubsis Software Company Logo"></a>
+            </div><!-- #logo end -->
+            <!-- Primary Navigation
+            ============================================= -->
+            <nav id="primary-menu">
+                <ul>
+                    <!--Home-->
+                    <li><a href="/"><div style="font-weight: bold;"><i class="icon-home"></i></div></a></li>
+
+                    <!--About Us-->
+                    <li style="font-weight: bold;"><a href="@_localizer["/en/ubsis-about-us"]"><div style="font-weight: bold;">@_localizer["ABOUT US"]</div></a></li>
+
+                    <!--Softwares-->
+                    <li class="mega-menu">
+                        <a href="@_localizer["/en/ubsis-software-solutions"]"><div style="font-weight: bold;">@_localizer["SOFTWARE SOLUTIONS"]</div></a>
+                        <div class="mega-menu-content style-2 clearfix">
+                            <ul class="mega-menu-column col">
+                                <li class="mega-menu-title">
+                                    <div class="portfolio-image serv2">
+                                            <a href="@_localizer["/en/ubsis-software-solutions#PACS"]">
+                                                <img src="~/images/navbar/UbsisPacsSoftware.png" alt="ubsis provides Picture Archiving and Communication System (PACS) software serving several health instutitions around the world">
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-desc">
+                                        <h5 style="text-align:center;"><a href="@_localizer["/en/ubsis-software-solutions#PACS"]">@_localizer["PACS<br/> Software"]</a></h5>
+                                    </div>
+                                </li>
+                                <li class="mega-menu-title">
+                                    <div class="portfolio-image serv2">
+                                        <a href="@_localizer["/en/ubsis-software-solutions#blood"]">
+                                            <img src="~/images/navbar/bloodSoftware.png" alt="ubsis provides Blood Products and Transfusion Information Management System Software serving several health instutitions around the world">
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-desc">
+                                        <h5 style="text-align:center;"><a href="@_localizer["/en/ubsis-software-solutions#blood"]">@_localizer["Blood Products and Transfusion Information Management System Software"]</a></h5>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="mega-menu-column col">
+                                <li class="mega-menu-title">
+                                    <div class="portfolio-image serv2">
+                                        <a href="@_localizer["/en/ubsis-software-solutions#vaccine"]">
+                                            <img src="~/images/navbar/VaccineManagementSoftware.png" alt="ubsis provides vaccine management software serving several health instutitions around the world">
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-desc">
+                                        <h5 style="text-align:center;"><a href="@_localizer["/en/ubsis-software-solutions#vaccine"]">@_localizer["Vaccine <br/>Management"]</a></h5>
+                                    </div>
+                                </li>
+                                <li class="mega-menu-title">
+                                    <div class="portfolio-image serv2">
+                                        <a href="@_localizer["/en/ubsis-software-solutions#HIS"]">
+                                            <img src="~/images/navbar/HospitalManagementSystemSoftware.png" alt="ubsis provides Hospital Information Management System Software serving several health instutitions around the world">
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-desc">
+                                        <h5 style="text-align:center;"><a href="@_localizer["/en/ubsis-software-solutions#HIS"]">@_localizer["Hospital Information System"]</a></h5>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="mega-menu-column col">
+                                <li class="mega-menu-title">
+                                    <div class="portfolio-image serv2">
+                                        <a href="@_localizer["/en/ubsis-software-solutions#HRM"]">
+                                            <img src="~/images/navbar/HumanResourcesSoftware.png" alt="ubsis provides Human Resources and Asset Management Software serving several health instutitions around the world">
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-desc">
+                                        <h5 style="text-align:center;"><a href="@_localizer["/en/ubsis-software-solutions#HRM"]">@_localizer["Human Resources <br/>Management"]</a></h5>
+                                    </div>
+                                </li>
+                                <li class="mega-menu-title">
+                                    <div class="portfolio-image serv2">
+                                        <a href="@_localizer["/en/ubsis-software-solutions#HealthMapper"]">
+                                            <img src="~/images/navbar/HealthMapperSoftware.jpg" alt="ubsis provides Health Instutitions Mapping and Analyzing software serving several health instutitions around the world">
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-desc">
+                                        <h5 style="text-align:center;"><a href="@_localizer["/en/ubsis-software-solutions#HealthMapper"]">@_localizer["Health Institution Analyzer"]</a></h5>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="mega-menu-column col">
+                                <li class="mega-menu-title">
+
+                                    <div class="portfolio-image serv2">
+                                        <a href="@_localizer["/en/ubsis-software-solutions#Telemedicine"]">
+                                            <img src="~/images/navbar/TeleMedicineSoftware.png" alt="ubsis provides Telemedicine software serving several health instutitions around the world">
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-desc">
+                                        <h5 style="text-align:center;"><a href="@_localizer["/en/ubsis-software-solutions#Telemedicine"]">@_localizer["Telemedicine <br/>Software"]</a></h5>
+                                    </div>
+
+                                   
+                                </li>
+                                <li class="mega-menu-title">
+                                    <div class="portfolio-image serv2">
+                                        <a href="@_localizer["/en/ubsis-software-solutions#LIMS"]">
+                                            <img src="~/images/navbar/LIMSSoftware.png" alt="ubsis provides Laboratory Information Management System (LIMS) Software serving several health instutitions around the world">
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-desc">
+                                        <h5 style="text-align:center;"><a href="@_localizer["/en/ubsis-software-solutions#LIMS"]">@_localizer["Laboratory Information System"]</a></h5>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="mega-menu-column col">
+                                <li class="mega-menu-title">
+                                    <div class="portfolio-image serv2">
+                                        <a href="@_localizer["/en/ubsis-software-solutions#Endoscopy"]">
+                                            <img src="~/images/navbar/UbsisMultiscopeSoftware.png" alt="ubsis provides endoscopy software serving several health instutitions around the world">
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-desc">
+                                        <h5 style="text-align:center;"><a href="@_localizer["/en/ubsis-software-solutions#Endoscopy"]">@_localizer["Multiscope <br/>Software"]</a></h5>
+                                    </div>
+                                </li>
+                                <li class="mega-menu-title">
+                                    <div class="portfolio-image serv2">
+                                        <a href="@_localizer["/en/ubsis-software-solutions#RPA"]">
+                                            <img src="~/images/navbar/AutomatinAnywhere.png" alt="ubsis is business partner with Automation Anywhere and provides Robotic Process Automation (RPA) solutions to the region">
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-desc">
+                                        <h5 style="text-align:center;"><a href="@_localizer["/en/ubsis-software-solutions#RPA"]">@_localizer["Robotic Process Automation (RPA) Solutions"]</a></h5>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!--Career-->
+                    <li style="font-weight: bold;"><a href="@_localizer["/en/ubsis-career"]"><div style="font-weight: bold;">@_localizer["CAREER"]</div></a></li>
+
+                    <!--Contact-->
+                    <li style="font-weight: bold;"><a href="@_localizer["/en/ubsis-contact"]"><div style="font-weight: bold;">@_localizer["CONTACT"]</div></a></li>
+
+                    <!--Language-->
+                    <li style="font-weight: bold;">
+                        <a href="#"><div style="font-weight: bold;"><i class="icon-world"></i><i class="icon-angle-down"></i></div></a>
+                        <ul>
+                            <li><a asp-controller="Home" asp-action="SetLanguage" asp-route-culture="tr" asp-route-returnUrl="@Context.Request.Path"><img src="~/images/flags/Turkiye.jpeg" alt="We provide Turkish language support for our multilingual web site (healthwebsoftware.com)"> @_localizer["Turkish"]</a></li>
+                            <li><a asp-controller="Home" asp-action="SetLanguage" asp-route-culture="en" asp-route-returnUrl="@Context.Request.Path"><img src="~/images/flags/Britain.jpeg" alt="We provide English language support for our multilingual web site (healthwebsoftware.com)"> @_localizer["English"]</a></li>
+                            <li><a asp-controller="Home" asp-action="SetLanguage" asp-route-culture="ru" asp-route-returnUrl="@Context.Request.Path"><img src="~/images/flags/Russia.jpg" alt="We provide Russian language support for our multilingual web site (healthwebsoftware.com)"> @_localizer["Russian"]</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav><!-- #primary-menu end -->
+
+        </div>
+
+    </div>
+
+</header>
+<!-- #header end -->
+
+
+@section Styles{ 
+
+     
+
+}

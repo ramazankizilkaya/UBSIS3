@@ -1,0 +1,253 @@
+﻿@model ContactUsDto
+@inject IViewLocalizer _localizer
+
+@section Head {
+    <title>@_localizer["UBSIS Contact Us Form"]</title>
+
+    <meta name="description" content="@_localizer["You can contact us by filling out the contact form and get information about our products and services."]" />
+}
+
+<input type="hidden" id="warnCodeErrorC" value="@_localizer["Security code is incorrect"]" />
+
+<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('/images/parallax.jpg'); padding: 120px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+
+    <div class="container clearfix">
+        <h1>
+            @_localizer["Contact"]
+        </h1>
+        <span>@_localizer["Get in Touch with Us"]</span>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">@_localizer["Home"]</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@_localizer["Contact"]</li>
+        </ol>
+    </div>
+
+</section>
+
+
+
+
+<!-- Content
+============================================= -->
+<section id="content">
+
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+
+            <!-- Postcontent
+            ============================================= -->
+            <div class="nobottommargin">
+
+                <div class="form-group row">
+                    <h3>@_localizer["Send us an Email"]</h3>
+                </div>
+                <form enctype="multipart/form-data" method="post" asp-controller="Home" asp-action="Contact" id="ContactForm">
+
+                    <div class="loader" style="display:none;" id="loadCnt">
+                        <img src="~/images/preloader/preloader.gif" />
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="Name"></label>
+                        <input type="text" asp-for="Name" class="required form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="form-group row">
+                        <label asp-for="CompanyName"></label>
+                        <input type="text" asp-for="CompanyName" class="form-control" />
+                        <span asp-validation-for="CompanyName" class="text-danger"></span>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="form-group row">
+                        <label asp-for="Email"></label>
+                        <input asp-for="Email" type="email" class="required form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="form-group row">
+                        <label asp-for="Subject"></label>
+                        <input type="text" asp-for="Subject" class="required form-control" />
+                        <span asp-validation-for="Subject" class="text-danger"></span>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="form-group row">
+                        <label asp-for="Message"></label>
+                        <textarea class="required form-control" asp-for="Message" rows="6" cols="30"></textarea>
+                        <span asp-validation-for="Message" class="text-danger"></span>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="SecurityCode">
+                            @_localizer["Securıty Code"] &emsp;
+
+                            <a class="btn btn-sm" href="javascript:void(0);" id="btnChangeImg"><i class="fa fa-refresh"></i></a>
+
+                            <img src="~/images/SecurityImages/MjE0Njc=.png" width="80" height="32" alt="Güvenlik Kodu" class="securitycode" id="1" data-Nam="MjE0Njc=">
+                            <img src="~/images/SecurityImages/MjI3Nzg=.png" width="80" height="32" alt="Güvenlik Kodu" class="securitycode" id="2" data-Nam="MjI3Nzg=" style="display: none">
+                            <img src="~/images/SecurityImages/MzkxOTA=.png" width="80" height="32" alt="Güvenlik Kodu" class="securitycode" id="3" data-Nam="MzkxOTA=" style="display: none;">
+                            <img src="~/images/SecurityImages/NDkwNjQ=.png" width="80" height="32" alt="Güvenlik Kodu" class="securitycode" id="4" data-Nam="NDkwNjQ=" style="display: none;">
+                            <img src="~/images/SecurityImages/NTM1NTQ=.png" width="80" height="32" alt="Güvenlik Kodu" class="securitycode" id="5" data-Nam="NTM1NTQ=" style="display: none;">
+                            <img src="~/images/SecurityImages/ODA2NDA=.png" width="80" height="32" alt="Güvenlik Kodu" class="securitycode" id="6" data-Nam="ODA2NDA=" style="display: none;">
+                            <img src="~/images/SecurityImages/OTgyMTQ=.png" width="80" height="32" alt="Güvenlik Kodu" class="securitycode" id="7" data-Nam="OTgyMTQ=" style="display: none;">
+                            <img src="~/images/SecurityImages/OTM1NjA=.png" width="80" height="32" alt="Güvenlik Kodu" class="securitycode" id="8" data-Nam="OTM1NjA=" style="display: none;">
+
+
+                        </label>
+
+
+                        <input class="required form-control" type="text" asp-for="SecurityCode" placeholder="@_localizer["Security Code"]" id="guvenlikKodu" value="" maxlength="5">
+
+
+
+                        <input type="hidden" id="myCodeKey" data-Nam="MjE0Njc=" />
+                        <span asp-validation-for="SecurityCode" class="text-danger"></span>
+
+                    </div>
+
+                    <div class="col_full">
+                        <button class="button button-3d nomargin" type="submit" id="contactSubmit" style="color:black;">@_localizer["Send Message"]</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="container clearfix">
+            <div class="col_full">
+
+                <div class="col_one_third">
+                    <address>
+                        <strong>@_localizer["Headquarters:"]</strong><br>
+                        Güvenevler Mah. Cinnah Cad. <br>Alaçam Sok. Cıngıllıoğlu İşh. No:22 <br /> Çankaya, Ankara<br>
+                    </address>
+                </div>
+
+                <div class="col_one_third">
+                    <abbr title="Phone Number"><strong>@_localizer["Phone:"]</strong></abbr> (90) 312 312 47 47<br>
+                    <abbr title="Fax"><strong>@_localizer["Fax:"]</strong></abbr> (90) 312 312 70 00<br>
+                    <abbr title="Email Address"><strong>@_localizer["Email:"]</strong></abbr>info@ubsis.biz
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="google-map" class="gmap">
+
+    <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="100%" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=Ala%C3%A7am%20Sk.%20No%3A1&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.divi-discounts.com"></a></div>
+    </div>
+
+</section>
+
+@section Styles{
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+
+    <style>
+        .security-code {
+            position: relative
+        }
+
+            .security-code img {
+                position: absolute;
+                top: 50%;
+                right: 10px;
+                margin-top: -14px;
+                height: 28px
+            }
+
+            .security-code a.btn-sm {
+                background: 0;
+                position: absolute;
+                top: 50%;
+                right: 110px;
+                margin-top: -14px;
+                border: 0;
+                border-right: 1px solid #ddd;
+                border-left: 1px solid #ddd;
+                height: 28px;
+                font-size: 16px;
+                padding: 0 15px;
+                line-height: 28px;
+                color: #333
+            }
+
+            .security-code input {
+                padding-right: 170px
+            }
+
+
+
+        form .loader {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            opacity: 0.8;
+        }
+
+            form .loader img {
+                position: absolute;
+                top: 50%;
+                margin-top: -20px;
+                left: 50%;
+                margin-left: -20px;
+            }
+    </style>
+
+    <style>
+        .mapouter {
+            position: relative;
+            text-align: right;
+            height: 600px;
+            margin-bottom: 30px;
+        }
+
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 600px;
+        }
+    </style>
+}
+
+@section Scripts{
+
+    <script>
+        //captcha değişimi
+        jQuery(document).ready(function () {
+
+            jQuery("#btnChangeImg").click(function () {
+                //debugger;
+                var number = getRandomInt(0, 7);
+
+                jQuery('img.securitycode').css("display", "none");
+
+                var we = document.querySelectorAll('img.securitycode')[number];
+
+                we.style.display = "";
+
+                var comingName = we.getAttribute('data-Nam');
+
+                jQuery('#myCodeKey').attr('data-Nam', comingName);
+
+            });
+
+        });
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+    </script>
+
+    
+}

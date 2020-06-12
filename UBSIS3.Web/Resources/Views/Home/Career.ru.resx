@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="--Select--" xml:space="preserve">
+    <value>--Выбрать--</value>
+  </data>
+  <data name="Application Form" xml:space="preserve">
+    <value>Форма заявки</value>
+  </data>
+  <data name="Apply Now" xml:space="preserve">
+    <value>Применить сейчас</value>
+  </data>
+  <data name="Bachelor’s degree in International Relations, Business Administration, Engineering or in a related field" xml:space="preserve">
+    <value>Степень бакалавра в области международных отношений, делового администрирования, техники или в смежных областях</value>
+  </data>
+  <data name="Business Development Expert" xml:space="preserve">
+    <value>Эксперт по развитию бизнеса</value>
+  </data>
+  <data name="Career Opportunities" xml:space="preserve">
+    <value>Карьерные возможности</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>Карьера</value>
+  </data>
+  <data name="Developing, planning, organizing, and managing events and brand communication strategies" xml:space="preserve">
+    <value>Разработка, планирование, организация и управление мероприятиями и стратегиями коммуникации бренда</value>
+  </data>
+  <data name="Ensure all necessary reporting and follow up on the Project Implementation, bearing responsibility for the accomplishment of the project within the agreed time schedule and financial budget. Co-ordinate delivery, start-up and commissioning of new capital projects in cooperation with Manufacturing" xml:space="preserve">
+    <value>Обеспечить всю необходимую отчетность и следить за выполнением проекта, неся ответственность за выполнение проекта в согласованные сроки и финансовый бюджет. Координировать поставку, запуск и ввод в эксплуатацию новых капитальных проектов в сотрудничестве с Manufacturing.</value>
+  </data>
+  <data name="Excellent interpersonal communication and presentation skills" xml:space="preserve">
+    <value>Отличные навыки межличностного общения и презентации</value>
+  </data>
+  <data name="Good command of written and spoken English (plus other foreign languages are preferred)" xml:space="preserve">
+    <value>Хорошее владение письменным и устным английским (плюс другие иностранные языки предпочтительнее)</value>
+  </data>
+  <data name="Good Communication Skills" xml:space="preserve">
+    <value>Хорошие коммуникативные навыки</value>
+  </data>
+  <data name="Have 6+ years experience in Project Management Offices / IT / Departments with similar responsibilities" xml:space="preserve">
+    <value>Опыт работы в офисах управления проектами / ИТ / департаментах с аналогичными обязанностями более 6 лет</value>
+  </data>
+  <data name="Have graduated from Faculty of Engineering, Science or related disciplines" xml:space="preserve">
+    <value>Закончили инженерно-технический факультет или смежные дисциплины</value>
+  </data>
+  <data name="Have strong working knowledge of Project Management Methodologies, PMP or Scrum Master certification is a plus" xml:space="preserve">
+    <value>Иметь сильные практические знания по методологиям управления проектами, сертификация PMP или Scrum Master</value>
+  </data>
+  <data name="Having very strong collaboration with the other subsidiaries of the Company" xml:space="preserve">
+    <value>Очень тесное сотрудничество с другими дочерними предприятиями Компании</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Дом</value>
+  </data>
+  <data name="Implementation of marketing strategies in line with company goals" xml:space="preserve">
+    <value>Что мы ожидаем от вас?...</value>
+  </data>
+  <data name="In depth understanding and experience  of either SDLC or PDLC" xml:space="preserve">
+    <value>Глубокое понимание и опыт SDLC или PDLC</value>
+  </data>
+  <data name="Innovative, agile and collaborative team player" xml:space="preserve">
+    <value>Инновационный, проворный и совместный командный игрок</value>
+  </data>
+  <data name="Join our Fabulous Team of Intelligent Individuals" xml:space="preserve">
+    <value>Присоединяйтесь к нашей невероятной команде умных людей</value>
+  </data>
+  <data name="Liaise with other departments of the company and third parties ( sales, stand contractors, CRM suppliers, and media companies)" xml:space="preserve">
+    <value>Поддерживать связь с другими отделами компании и третьими лицами (отдел продаж, подрядчики стендов, поставщики CRM и медиа-компании).</value>
+  </data>
+  <data name="Max 5 MB allowed for resume file." xml:space="preserve">
+    <value>Максимум 5 МБ разрешено для файла резюме.</value>
+  </data>
+  <data name="Minimum 2 years of experience in marketing / business development area (health industry or IT sector experience is preferred)" xml:space="preserve">
+    <value>Минимум 2 года опыта работы в сфере маркетинга / развития бизнеса (предпочтение отдается сфере здравоохранения или ИТ-отрасли)</value>
+  </data>
+  <data name="Minimum of 4 live project rollouts" xml:space="preserve">
+    <value>Минимум 4 живых развертывания проекта</value>
+  </data>
+  <data name="Monitors the implementation of projects throughout their life cycle, starting with the design concept and ending with the last delivery to production, followed by activity measurement of the impact tools and delivered processes" xml:space="preserve">
+    <value>Мониторинг реализации проектов на протяжении всего их жизненного цикла, начиная с концепции проекта и заканчивая последней доставкой в производство, с последующим измерением активности инструментов воздействия и поставленных процессов.</value>
+  </data>
+  <data name="No domestic and international travel disability" xml:space="preserve">
+    <value>Нет внутренней и международной инвалидности</value>
+  </data>
+  <data name="Only .doc, .docx and .pdf file extensions are allowed." xml:space="preserve">
+    <value>Разрешены только расширения .doc, .docx и .pdf.</value>
+  </data>
+  <data name="Optimization of the internal and external efficiency of the marketing team, and lead with the planning and implementation of marketing campaign" xml:space="preserve">
+    <value>Оптимизация внутренней и внешней эффективности маркетинговой команды, а также руководство планированием и реализацией маркетинговой кампании</value>
+  </data>
+  <data name="Please select salary currency" xml:space="preserve">
+    <value>Пожалуйста, выберите валюту зарплаты</value>
+  </data>
+  <data name="Proficient in Microsoft Office" xml:space="preserve">
+    <value>Опытный в Microsoft Office</value>
+  </data>
+  <data name="Project Executive" xml:space="preserve">
+    <value>Руководитель проекта</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Требования</value>
+  </data>
+  <data name="Send Application" xml:space="preserve">
+    <value>Отправить заявку</value>
+  </data>
+  <data name="Team Player" xml:space="preserve">
+    <value>Командный игрок</value>
+  </data>
+  <data name="UBSIS Global Careers" xml:space="preserve">
+    <value>UBSIS Глобальная карьера</value>
+  </data>
+  <data name="UBSIS Global Careers. Job application details. We are eager to expand our company family because we are eager to do business all over the world." xml:space="preserve">
+    <value>UBSIS Глобальная карьера. Детали заявки на работу. Мы стремимся расширить нашу семейную компанию, потому что мы стремимся вести бизнес по всему миру.</value>
+  </data>
+  <data name="Unit-test code for robustness, including edge cases, usability, and general reliability" xml:space="preserve">
+    <value>Код модульного тестирования на надежность, включая граничные случаи, удобство использования и общую надежность</value>
+  </data>
+  <data name="UPLOAD YOUR RESUME" xml:space="preserve">
+    <value>ЗАГРУЗИТЕ СВОЕ РЕЗЮМЕ</value>
+  </data>
+  <data name="We are looking for a 'Project Executive'  who will work for sub-company of our group located in Uzbekistan. The brief job description of the position and preferred qualifications for the suitable candidates are defined below." xml:space="preserve">
+    <value>Мы ищем руководителя проекта, который будет работать в подгруппе нашей группы, расположенной в Узбекистане. Краткое описание должности и предпочтительные квалификации для подходящих кандидатов определены ниже.</value>
+  </data>
+  <data name="We are looking for a ‘Business Development Expert’ to work on our projects." xml:space="preserve">
+    <value>Мы ищем «Эксперта по развитию бизнеса» для работы над нашими проектами.</value>
+  </data>
+  <data name="What we expect from you?" xml:space="preserve">
+    <value>Что мы ожидаем от вас?</value>
+  </data>
+  <data name="Work closely with local and other project engineering teams to deliver capital projects in terms of common Project implementation procedures" xml:space="preserve">
+    <value>Работать в тесном сотрудничестве с местными и другими проектными командами для выполнения капитальных проектов с точки зрения общих процедур реализации проекта</value>
+  </data>
+</root>

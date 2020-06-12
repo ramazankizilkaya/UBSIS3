@@ -1,0 +1,818 @@
+﻿@inject IViewLocalizer localizer
+
+@section Head {
+    <title>@localizer["UBSIS Software team is developing brillant Software Solutions and RPA bots for Hospitals, Clinics and Labs, located in England, Turkey and Russia."]</title>
+
+    <meta name="description" content="@localizer["Robotic Process Automation (RPA) bots with Automation Anywhere, Picture Archiving and Communication System (RIS-PACS), Hospital Information Management Software"]" />
+}
+
+
+<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('/images/parallax.jpg'); padding: 120px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+
+    <div class="container clearfix">
+        <h1>@localizer["Software Solutions"]</h1>
+        <span>@localizer["We develop fabulous softwares for healthcare services..."]</span>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">@localizer["Home"]</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@localizer["Softwares"]</li>
+        </ol>
+    </div>
+
+</section>
+
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+            <div class="divider divider-short divider-center" id="PACS"><i class="icon-circle"></i></div><br />
+            <!--Pacs -->
+            <div>
+                <div id="section-features" class="heading-block title-center page-section">
+                    <h2 class="h1 t700 flash animated" data-animate="Pacs"> <span class="heading-block fancy-title nobottomborder title-bottom-border">Pacs</span> @localizer["Software"]</h2>
+                    <span>@localizer["Picture Archiving and Communication System"]</span>
+                </div>
+
+                <div class="col_one_third topmargin nobottommargin">
+
+                    <p style="text-align:justify;">
+                        @localizer["PACS can be defined as a system of digital acquisition, archiving and transmission of panoramic and local radiological images. UBSİS PACS System not only provides digitally obtained images to be stored, but also enables these images to be transmitted to any computer or other centers within the health center through computer networks."]
+                    </p>
+                    <p style="text-align:justify;">@localizer["Through the connection between the hospital Information System, radiology information system and PACS, radiological images, as well as reports of images and other recorded information of the patient can be observed via the intranet.So when the doctor presses a button, he can access all of the patient's information from his desk and make a comparative evaluation."]</p>
+                    <div class="divider divider-short"><i class="icon-circle"></i></div>
+                </div>
+
+                <div class="col_two_third topmargin nobottommargin col_last">
+
+                    <img src="/images/UBSIS-PACS-Software.png" alt="UBSIS RIS-PACS Software" style="position: absolute; top: 0; left: 0;">
+                    <div class="landing-video">
+                        <iframe style="" src="https://www.youtube.com/embed/USBfqQeu3JI" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                    <div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
+
+                </div>
+
+                <div class="clear"></div>
+                <div class="col_three_fifth">
+                    <p style="text-align:justify;">
+                        @localizer["UBSİS PACS Server DICOM 3.0 format images from all kinds of digital modalities are archived on the PACS server. Archived images are sent to UBSİS PACS Workstations with DICOM Query / Retrieve feature. Images on the PACS server can also be accessed over the intranet and the Internet via UBSİS PACS WADO. UBSİS PACS Server can run smoothly with Workstations of other manufacturers. Thanks to the lossless compression feature, the images can be compressed and archived at an average of 3 times the physical capacity of the server. The images that come to the PACS server can be automatically sent to different Workstations and PACS servers within the framework of the defined rule."]
+                    </p>
+                </div>
+
+                <div class="col_two_fifth col_last" @*style="background: #FFF url('/images/pacss.png');"*@>
+                    <img src="~/images/pacss.png" />
+                </div>
+
+                <div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
+            </div>
+
+            <div class="pricing-box pricing-extended bottommargin clearfix">
+
+                <div class="pricing-desc">
+                    <div class="pricing-title">
+                        <h3 style="text-align:center">@localizer["One of the most important advantages of UBSIS PACS is that digital images can be sent to health centers anywhere in the world."]</h3>
+                    </div>
+                    <div class="pricing-features">
+                        <ul class="iconlist-color clearfix">
+                            <li><i class="icon-desktop"></i> @localizer["Next generation HTML5 DICOM viewer"]</li>
+                            <li><i class="icon-eye-open"></i>@localizer["High efficiency at low connection speeds"]</li>
+                            <li><i class="icon-beaker"></i>@localizer["Compatibility with all devices (iPad, iPhone, Android) with cross-platform feature"]</li>
+                            <li><i class="icon-magic"></i>@localizer["No trace on client devices (Zero footprint)"]</li>
+                            <li><i class="icon-font"></i>@localizer["Instant access from any device without any setup"]</li>
+                            <li><i class="icon-stack3"></i>@localizer["All the features you seek in a standard DICOM viewer (Pan, Zoom, Window, Level, measurements…) and more."]</li>
+                            <li><i class="icon-support"></i>@localizer["Structured Reports (SR)"]</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pricing-action-area">
+                    <p>@localizer["UBSIS Picture Archiving and Communication Software (PACS)"]</p>
+                    <p>@localizer["Please contact us for further information and pricing details."]</p>
+                    
+                    <div class="pricing-action">
+                        <a asp-controller="Home" asp-action="Contact" asp-route-subject="PACS Software" class="button button-3d button-large btn-block nomargin">@localizer["Request Demo"]</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider divider-short divider-center" id="Endoscopy"><i class="icon-circle"></i></div><br />
+
+            <!--Multiscope Software -->
+            <div>
+                <div id="section-features" class="heading-block title-center page-section">
+                    <h2><span class="heading-block fancy-title nobottomborder title-bottom-border">@localizer["Multıscope </span>Software"]</h2>
+                    <span>@localizer["Provides accelerated image retrieval, economical storage and simultaneous access to images across multiple healthcare sites."]</span>
+                </div>
+
+                <div class="col_one_third topmargin nobottommargin">
+
+                    <p style="text-align:justify;">@localizer["Designate staff members to order, access, track, charge and maintain medical supply inventory levels. The tool also monitors equipment repairs and sterilization, as well as manages vendors and purchases. Detailed reports are readily available for repairs, sterilization, inventory, reorders and items list."]</p>
+                    <p style="text-align:justify;">@localizer["With our software, pulling patient images from paper files is a thing of the past. Now all images can be retrieved and viewed through a computer workstation safely and securely anytime. You can even view images via the internet through your handheld or tablet device. Share images among attending or referring physicians or any parties concerned with the care of the patient with the click of a button."]</p>
+
+                    <div class="divider divider-short"><i class="icon-circle"></i></div>
+
+                </div>
+
+                <div class="col_two_third topmargin nobottommargin col_last">
+
+                    <img src="~/images/UBSIS-Multiscope-Endoscopy-Software.png" alt="UBSIS Multiscope Endoscopy Software" style="position: absolute; top: 0; left: 0;" title="ubsis software solutions">
+
+                    <div class="landing-video">
+                        <iframe style="" src="https://www.youtube.com/embed/E84IF-9mT6k" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="clear"></div>
+
+                <div class="pricing-box pricing-extended bottommargin clearfix">
+                    <div class="pricing-desc">
+                        <div class="pricing-title">
+                            <h3 style="text-align:center">@localizer["Facilitates unlimited image capture, video capture and storage of patient records"]</h3>
+                        </div>
+                        <div class="pricing-features">
+                            <ul class="iconlist-color clearfix">
+                                <li><i class="icon-desktop"></i> @localizer["Procedure Documentation"]</li>
+                                <li><i class="icon-eye-open"></i> @localizer["Practice Management"]</li>
+                                <li><i class="icon-beaker"></i> @localizer["Electronic Health Record"]</li>
+                                <li><i class="icon-magic"></i> @localizer["Image & Video Management"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Reminder Management"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Patient Portal"]</li>
+                                <li style="visibility:hidden;"><i class="icon-magic"></i> @localizer["Image & Video Management"]</li>
+                                <li style="visibility:hidden;"><i class="icon-stack3"></i> @localizer["Reminder Management"]</li>
+                                <li style="visibility:hidden;"><i class="icon-file2"></i> @localizer["Patient Portal"]</li>
+                                <li style="visibility:hidden;"><i class="icon-file2"></i> @localizer["Patient Portal"]</li>
+                                <li style="visibility:hidden;"><i class="icon-file2"></i> @localizer["Patient Portal"]</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="pricing-action-area">
+                        <p>@localizer["UBSIS Multiscope Software"]</p>
+                        <p>@localizer["Please contact us for further information and pricing details."]</p>
+                        <div class="pricing-action">
+                            <a asp-controller="Home" asp-action="Contact" asp-route-subject="Multiscope Software Demo Request" class="button button-3d button-large btn-block nomargin">@localizer["Request Demo"]</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="divider divider-short divider-center" id="vaccine"><i class="icon-circle"></i></div><br />
+            </div>
+
+            <!--Vaccine Management -->
+            <div>
+                <div id="section-features" class="heading-block title-center page-section">
+                    <h2><span class="heading-block fancy-title nobottomborder title-bottom-border">@localizer["Vaccıne </span> Management Software"]</h2>
+                    <span>@localizer["Fully automated Vaccine Management System"]</span>
+                </div>
+
+                <div class="col_one_third topmargin nobottommargin">
+
+                    <p style="text-align:justify;">@localizer["Vaccines have big importance in healtcare sector. Most vaccine management systems use paper or manual tools (like Excel spreadsheet) for tracking/managing of their vaccine inventory. While this system is widely in use, there is now a better choice , the power of software. With Vaccine management software you can enhance your vaccine management, facilitate overall administration burden and decrease possible faults nearly  %100 percent."]</p>
+                    <p style="text-align:justify;">@localizer["Many health instutitions are still using either a paper process or a manual process for vaccine inventory management and recording administration of vaccines.  These manual processes take hours of time each month and most have problems with accuracy and consistency."]</p>
+                    <div class="divider divider-short"><i class="icon-circle"></i></div>
+                </div>
+
+                <div class="col_two_third topmargin nobottommargin col_last">
+
+                    <img src="/images/softwares/UBSISVaccineManagementSoftware.png" alt="UBSIS Vaccine Management Software" style="position: absolute; top: 0; left: 0;">
+                    <div class="landing-video">
+                        <iframe style="" src="" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="pricing-box pricing-extended bottommargin clearfix">
+
+                    <div class="pricing-desc">
+                        <div class="pricing-title">
+                            <h3 style="text-align:center">@localizer["Main Features of Vaccine Management Software"]</h3>
+                        </div>
+                        <div class="pricing-features">
+                            <ul class="iconlist-color clearfix">
+                                <li><i class="icon-desktop"></i> @localizer["See “real time” the number of doses per vaccine for commercial and VFC in your inventory."]</li>
+                                <li><i class="icon-eye-open"></i> @localizer["Predict the estimated use of each vaccine type (MMR, Influenza, HPV, Zoster) based on actual use."]</li>
+                                <li><i class="icon-beaker"></i> @localizer["Ability to quickly record vaccine shipments to inventory either via bar code scanner or  manual entry."]</li>
+                                <li><i class="icon-magic"></i> @localizer["Ability to compare real inventory with virtual inventory to maintain accuracy of counts."]</li>
+                                <li><i class="icon-font"></i> @localizer["Leverage the system based on your needs – vaccine inventory only or complete patient vaccine management."]</li>
+                                <li><i class="icon-stack3"></i>  @localizer["Maintain patient vaccine records – view vaccines given for each vaccine per patient."]</li>
+                                <li><i class="icon-support"></i>  @localizer["Integrated vaccination reporting system"]</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pricing-action-area">
+                        <p>@localizer["UBSIS Vaccine Management Software"]</p>
+                        <p>@localizer["Please contact us for further information and pricing details."]</p>
+                        <div class="pricing-action">
+                            <a asp-controller="Home" asp-action="Contact" asp-route-subject="Vaccine Management Software Demo Request" class="button button-3d button-large btn-block nomargin">@localizer["Request Demo"]</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider divider-short divider-center" id="Telemedicine"><i class="icon-circle"></i></div><br />
+            </div>
+
+            <!--Telemedicine -->
+            <div>
+                <div id="section-features" class="heading-block title-center page-section">
+                    <br />
+                    <h2><span class="heading-block fancy-title nobottomborder title-bottom-border">@localizer["Telemedıcıne </span>Software"]</h2>
+                    <span>@localizer["Best For All Healthcare Professionals"]</span>
+                </div>
+
+                <div class="col_one_third topmargin nobottommargin">
+
+                    <p style="text-align:justify;">@localizer["Our telemedicine software allows doctors and patients to communicate via video conference and share files. Our software also makes easy to get medical help when, traveling can be difficult and even dangerous for patients with bad health conditions."]</p>
+
+                    <p style="text-align:justify;">@localizer["Developments in IT and mobile technology allows telemedicine softwares become very accessible and useful, and especially helpful in monitoring patients with bad conditions, even at a distance."]</p>
+
+                    <p style="text-align:justify;">@localizer["Our application allow patients to ask questions whenever they need, wherever they are."]</p>
+
+                    <div class="divider divider-short"><i class="icon-circle"></i></div>
+                </div>
+
+                <div class="col_two_third topmargin nobottommargin col_last">
+
+                    <img src="~/images/softwares/UbsisTelemedicineSoftware.png" alt="Ubsis-Telemedicine Software allows patients to access qualified and affordable health services" style="position: absolute; top: 0; left: 0;">
+                    <div class="landing-video">
+                        <iframe style="" src="" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                    <div class="divider divider-short divider-center" id="telemedic"><i class="icon-circle"></i></div>
+
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="pricing-box pricing-extended bottommargin clearfix">
+
+                    <div class="pricing-desc">
+                        <div class="pricing-title">
+                            <h3 style="text-align:center">@localizer["Web-based Health Insurance Portability and Accountability (HIPAA) compliant telemedicine system."]</h3>
+                        </div>
+                        <div class="pricing-features">
+                            <ul class="iconlist-color clearfix">
+                                <li><i class="icon-desktop"></i>@localizer["Appointment Reminders"]</li>
+                                <li><i class="icon-eye-open"></i>@localizer["E-Prescribing"]</li>
+                                <li><i class="icon-beaker"></i>@localizer["One-to-One Messaging"]</li>
+                                <li><i class="icon-magic"></i>@localizer["Video Conferencing"]</li>
+                                <li><i class="icon-font"></i>@localizer["Medical Billing"]</li>
+                                <li><i class="icon-file2"></i>@localizer["Remote Treatment Plans"]</li>
+                                <li><i class="icon-support"></i>@localizer["Appointment Scheduling"]</li>
+                                <li><i class="icon-support"></i>@localizer["Practice Management"]</li>
+                                <li style="visibility:hidden;"><i class="icon-support"></i>@localizer["Practice Management"]</li>
+                                <li style="visibility:hidden;"><i class="icon-support"></i>@localizer["Practice Management"]</li>
+                                <li style="visibility:hidden;"><i class="icon-support"></i>@localizer["Practice Management"]</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="pricing-action-area">
+                        <p>@localizer["UBSIS Telemedicine Software"]</p>
+                        <p>@localizer["Please contact us for further information and pricing details."]</p>
+                        <div class="pricing-action">
+                            <a asp-controller="Home" asp-action="Contact" asp-route-subject="Telemedicine Software Demo Request" class="button button-3d button-large btn-block nomargin">@localizer["Request Demo"]</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="divider divider-short divider-center" id="HRM"><i class="icon-circle"></i></div><br />
+            </div>
+
+            <!--Human Resources Management -->
+            <div>
+                <div id="section-features" class="heading-block title-center page-section">
+                    <h2><span class="heading-block fancy-title nobottomborder title-bottom-border">@localizer["Human Resources And Asset </span>Management Software"]</h2>
+                    <span>@localizer["Providing end-to-end solution for consulting, staffing, recruiting and professional services organizations."]</span>
+                </div>
+
+                <div class="col_one_third topmargin nobottommargin">
+
+                    <p style="text-align:justify;">@localizer["Human Resource Management system provides all the essential modules to manage your Human capital. This complete HR system streamlines administrative tasks, improves communication, reduces costs, and provides instant alerts, reports and analytics."]</p>
+
+                    <p style="text-align:justify;">@localizer["Document collection module helps you send out pre-defined email templates and collect documents and other information from the Employees, Consultants & Vendors using self-service portal link. Integrated Notes module helps track all the notes associated with each Employee."]</p>
+
+                    <div class="divider divider-short"><i class="icon-circle"></i></div>
+
+                </div>
+
+                <div class="col_two_third topmargin nobottommargin col_last">
+
+                    <img src="~/images/Ubsis-Human-Resources-Software.png" alt="Our Human Resources Management Software is widely used in England" style="position: absolute; top: 0; left: 0;">
+
+                    <div class="landing-video">
+                        <iframe style="" src="https://www.youtube.com/embed/USBfqQeu3JI" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="clear"></div><br /><br />
+
+                <div class="pricing-box pricing-extended bottommargin clearfix">
+
+                    <div class="pricing-desc">
+                        <div class="pricing-title">
+                            <h3 style="text-align:center">@localizer["Human Resources Management... <br />The most efficient way to manage your most valuable assets..."]</h3>
+                        </div>
+                        <div class="pricing-features">
+                            <ul class="iconlist-color clearfix">
+                                <li><i class="icon-desktop"></i> @localizer["Workforce/Employee Management"]</li>
+                                <li><i class="icon-eye-open"></i> @localizer["Onboarding with e-signature integration"]</li>
+                                <li><i class="icon-beaker"></i>@localizer["Notes & Documents management"]</li>
+                                <li><i class="icon-magic"></i> @localizer["Alerts & Notifications"]</li>
+                                <li><i class="icon-font"></i> @localizer["Self-Service Employee Portals"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Time & Expense Modules"]</li>
+                                <li style="visibility:hidden;"><i class="icon-font"></i> @localizer["Self-Service Employee Portals"]</li>
+                                <li style="visibility:hidden;"><i class="icon-stack3"></i> @localizer["Time & Expense Modules"]</li>
+                                <li style="visibility:hidden;"><i class="icon-font"></i> @localizer["Self-Service Employee Portals"]</li>
+                                <li style="visibility:hidden;"><i class="icon-stack3"></i> @localizer["Time & Expense Modules"]</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="pricing-action-area">
+                        <p>@localizer["UBSIS Human Resources and Asset Management Software"]</p>
+                        <p>@localizer["Please contact us for further information and pricing details."]</p>
+                        <div class="pricing-action">
+                            <a asp-controller="Home" asp-action="Contact" asp-route-subject="Human Resources Software Demo Request" class="button button-3d button-large btn-block nomargin">@localizer["Request Demo"]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider divider-short divider-center" id="HealthMapper"><i class="icon-circle"></i></div><br />
+            </div>
+
+            <!--Health Mapper Management -->
+            <div>
+                <div id="section-features" class="heading-block title-center page-section">
+                    <h2><span class="heading-block fancy-title nobottomborder title-bottom-border">@localizer["Health Instutıtıon </span>Mapper Software"]</h2>
+                    <span>@localizer["Visual analysis helping to see the big picture in health care systems"]</span>
+                </div>
+
+                <div class="col_one_third topmargin nobottommargin">
+
+                    <p style="text-align:justify;">@localizer["Our map analysis software is the most important part of the decision making mechanism in health transformation projects. According to the geographical data, the location, capacity, ability to meet the demands of the location of the health institutions, distances to each other and many other indicator analysis allow."]</p>
+                    <p style="text-align:justify;">@localizer["Our software has the flexibility to analyze all institutions as well as being used mostly in health institutions analysis. It has the capability of automatically pouring all information into statistical graphs by making serial and cross comparisons according to the data entered."]</p>
+
+                    <div class="divider divider-short"><i class="icon-circle"></i></div>
+
+
+                </div>
+
+                <div class="col_two_third topmargin nobottommargin col_last">
+
+                    <img src="~/images/softwares/Ubsis-Health-Mapper-Software.png" alt="Ubsis Visual Analysis Software" style="position: absolute; top: 0; left: 0;">
+
+                    <div class="landing-video">
+                        <iframe style="" src="" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <div class="clear"></div><br />
+
+                <div class="pricing-box pricing-extended bottommargin clearfix">
+
+                    <div class="pricing-desc">
+                        <div class="pricing-title">
+                            <h3 style="text-align:center">@localizer["Advantages of map analysis software"]</h3>
+                        </div>
+                        <div class="pricing-features">
+                            <ul class="iconlist-color clearfix">
+                                <li><i class="icon-desktop"></i>@localizer["Understanding the big picture"]</li>
+                                <li><i class="icon-eye-open"></i> @localizer["Distance and density analysis on the map"]</li>
+                                <li><i class="icon-beaker"></i> @localizer["Statistical reporting system adaptable to demand"]</li>
+                                <li><i class="icon-magic"></i> @localizer["Defining as many indicators in need"]</li>
+                                <li><i class="icon-font"></i> @localizer["adaptive analysis capability on indicator basis"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Effective guiding factor in large scale transformation projects"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Find over and under-served areas"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Spot geographic trends"]</li>
+                                <li style="visibility:hidden;"><i class="icon-stack3"></i> @localizer["Effective guiding factor in large scale transformation projects"]</li>
+                                <li style="visibility:hidden;"><i class="icon-stack3"></i> @localizer["Find over and under-served areas"]</li>
+                                <li style="visibility:hidden;"><i class="icon-stack3"></i> @localizer["Spot geographic trends"]</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="pricing-action-area">
+                        <p>@localizer["UBSIS Healthcare Instutitions Visual Analysis Software"]</p>
+                        <p>@localizer["Please contact us for further information and pricing details."]</p>
+                        <div class="pricing-action">
+                            <a asp-controller="Home" asp-action="Contact" asp-route-subject="Map Analysis Software Demo Request" class="button button-3d button-large btn-block nomargin">@localizer["Request Demo"]</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="divider divider-short divider-center" id="HIS"><i class="icon-circle"></i></div><br />
+
+            </div>
+
+            <!--Hastane Bilgi Sistemi -->
+            <div>
+                <div id="section-features" class="heading-block title-center page-section">
+                    <h2><span class="heading-block fancy-title nobottomborder title-bottom-border">@localizer["Hospital Informatıon Management System </span>Software"]</h2>
+                    <span>@localizer["A software that manages all health operations of hospitals and can also produce strategies for diagnosis and treatment processes and for the hospital financial system"]</span>
+                </div>
+
+                <div class="col_one_third topmargin nobottommargin">
+
+                    <p style="text-align:justify;">@localizer["Our Hospital Information Management System software has an infrastructure that manages all health processes of a hospital and also has the ability to generate valuable information that can produce strategies for diagnosis and treatment processes and for the hospital financial system."]</p>
+                    <p style="text-align:justify;">@localizer["Our system can be used as web-based and desktop technology. The database is independent and there is no need to make large investments for the database. Supported languages are; English,  Russian and Arabic. Due to its multi-language supporting infrastructure, it can easily be adapted to other languages. It has an integration infrastructure with insurance institutions."]</p>
+
+                    <div class="divider divider-short"><i class="icon-circle"></i></div>
+
+
+                </div>
+
+                <div class="col_two_third topmargin nobottommargin col_last">
+
+                    <img src="~/images/softwares/ubsis-hospital-information-management-software.png" alt="Ubsis Hospital Information Management System software is widely used in England." style="position: absolute; top: 0; left: 0;">
+
+                    <div class="landing-video">
+                        <iframe style="" src="" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <div class="clear"></div><br /><br />
+
+                <div class="container clearfix">
+
+                    <div class="col_half" style="text-align:justify;">
+                        <h5>@localizer["Clinical Modules:"]</h5>
+                        @localizer["Cardiology, Oncology (Radiotherapy, Chemotherapy), Psychology, Orthopedics, Hemodialysis, Physiotherapy, Emergency Module, Oral and Dental Health, Audiology, Pathology, Nuclear Medicine(NMIS)"]
+                    </div>
+
+                    <div class="col_half col_last" style="text-align:justify;">
+                        <h5>@localizer["Administrative Systems:"]</h5>
+                        @localizer["Human Resources, Salary, Additional Payment, Seizure-Shift, PDKS, Demand Management and Purchasing, Budget and Accounting, Stock-Fixture and Material Management, Clinical Engineering (Medical Device Tracking), Medical Record Archive Statistics and Reporting Module, Business Intelligence Practice(BI)"]
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+
+
+                <div class="pricing-box pricing-extended bottommargin clearfix">
+
+                    <div class="pricing-desc">
+                        <div class="pricing-title">
+                            <h3 style="text-align:center">@localizer["Modules of Our Hospital Information Management System Software"]</h3>
+                        </div>
+                        <div class="pricing-features">
+                            <ul class="iconlist-color clearfix">
+                                <li><i class="icon-desktop"></i> @localizer["Patient Admission and Registration"]</li>
+                                <li><i class="icon-eye-open"></i> @localizer["Automatic Registration from Kiosk"]</li>
+                                <li><i class="icon-beaker"></i> @localizer["Registration by Registration Staff"]</li>
+                                <li><i class="icon-magic"></i> @localizer["Information Desk System"]</li>
+                                <li><i class="icon-font"></i> @localizer["Appointment Management (Robotic Appointment, Internet Appointment)"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Pharmacy Information System"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Pharmaceutical Information System"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Laboratory Information Management System"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Radiology Information System and PACS"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Social Services"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Health at Home"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Blood Center (Blood Bank)"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Featured Systems (Sterilization, Operating Room, Intensive Care)"]</li>
+                              
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="pricing-action-area">
+                        <p>@localizer["UBSIS Hospital Information Management System Software"]</p>
+                        <p>@localizer["Please contact us for further information and pricing details."]</p>
+                        <div class="pricing-action">
+                            <a asp-controller="Home" asp-action="Contact" asp-route-subject="Hospital Information Management System Software Demo Request" class="button button-3d button-large btn-block nomargin">@localizer["Request Demo"]</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="divider divider-short divider-center" id="LIMS"><i class="icon-circle"></i></div><br />
+
+            </div>
+
+            <!--Laboratuvar Bilgi Sistemi -->
+            <div>
+                <div id="section-features" class="heading-block title-center page-section">
+                    <h2><span class="heading-block fancy-title nobottomborder title-bottom-border">@localizer["Laboratory Informatıon</span> Management System (LIS) Software"]</h2>
+                    <span>@localizer["A software that speeds up the laboratory work processes in health institutions and enables the complete processing of the data and analysis of the results."]</span>
+                </div>
+
+                <div class="col_one_third topmargin nobottommargin">
+
+                    <p style="text-align:justify;">@localizer["Laboratory Information Management System (LIS) is a system that speeds up the laboratory business processes in health institutions and enables the data to be processed completely and to analyze the results. It works fully integrated and compatible with the Hospital Information Management System used in health institutions. The process that starts with the request of the audit ends with the conclusion of the result to the concerned."]</p>
+
+                    <p style="text-align:justify;">@localizer["Supported languages are; English,  Russian and Arabic. Due to its multi-language supporting infrastructure, it can easily be adapted to other languages. Our LIS Solution Having successfully passed the IHE(Integrating the Healthcare Enterprise) tests, which is considered as the only criterion of interoperability with other systems in the international platform, it has an IHE declaration in laboratory field knowledge."]</p>
+
+                    <div class="divider divider-short"><i class="icon-circle"></i></div>
+
+                </div>
+
+                <div class="col_two_third topmargin nobottommargin col_last">
+
+                    <img src="~/images/softwares/Ubsis-LIMS-Software.png" alt="ubsis-Laboratory-Informatıon-Management-System-LIS-Software is widely used in England."is widely used" style="position: absolute; top: 0; left: 0;">
+
+                    <div class="landing-video">
+                        <iframe style="" src="" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="pricing-box pricing-extended bottommargin clearfix">
+
+                    <div class="pricing-desc">
+                        <div class="pricing-title">
+                            <h3 style="text-align:center">@localizer["Features of Laboratory Information Management System Software"]</h3>
+                        </div>
+                        <div class="pricing-features">
+                            <ul class="iconlist-color clearfix">
+
+
+                                <li><i class="icon-beaker"></i> @localizer["Integration in IHE standards"]</li>
+                                <li><i class="icon-magic"></i> @localizer["LOINC coding system"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Turn Around Time Analysis"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["AON Analysis"]</li>
+
+                                <li><i class="icon-file2"></i> @localizer["ISO 15189 support"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Intelligent audit request management"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Device integration library"]</li>
+                                <li><i class="icon-file2"></i> @localizer["MiddleWare Solution"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Electronic warehouse demand and tracking system"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Sample location tracking"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Results tracking on LOT basis"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Oracle 10x and above or MS SQL Server 2005 or Postgre 9.x and above"]</li>
+                                <li><i class="icon-desktop"></i> @localizer["Both web-based and client/server architecture <br/>according to need"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Laboratory Business Intelligence and unlimited statistical solutions"]</li>
+                                <li><i class="icon-eye-open"></i> @localizer["100% compatible with Oracle, MS-SQL and Postgre Oracle"]</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="pricing-action-area">
+                        <p>@localizer["UBSIS Laboratory Information Management System (LIMS) Software"]</p>
+                        <p>@localizer["Please contact us for further information and pricing details."]</p>
+                        <div class="pricing-action">
+                            <a asp-controller="Home" asp-action="Contact" asp-route-subject="Laboratory Information Management System Software Demo Request" class="button button-3d button-large btn-block nomargin">@localizer["Request Demo"]</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="divider divider-short divider-center" id="blood"><i class="icon-circle"></i></div><br />
+
+            </div>
+
+
+            <!--Kan Ürünleri ve Transfüzyon Bilgi Yönetim Sistemi, -->
+            <div>
+                <div id="section-features" class="heading-block title-center page-section">
+                    <h2><span class="heading-block fancy-title nobottomborder title-bottom-border">@localizer["Blood Products and Transfusıon </span>Informatıon Management System Software"]</h2>
+                    <span>@localizer["The Blood Products and Transfusion Information Management System is designed to be flexible enough to meet all registration, reporting and retention requirements of Blood Banks."]</span>
+                </div>
+
+                <div class="col_one_third topmargin nobottommargin">
+
+                    <p style="text-align:justify;">@localizer["Software can work integrated with the Electronic Registration Systems of Hospitals. It can work with MsSQL and Oracle databases. The software language is DELPHI.The system works with software and databases that are easily available on the market.If there is a server used, the system runs on the existing server, and even low capacity devices on the market are sufficient for terminals and printers."]</p>
+
+                    <p style="text-align:justify;">@localizer["Donor Acceptance Form: The donor acceptance form used in the Blood Bank can be introduced to VITALIS, default answers can be entered in advance, the donor's answers to the questions in this form can be recorded in the system, and statistical reports can be obtained regarding these records when necessary."]</p>
+
+                    <div class="divider divider-short"><i class="icon-circle"></i></div>
+                </div>
+
+                <div class="col_two_third topmargin nobottommargin col_last">
+
+                    <img src="~/images/softwares/Ubsis-LIMS-Software.png" alt="ubsis-Laboratory-Informatıon-Management-System-LIS-Software" style="position: absolute; top: 0; left: 0;">
+
+                    <div class="landing-video">
+                        <iframe style="" src="" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="container clearfix">
+
+                    <div class="col_full" style="text-align:justify;">
+                        <h5>@localizer["Donor Information:"]</h5>
+                        @localizer["At the stage of rejection or acceptance of the donor, if necessary, help can be obtained regarding the diseases of the donor or the drugs they are using. Final/temporary rejection: demographic information of the donor or patient can be recorded in the system.The donor may be denied or accepted, either definitively or temporarily, based on the answers he or she gives on the acceptance form and the findings of the physical examination.Physical examination findings can be recorded in the system."]
+                    </div>
+
+                    <div class="col_one_third" style="text-align:justify;">
+                        <h5>@localizer["Registration of Test Results:"]</h5>
+                        @localizer["Before blood is taken into the bag or before the apharesis procedure begins, test results (such as blood type) to the patient or donor can be recorded in the system."]
+                    </div>
+
+                    <div class="col_one_third" style="text-align:justify;">
+                        <h5>@localizer["Recording of Blood Collection Information:"]</h5>
+                        @localizer["All information related to blood donation (blood collection time, blood group, product volume, product type such as TDP-Whole Blood etc.) can be recorded in the system. In case the blood product comes from another blood center, information about the product and the blood center from which it comes can be recorded in the system."]
+                    </div>
+                    <div class="col_one_third col_last" style="text-align:justify;">
+                        <h5>@localizer["Storage Information of the Blood Products:"]</h5>
+                        @localizer["The registration of the blood product to the stock and the location information where it is stored can be recorded in the system, if necessary, barcode can be printed with or without ISBT standard or pre-printed ready barcodes can be used."]
+                    </div>
+
+                    <div class="clear"></div>
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="pricing-box pricing-extended bottommargin clearfix">
+
+                    <div class="pricing-desc">
+                        <div class="pricing-title">
+                            <h3 style="text-align:center">@localizer["Features of Blood Products and Transfusion Information Management System Software"]</h3>
+                        </div>
+                        <div class="pricing-features">
+                            <ul class="iconlist-color clearfix">
+
+                                <li><i class="icon-beaker"></i> @localizer["Introduction of Forward, Reverse and RH Subgroups"]</li>
+                                <li><i class="icon-magic"></i> @localizer["Blood Group Separation"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Recording All Transactions"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Monitoring Tests"]</li>
+
+                                <li><i class="icon-file2"></i> @localizer["The inability to perform any other operation other than the disposal of unsuitable blood"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Separation or reservation of blood product"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Cross-Match Records"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Antibody Screening and Identification"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Expiry date Tracking"]</li>
+
+                                <li><i class="icon-file2"></i> @localizer["Monitoring Blood Exits by Time/Date"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Inventory Tracking and Management"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Apheresis and Therapeutic Apheresis Procedures"]</li>
+                                <li><i class="icon-desktop"></i> @localizer["Critical Stock Level Identification"]</li>
+                                <li><i class="icon-file2"></i> @localizer["Integration with Other Blood Bank Centers"]</li>
+                                <li><i class="icon-eye-open"></i> @localizer["Transfusion Reporting"]</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="pricing-action-area">
+                        <p>@localizer["UBSIS Blood Products and Transfusion Information Management System Software"]</p>
+                        <p>@localizer["Please contact us for further information and pricing details."]</p>
+                        <div class="pricing-action">
+                            <a asp-controller="Home" asp-action="Contact" asp-route-subject="Blood Products and Transfusion Information Management System Software Demo Request" class="button button-3d button-large btn-block nomargin">@localizer["Request Demo"]</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider divider-short divider-center" id="RPA"><i class="icon-circle"></i></div><br />
+                <br />
+
+            </div>
+
+
+            <!--RPA -->
+            <div>
+                <div id="section-features" class="heading-block title-center page-section">
+                    <h2><span class="heading-block fancy-title nobottomborder title-bottom-border">@localizer["Robotic Process </span> Automation (RPA)"]</h2>
+                    <span>@localizer["Robotic process automation (RPA) is a form of business process automation technology based on metaphorical software robots (bots) or artificial intelligence (AI) workers"]</span>
+                </div>
+
+                <div class="col_one_third topmargin nobottommargin">
+
+                    <p style="text-align:justify;">@localizer["What is Robotic Process Automation (RPA)? Robotic Process Automation; It is the automation of high volume, rule - based, repetitive and human processes that do not need added value with 'software robots'. Software Robots; While performing a task, employees can learn and imitate the steps and interaction movements on software systems, enter applications and programs, read and process data, analyze and report the result."]</p>
+
+                    <p style="text-align:justify;">@localizer["While routine operations in existing applications and systems are working continuously and error-free, 24/7; saves time and transaction costs as well as employees have the opportunity to focus on value - added jobs and increase productivity."]</p>
+
+                    <div class="divider divider-short"><i class="icon-circle"></i></div>
+
+                </div>
+
+                <div class="col_two_third topmargin nobottommargin col_last">
+
+                    <img src="~/images/softwares/ubsis-Robotic-Process-Automation-rpa-solution.png" alt="ubsis-provides-Robotic-Process-Automation-RPA-solutions" style="position: absolute; top: 0; left: 0;">
+
+                    <div class="landing-video">
+                        <iframe style="" src="" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+
+                </div>
+                <div class="container clearfix">
+
+                    <div class="col_full" style="text-align:justify;">
+                        <h5>@localizer["RPA Power"]</h5>
+                        @localizer["In traditional workflow automation tools, a software developer produces a list of actions to automate a task and interface to the back-end system using internal application programming interfaces (APIs) or dedicated scripting language. In contrast, RPA systems develop the action list by watching the user perform that task in the application's user interface, and then perform the automation by repeating those tasks directly in the user interface. RPA tools have strong technical similarities to graphical user interface testing tools. These tools also automate interactions with the user interface, and often do so by repeating a set of demonstration actions performed by a user. RPA tools differ from such systems that allow data to be handled in and between multiple applications, for instance, receiving email containing an invoice, extracting the data, and then typing that into a bookkeeping system."]
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <br />
+                <br />
+                <div class="pricing-box pricing-extended bottommargin clearfix">
+
+                    <div class="pricing-desc">
+                        <div class="pricing-title">
+                            <h3 style="text-align:center">@localizer["With Robotic Process Automation;"]</h3>
+                        </div>
+                        <div class="pricing-features">
+                            <ul class="iconlist-color clearfix">
+
+
+                                <li><i class="icon-beaker"></i> @localizer["Increase your efficiency with robots that are always on duty."]</li>
+                                <li><i class="icon-magic"></i> @localizer["Reduce the error rate"]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Eliminate human errors caused by manual data entry."]</li>
+                                <li><i class="icon-stack3"></i> @localizer["Reduce operation costs."]</li>
+
+                                <li><i class="icon-file2"></i> @localizer["Give your employees the opportunity to focus on value-added jobs."]</li>
+                                <li><i class="icon-file2"></i> @localizer["Increase/decrease the bots you use according to your needs."]</li>
+
+                                <li style="visibility:hidden;"><i class="icon-file2"></i> @localizer["Give your employees the opportunity to focus on value-added jobs."]</li>
+                                <li style="visibility:hidden;"><i class="icon-file2"></i> @localizer["Increase/decrease the bots you use according to your needs."]</li>
+                                <li style="visibility:hidden;"><i class="icon-file2"></i> @localizer["Give your employees the opportunity to focus on value-added jobs."]</li>
+                                <li style="visibility:hidden;"><i class="icon-file2"></i> @localizer["Increase/decrease the bots you use according to your needs."]</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="pricing-action-area">
+                        <p>@localizer["UBSIS provides Robotic Process Automation (RPA) solutions with our business partner Automation Anywhere"]</p>
+                        <p>@localizer["Please contact us for further information and pricing details."]</p>
+                        <div class="pricing-action">
+                            <a asp-controller="Home" asp-action="Contact" asp-route-subject=" Robotic Process Automation Demo Request" class="button button-3d button-large btn-block nomargin">@localizer["Request Demo"]</a>
+                        </div> 
+                    </div>
+
+                </div>
+
+                <div class="divider divider-short divider-center" id="blood"><i class="icon-circle"></i></div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+@section Scripts{
+
+    <script type="text/javascript">
+
+
+        //window.onload = function () {
+        //                    var hash = location.hash.substr(1);
+        //                    document.getElementById(hash).scrollIntoView();
+        //                    history.replaceState(null, null, ' ');
+        //                };
+
+        jQuery(document).ready(function () {
+
+            var hashcode = window.location.hash;
+            jQuery('html,body').animate({ scrollTop: jQuery('div' + hashcode).offset().top }, 'slow');
+
+        });
+
+    </script>
+
+    @*<script>
+            window.onload = function () {
+                setTimeout(function () {
+                    scrollTo(0, 0);
+                }, 100); //100ms for example
+            }
+
+        </script>*@
+
+
+}
+
+@section Styles{
+    <style>
+        .rpa {
+            text-align: justify;
+            border: 3px solid rgb(5, 73, 87);
+            border-radius: 30px;
+            min-height: 150px;
+            margin: 10px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+            .rpa:hover {
+                font-weight: bolder;
+                color: red;
+                background-color: greenyellow;
+            }
+
+        h3 {
+            text-transform: none !important;
+        }
+    </style>
+
+    <style>
+        .pricing-action:hover {
+            font-weight: bolder;
+            background-color: darkslateblue;
+            box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+    </style>
+} 

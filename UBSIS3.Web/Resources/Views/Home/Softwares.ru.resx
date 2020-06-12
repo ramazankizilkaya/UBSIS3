@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="100% compatible with Oracle, MS-SQL and Postgre Oracle" xml:space="preserve">
+    <value>100% совместимость с Oracle, MS-SQL и Postgre Oracle</value>
+  </data>
+  <data name="A software that manages all health operations of hospitals and can also produce strategies for diagnosis and treatment processes and for the hospital financial system" xml:space="preserve">
+    <value>Программное обеспечение, которое управляет всеми операциями в области здравоохранения в больницах, а также может разрабатывать стратегии диагностики и лечения, а также для финансовой системы больниц.</value>
+  </data>
+  <data name="A software that speeds up the laboratory work processes in health institutions and enables the complete processing of the data and analysis of the results." xml:space="preserve">
+    <value>Программное обеспечение, которое ускоряет лабораторные рабочие процессы в медицинских учреждениях и позволяет полностью обрабатывать данные и анализировать результаты.</value>
+  </data>
+  <data name="Ability to compare real inventory with virtual inventory to maintain accuracy of counts." xml:space="preserve">
+    <value>Возможность сравнивать реальные запасы с виртуальными запасами, чтобы поддерживать точность подсчетов.</value>
+  </data>
+  <data name="Ability to quickly record vaccine shipments to inventory either via bar code scanner or  manual entry." xml:space="preserve">
+    <value>Возможность быстрой записи поставок вакцины в инвентарь с помощью сканера штрих-кода или ручного ввода.</value>
+  </data>
+  <data name="adaptive analysis capability on indicator basis" xml:space="preserve">
+    <value>возможность адаптивного анализа на основе показателей</value>
+  </data>
+  <data name="Administrative Systems:" xml:space="preserve">
+    <value>административная система:</value>
+  </data>
+  <data name="Advantages of map analysis software" xml:space="preserve">
+    <value>Преимущества программного обеспечения для картографического анализа учреждений здравоохранения</value>
+  </data>
+  <data name="Alerts &amp; Notifications" xml:space="preserve">
+    <value>Оповещения и уведомления</value>
+  </data>
+  <data name="All information related to blood donation (blood collection time, blood group, product volume, product type such as TDP-Whole Blood etc.) can be recorded in the system. In case the blood product comes from another blood center, information about the product and the blood center from which it comes can be recorded in the system." xml:space="preserve">
+    <value>Вся информация, связанная с донорством крови (время сбора крови, Группа крови, объем продукта, тип продукта, например TDP-цельная кровь и т.д.) может быть записан в системе. В случае, если продукт крови поступает из другого центра крови, информация о продукте и Центре крови, из которого он поступает, может быть записана в системе.</value>
+  </data>
+  <data name="All the features you seek in a standard DICOM viewer (Pan, Zoom, Window, Level, measurements…) and more." xml:space="preserve">
+    <value>Все функции, которые вы ищете в стандартной программе просмотра DICOM (панорамирование, масштабирование, окно, уровень, измерения ...) и многое другое.</value>
+  </data>
+  <data name="Antibody Screening and Identification" xml:space="preserve">
+    <value>Скрининг и идентификация антител</value>
+  </data>
+  <data name="AON Analysis" xml:space="preserve">
+    <value>AON Анализ</value>
+  </data>
+  <data name="Apheresis and Therapeutic Apheresis Procedures" xml:space="preserve">
+    <value>Аферез и лечебные процедуры афереза</value>
+  </data>
+  <data name="Appointment Management (Robotic Appointment, Internet Appointment)" xml:space="preserve">
+    <value>Назначение управления (Роботизированное Назначение, Интернет Назначение)</value>
+  </data>
+  <data name="Appointment Reminders" xml:space="preserve">
+    <value>Назначение Напоминания</value>
+  </data>
+  <data name="Appointment Scheduling" xml:space="preserve">
+    <value>Назначение Планирование</value>
+  </data>
+  <data name="As Low as" xml:space="preserve">
+    <value>Так низко, как</value>
+  </data>
+  <data name="At the stage of rejection or acceptance of the donor, if necessary, help can be obtained regarding the diseases of the donor or the drugs they are using. Final/temporary rejection: demographic information of the donor or patient can be recorded in the system.The donor may be denied or accepted, either definitively or temporarily, based on the answers he or she gives on the acceptance form and the findings of the physical examination.Physical examination findings can be recorded in the system." xml:space="preserve">
+    <value>На стадии отторжения или принятия донора, при необходимости, может быть получена помощь относительно заболеваний донора или используемых им лекарств. Окончательный / временный отказ: демографическая информация донора или пациента может быть записана в систему.Донору может быть отказано или он может быть принят, либо окончательно, либо временно, на основании ответов, которые он дает на бланке приема, а также результатов физического обследования.Результаты физического обследования могут быть записаны в систему.</value>
+  </data>
+  <data name="Automatic Registration from Kiosk" xml:space="preserve">
+    <value>Автоматическая регистрация из киоска</value>
+  </data>
+  <data name="Before blood is taken into the bag or before the apharesis procedure begins, test results (such as blood type) to the patient or donor can be recorded in the system." xml:space="preserve">
+    <value>до того, как кровь будет взята в пакет или до начала процедуры афареза, результаты анализов (например, группа крови) пациента или донора могут быть записаны в систему.</value>
+  </data>
+  <data name="Best For All Healthcare Professionals" xml:space="preserve">
+    <value>Лучший для всех работников здравоохранения</value>
+  </data>
+  <data name="Blood Center (Blood Bank)" xml:space="preserve">
+    <value>Центр крови (Банк крови)</value>
+  </data>
+  <data name="Blood Group Separation" xml:space="preserve">
+    <value>Разделение Групп Крови</value>
+  </data>
+  <data name="Blood Products and Transfusıon &lt;/span&gt;Informatıon Management System Software" xml:space="preserve">
+    <value>Информационная система управления&lt;/span&gt; продуктами крови и переливания крови</value>
+  </data>
+  <data name="Both web-based and client/server architecture &lt;br/&gt;according to need" xml:space="preserve">
+    <value>И веб-и клиент-серверная архитектура в соответствии с потребностями</value>
+  </data>
+  <data name="Cardiology, Oncology (Radiotherapy, Chemotherapy), Psychology, Orthopedics, Hemodialysis, Physiotherapy, Emergency Module, Oral and Dental Health, Audiology, Pathology, Nuclear Medicine(NMIS)" xml:space="preserve">
+    <value>кардиология, онкология (лучевая терапия, химиотерапия), психология, ортопедия, гемодиализ, физиотерапия, модуль неотложной помощи, здоровье полости рта и зубов, аудиология, патология, ядерная медицина (NMIS)</value>
+  </data>
+  <data name="Clinical Modules:" xml:space="preserve">
+    <value>Клинические Модули:</value>
+  </data>
+  <data name="Compatibility with all devices (iPad, iPhone, Android) with cross-platform feature" xml:space="preserve">
+    <value>Совместимость со всеми устройствами (iPad, iPhone, Android) с кросс-платформенной функцией</value>
+  </data>
+  <data name="Critical Stock Level Identification" xml:space="preserve">
+    <value>Идентификация Критического Уровня Запасов</value>
+  </data>
+  <data name="Cross-Match Records" xml:space="preserve">
+    <value>Рекорды Кросс-Матчей</value>
+  </data>
+  <data name="Defining as many indicators in need" xml:space="preserve">
+    <value>Определение необходимого количества индикаторов</value>
+  </data>
+  <data name="Designate staff members to order, access, track, charge and maintain medical supply inventory levels. The tool also monitors equipment repairs and sterilization, as well as manages vendors and purchases. Detailed reports are readily available for repairs, sterilization, inventory, reorders and items list." xml:space="preserve">
+    <value>Назначьте сотрудников для заказа, доступа, отслеживания, зарядки и поддержания уровня запасов медицинского оборудования. Инструмент также контролирует ремонт и стерилизацию оборудования, а также управляет поставщиками и покупками. Подробные отчеты доступны для ремонта, стерилизации, инвентаризации, переупорядочения и списка предметов.</value>
+  </data>
+  <data name="Developments in IT and mobile technology allows telemedicine softwares become very accessible and useful, and especially helpful in monitoring patients with bad conditions, even at a distance." xml:space="preserve">
+    <value>Разработки в области ИТ и мобильных технологий позволяют программам телемедицины стать очень доступными и полезными, и особенно полезными для мониторинга пациентов с плохими условиями даже на расстоянии.</value>
+  </data>
+  <data name="Device integration library" xml:space="preserve">
+    <value>Библиотека интеграции устройств</value>
+  </data>
+  <data name="Distance and density analysis on the map" xml:space="preserve">
+    <value>Анализ расстояния и плотности на карте</value>
+  </data>
+  <data name="Document collection module helps you send out pre-defined email templates and collect documents and other information from the Employees, Consultants &amp; Vendors using self-service portal link. Integrated Notes module helps track all the notes associated with each Employee." xml:space="preserve">
+    <value>Модуль сбора документов помогает вам отправлять предварительно определенные шаблоны электронной почты и собирать документы и другую информацию от сотрудников, консультантов и поставщиков, используя ссылку на портал самообслуживания. Встроенный модуль заметок помогает отслеживать все заметки, связанные с каждым сотрудником.</value>
+  </data>
+  <data name="Donor Acceptance Form: The donor acceptance form used in the Blood Bank can be introduced to VITALIS, default answers can be entered in advance, the donor's answers to the questions in this form can be recorded in the system, and statistical reports can be obtained regarding these records when necessary." xml:space="preserve">
+    <value>Форма приема донора: форма приема донора, используемая в банке крови, может быть введена в VITALIS, ответы по умолчанию могут быть введены заранее, ответы донора на вопросы в этой форме могут быть записаны в системе, и при необходимости можно получить статистические отчеты относительно этих записей.</value>
+  </data>
+  <data name="Donor Information:" xml:space="preserve">
+    <value>Информация О Донорах:</value>
+  </data>
+  <data name="E-Prescribing" xml:space="preserve">
+    <value>E-прописывания</value>
+  </data>
+  <data name="Effective guiding factor in large scale transformation projects" xml:space="preserve">
+    <value>Эффективный руководящий фактор в масштабных трансформационных проектах</value>
+  </data>
+  <data name="Electronic Health Record" xml:space="preserve">
+    <value>Электронная медицинская карта</value>
+  </data>
+  <data name="Electronic warehouse demand and tracking system" xml:space="preserve">
+    <value>Электронная складская система учета спроса и отслеживания</value>
+  </data>
+  <data name="Eliminate human errors caused by manual data entry." xml:space="preserve">
+    <value>Устранить человеческие ошибки, вызванные ручным вводом данных.</value>
+  </data>
+  <data name="Expiry date Tracking" xml:space="preserve">
+    <value>Отслеживание срока годности</value>
+  </data>
+  <data name="Facilitates unlimited image capture, video capture and storage of patient records" xml:space="preserve">
+    <value>Облегчает неограниченный захват изображений, видео захват и хранение записей о пациентах</value>
+  </data>
+  <data name="Featured Systems (Sterilization, Operating Room, Intensive Care)" xml:space="preserve">
+    <value>Рекомендуемые системы (стерилизация, операционная, интенсивная терапия)</value>
+  </data>
+  <data name="Features of Blood Products and Transfusion Information Management System Software" xml:space="preserve">
+    <value>Особенности Программного Обеспечения Информационной Системы Управления Продуктами Крови И Переливания Крови</value>
+  </data>
+  <data name="Features of Laboratory Information Management System Software" xml:space="preserve">
+    <value>Особенности программного обеспечения лабораторной информационной системы управления</value>
+  </data>
+  <data name="Find over and under-served areas" xml:space="preserve">
+    <value>Найдите переоцененные и недостаточно обслуживаемые районы</value>
+  </data>
+  <data name="Fully automated Vaccine Management System" xml:space="preserve">
+    <value>Полностью автоматизированная система управления вакцинами</value>
+  </data>
+  <data name="Give your employees the opportunity to focus on value-added jobs." xml:space="preserve">
+    <value>Дайте вашим сотрудникам возможность сосредоточиться на работе с добавленной стоимостью.</value>
+  </data>
+  <data name="Health at Home" xml:space="preserve">
+    <value>Здоровье дома</value>
+  </data>
+  <data name="Health Instutıtıon &lt;/span&gt;Mapper Software" xml:space="preserve">
+    <value>Программное Обеспечение Для&lt;/span&gt; Картографирования Медицинских Учреждений</value>
+  </data>
+  <data name="High efficiency at low connection speeds" xml:space="preserve">
+    <value>Высокая эффективность при низких скоростях соединения</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>домашняя страница</value>
+  </data>
+  <data name="Hospital Informatıon Management System &lt;/span&gt;Software" xml:space="preserve">
+    <value>Программное обеспечение системы управления&lt;/span&gt;информацией больницы</value>
+  </data>
+  <data name="Human Resource Management system provides all the essential modules to manage your Human capital. This complete HR system streamlines administrative tasks, improves communication, reduces costs, and provides instant alerts, reports and analytics." xml:space="preserve">
+    <value>Система управления человеческими ресурсами предоставляет все необходимые модули для управления вашим человеческим капиталом. Эта полная система управления персоналом оптимизирует административные задачи, улучшает связь, снижает затраты и обеспечивает мгновенные оповещения, отчеты и аналитику.</value>
+  </data>
+  <data name="Human Resources And Asset &lt;/span&gt;Management Software" xml:space="preserve">
+    <value>Программное обеспечение для управления &lt;/span&gt; персоналом и активами</value>
+  </data>
+  <data name="Human Resources Management... &lt;br /&gt;The most efficient way to manage your most valuable assets..." xml:space="preserve">
+    <value>Управление персоналом ... &lt;br /&gt; Самый эффективный способ управления вашими наиболее ценными активами ...</value>
+  </data>
+  <data name="Human Resources, Salary, Additional Payment, Seizure-Shift, PDKS, Demand Management and Purchasing, Budget and Accounting, Stock-Fixture and Material Management, Clinical Engineering (Medical Device Tracking), Medical Record Archive Statistics and Reporting Module, Business Intelligence Practice(BI)" xml:space="preserve">
+    <value>Человеческие ресурсы, Зарплата, Доплата, Seizure-Shift, PDKS
+Управление спросом и закупками,
+Бюджет и учет,
+Управление складами и материалами,
+Клиническая инженерия (отслеживание медицинских устройств), архив медицинских карт
+Модуль статистики и отчетности,
+Практика бизнес-аналитики (BI)</value>
+  </data>
+  <data name="Image &amp; Video Management" xml:space="preserve">
+    <value>Управление имиджем и видео</value>
+  </data>
+  <data name="In traditional workflow automation tools, a software developer produces a list of actions to automate a task and interface to the back-end system using internal application programming interfaces (APIs) or dedicated scripting language. In contrast, RPA systems develop the action list by watching the user perform that task in the application's user interface, and then perform the automation by repeating those tasks directly in the user interface. RPA tools have strong technical similarities to graphical user interface testing tools. These tools also automate interactions with the user interface, and often do so by repeating a set of demonstration actions performed by a user. RPA tools differ from such systems that allow data to be handled in and between multiple applications, for instance, receiving email containing an invoice, extracting the data, and then typing that into a bookkeeping system." xml:space="preserve">
+    <value>В традиционных инструментах автоматизации рабочих процессов разработчик программного обеспечения создает список действий для автоматизации задачи и интерфейса с внутренней системой с использованием внутренних интерфейсов прикладного программирования (API) или специального языка сценариев. Напротив, системы RPA разрабатывают список действий, наблюдая, как пользователь выполняет эту задачу в пользовательском интерфейсе приложения, а затем выполняют автоматизацию, повторяя эти задачи непосредственно в пользовательском интерфейсе. Инструменты RPA имеют сильное техническое сходство с инструментами тестирования графического пользовательского интерфейса. Эти инструменты также автоматизируют взаимодействие с пользовательским интерфейсом и часто делают это путем повторения набора демонстрационных действий, выполняемых пользователем. Инструменты RPA отличаются от таких систем, которые позволяют обрабатывать данные в нескольких приложениях и между ними, например, получать электронную почту, содержащую счет-фактуру, извлекать данные и затем вводить их в бухгалтерскую систему.</value>
+  </data>
+  <data name="Increase your efficiency with robots that are always on duty." xml:space="preserve">
+    <value>Повысьте эффективность с помощью роботов, которые всегда на дежурстве.</value>
+  </data>
+  <data name="Increase/decrease the bots you use according to your needs." xml:space="preserve">
+    <value>Увеличивайте/уменьшайте ботов, которых вы используете в соответствии с вашими потребностями.</value>
+  </data>
+  <data name="Infection Prevention &amp; Scope Tracking" xml:space="preserve">
+    <value>Профилактика инфекций и отслеживание объема</value>
+  </data>
+  <data name="Information Desk System" xml:space="preserve">
+    <value>Информационная система</value>
+  </data>
+  <data name="Instant access from any device without any setup" xml:space="preserve">
+    <value>Мгновенный доступ с любого устройства без какой-либо настройки</value>
+  </data>
+  <data name="Integrated vaccination reporting system" xml:space="preserve">
+    <value>Интегрированная система отчетности о прививках</value>
+  </data>
+  <data name="Integration in IHE standards" xml:space="preserve">
+    <value>Интеграция в стандарты IHE</value>
+  </data>
+  <data name="Integration with Other Blood Bank Centers" xml:space="preserve">
+    <value>Интеграция с другими центрами банка крови</value>
+  </data>
+  <data name="Intelligent audit request management" xml:space="preserve">
+    <value>Интеллектуальное управление запросами аудита</value>
+  </data>
+  <data name="Introduction of Forward, Reverse and RH Subgroups" xml:space="preserve">
+    <value>Введение прямой, обратной и RH подгрупп</value>
+  </data>
+  <data name="Inventory Tracking and Management" xml:space="preserve">
+    <value>Отслеживание запасов и управление ими</value>
+  </data>
+  <data name="ISO 15189 support" xml:space="preserve">
+    <value>Поддержка ISO 15189</value>
+  </data>
+  <data name="Laboratory Business Intelligence and unlimited statistical solutions" xml:space="preserve">
+    <value>Лаборатория бизнес-аналитики и неограниченные статистические решения</value>
+  </data>
+  <data name="Laboratory Information Management System" xml:space="preserve">
+    <value>Лабораторная система управления информацией</value>
+  </data>
+  <data name="Laboratory Information Management System (LIS) is a system that speeds up the laboratory business processes in health institutions and enables the data to be processed completely and to analyze the results. It works fully integrated and compatible with the Hospital Information Management System used in health institutions. The process that starts with the request of the audit ends with the conclusion of the result to the concerned." xml:space="preserve">
+    <value>Система управления лабораторной информацией (лис) - это система, которая ускоряет лабораторные бизнес-процессы в медицинских учреждениях и позволяет полностью обрабатывать данные и анализировать полученные результаты. Он работает полностью интегрированно и совместим с системой управления больничной информацией, используемой в медицинских учреждениях. Процесс, который начинается с запроса аудита, заканчивается выводом результата заинтересованному лицу.</value>
+  </data>
+  <data name="Laboratory Informatıon&lt;/span&gt; Management System (LIS) Software" xml:space="preserve">
+    <value>Программное обеспечение &lt;/span&gt;лабораторной информационной системы (LIS) </value>
+  </data>
+  <data name="Leverage the system based on your needs – vaccine inventory only or complete patient vaccine management." xml:space="preserve">
+    <value>Используйте систему исходя из ваших потребностей - только инвентаризация вакцин или полное управление вакцинами для пациентов.</value>
+  </data>
+  <data name="LOINC coding system" xml:space="preserve">
+    <value>Система кодирования LOINC</value>
+  </data>
+  <data name="Main Features of Vaccine Management Software" xml:space="preserve">
+    <value>Основные характеристики программного обеспечения для управления вакцинами</value>
+  </data>
+  <data name="Maintain patient vaccine records – view vaccines given for each vaccine per patient." xml:space="preserve">
+    <value>Вести учет вакцин для пациентов - просматривать вакцины, вводимые для каждой вакцины на пациента.</value>
+  </data>
+  <data name="Many health instutitions are still using either a paper process or a manual process for vaccine inventory management and recording administration of vaccines.  These manual processes take hours of time each month and most have problems with accuracy and consistency." xml:space="preserve">
+    <value>Во многих медицинских учреждениях все еще используется либо бумажный процесс, либо ручной процесс управления запасами вакцин и регистрации введения вакцин. Эти ручные процессы занимают часы времени каждый месяц, и у большинства есть проблемы с точностью и последовательностью.</value>
+  </data>
+  <data name="Medical Billing" xml:space="preserve">
+    <value>Медицинский биллинг</value>
+  </data>
+  <data name="MiddleWare Solution" xml:space="preserve">
+    <value>Промежуточное Программное Решение</value>
+  </data>
+  <data name="Modules of Our Hospital Information Management System Software" xml:space="preserve">
+    <value>Модули программного обеспечения системы управления информацией больницы</value>
+  </data>
+  <data name="Monitoring Blood Exits by Time/Date" xml:space="preserve">
+    <value>Мониторинг выхода крови по времени / дате</value>
+  </data>
+  <data name="Monitoring Tests" xml:space="preserve">
+    <value>Monitoring Tests</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>ежемесячно</value>
+  </data>
+  <data name="Multıscope &lt;/span&gt;Software" xml:space="preserve">
+    <value>Мультископ Программное &lt;/span&gt; обеспечение</value>
+  </data>
+  <data name="Next generation HTML5 DICOM viewer" xml:space="preserve">
+    <value>Средство просмотра HTML5 DICOM следующего поколения</value>
+  </data>
+  <data name="No trace on client devices (Zero footprint)" xml:space="preserve">
+    <value>Нет следов на клиентских устройствах (нулевой след)</value>
+  </data>
+  <data name="Notes &amp; Documents management" xml:space="preserve">
+    <value>Управление примечаниями и документами</value>
+  </data>
+  <data name="Onboarding with e-signature integration" xml:space="preserve">
+    <value>Внедрение с интеграцией электронной подписи</value>
+  </data>
+  <data name="One of the most important advantages of UBSIS PACS is that digital images can be sent to health centers anywhere in the world." xml:space="preserve">
+    <value>Одним из наиболее важных преимуществ UBSIS PACS является то, что цифровые изображения можно отправлять в медицинские центры в любой точке мира.</value>
+  </data>
+  <data name="One-to-One Messaging" xml:space="preserve">
+    <value>Обмен сообщениями один на один</value>
+  </data>
+  <data name="Oracle 10x and above or MS SQL Server 2005 or Postgre 9.x and above" xml:space="preserve">
+    <value>Oracle 10x и выше или MS SQL Server 2005 или Postgre 9.x и выше</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>порядок</value>
+  </data>
+  <data name="Our application allow patients to ask questions whenever they need, wherever they are." xml:space="preserve">
+    <value>Наше приложение позволяет пациентам задавать вопросы в любое время, где бы они ни находились.</value>
+  </data>
+  <data name="Our Hospital Information Management System software has an infrastructure that manages all health processes of a hospital and also has the ability to generate valuable information that can produce strategies for diagnosis and treatment processes and for the hospital financial system." xml:space="preserve">
+    <value>Наше программное обеспечение системы управления информацией о больницах имеет инфраструктуру, которая управляет всеми процессами здравоохранения в больнице, а также способна генерировать ценную информацию, которая может выработать стратегии для процессов диагностики и лечения, а также для финансовой системы больницы.</value>
+  </data>
+  <data name="Our map analysis software is the most important part of the decision making mechanism in health transformation projects. According to the geographical data, the location, capacity, ability to meet the demands of the location of the health institutions, distances to each other and many other indicator analysis allow." xml:space="preserve">
+    <value>Наше программное обеспечение для анализа карт является наиболее важной частью механизма принятия решений в проектах по трансформации здравоохранения. Согласно географическим данным, местоположение, вместимость, способность удовлетворить требования местоположения учреждений здравоохранения, расстояния друг к другу и многие другие показатели анализа позволяют.</value>
+  </data>
+  <data name="Our software has the flexibility to analyze all institutions as well as being used mostly in health institutions analysis. It has the capability of automatically pouring all information into statistical graphs by making serial and cross comparisons according to the data entered." xml:space="preserve">
+    <value>Наше программное обеспечение имеет гибкость для анализа всех учреждений, а также используется в основном для анализа учреждений здравоохранения. Он имеет возможность автоматически вливать всю информацию в статистические графики путем проведения последовательных и перекрестных сравнений в соответствии с введенными данными.</value>
+  </data>
+  <data name="Our system can be used as web-based and desktop technology. The database is independent and there is no need to make large investments for the database. Supported languages are; English,  Russian and Arabic. Due to its multi-language supporting infrastructure, it can easily be adapted to other languages. It has an integration infrastructure with insurance institutions." xml:space="preserve">
+    <value>Наша система может использоваться в качестве веб-технологий и настольных технологий. База данных является независимой, и нет необходимости делать большие инвестиции в базу данных. Поддерживаемые языки: Английский, русский и арабский. Благодаря многоязыковой инфраструктуре, ее можно легко адаптировать к другим языкам. Имеет инфраструктуру интеграции со страховыми организациями.</value>
+  </data>
+  <data name="Our telemedicine software allows doctors and patients to communicate via video conference and share files. Our software also makes easy to get medical help when, traveling can be difficult and even dangerous for patients with bad health conditions." xml:space="preserve">
+    <value>Наше программное обеспечение телемедицины позволяет врачам и пациентам общаться через видео-конференции и обмениваться файлами. Наше программное обеспечение также облегчает получение медицинской помощи, когда путешествие может быть трудным и даже опасным для пациентов с плохим состоянием здоровья.</value>
+  </data>
+  <data name="PACS can be defined as a system of digital acquisition, archiving and transmission of panoramic and local radiological images. UBSİS PACS System not only provides digitally obtained images to be stored, but also enables these images to be transmitted to any computer or other centers within the health center through computer networks." xml:space="preserve">
+    <value>PACS можно определить как цифровую систему сбора, архивирования и передачи панорамных и локальных радиологических изображений. Система UBSIS PACS не только обеспечивает сохранение полученных в цифровом виде изображений, но также позволяет передавать эти изображения на любой компьютер или в другие центры медицинского центра через компьютерные сети.</value>
+  </data>
+  <data name="Patient Admission and Registration" xml:space="preserve">
+    <value>Прием и регистрация пациентов</value>
+  </data>
+  <data name="Patient Portal" xml:space="preserve">
+    <value>Портал для пациентов</value>
+  </data>
+  <data name="Pharmaceutical Information System" xml:space="preserve">
+    <value>Илач Билги Системи</value>
+  </data>
+  <data name="Pharmacy Information System" xml:space="preserve">
+    <value>Аптечная информационная система</value>
+  </data>
+  <data name="Picture Archiving and Communication System" xml:space="preserve">
+    <value>Радиологическая система визуализации и архивирования</value>
+  </data>
+  <data name="Please contact us for further information and pricing details." xml:space="preserve">
+    <value>Пожалуйста, свяжитесь с нами для получения дополнительной информации и подробной информации о ценах.</value>
+  </data>
+  <data name="Practice Management" xml:space="preserve">
+    <value>Практика управления</value>
+  </data>
+  <data name="Predict the estimated use of each vaccine type (MMR, Influenza, HPV, Zoster) based on actual use." xml:space="preserve">
+    <value>Предскажите предполагаемое использование вакцин каждого типа (MMR, грипп, ВПЧ, зостер) на основе фактического использования.</value>
+  </data>
+  <data name="Procedure Documentation" xml:space="preserve">
+    <value>Процедура Документация</value>
+  </data>
+  <data name="Provides accelerated image retrieval, economical storage and simultaneous access to images across multiple healthcare sites." xml:space="preserve">
+    <value>обеспечивает ускоренный поиск изображений, экономичное хранение и одновременный доступ к изображениям на нескольких объектах здравоохранения.</value>
+  </data>
+  <data name="Providing end-to-end solution for consulting, staffing, recruiting and professional services organizations." xml:space="preserve">
+    <value>Предоставление комплексного решения для консалтинговых, кадровых, рекрутинговых и профессиональных сервисных организаций.</value>
+  </data>
+  <data name="Radiology Information System and PACS" xml:space="preserve">
+    <value>Радиологическая информационная система и PACS</value>
+  </data>
+  <data name="Recording All Transactions" xml:space="preserve">
+    <value>Запись Всех Транзакций</value>
+  </data>
+  <data name="Recording of Blood Collection Information:" xml:space="preserve">
+    <value>Запись информации о сборе крови:</value>
+  </data>
+  <data name="Reduce operation costs." xml:space="preserve">
+    <value>Уменьшите эксплуатационные расходы.</value>
+  </data>
+  <data name="Reduce the error rate" xml:space="preserve">
+    <value>Уменьшить уровень ошибок</value>
+  </data>
+  <data name="Registration by Registration Staff" xml:space="preserve">
+    <value>Регистрация регистрационным персоналом</value>
+  </data>
+  <data name="Registration of Test Results:" xml:space="preserve">
+    <value>Регистрация результатов испытаний:</value>
+  </data>
+  <data name="Reminder Management" xml:space="preserve">
+    <value>Управление напоминаниями</value>
+  </data>
+  <data name="Remote Treatment Plans" xml:space="preserve">
+    <value>Планы удаленного лечения</value>
+  </data>
+  <data name="Request Demo" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="Results tracking on LOT basis" xml:space="preserve">
+    <value>Отслеживание результатов на основе лота</value>
+  </data>
+  <data name="Robotic Process &lt;/span&gt; Automation (RPA)" xml:space="preserve">
+    <value>Роботизированная автоматизация &lt;/span&gt;процессов (RPA)</value>
+  </data>
+  <data name="Robotic Process Automation (RPA) bots with Automation Anywhere, Picture Archiving and Communication System (RIS-PACS), Hospital Information Management Software" xml:space="preserve">
+    <value>Robotic Process Automation, Automation Anywhere, Система архивации и передачи изображений (RIS-PACS), Программное обеспечение для управления информацией больницы</value>
+  </data>
+  <data name="Robotic process automation (RPA) is a form of business process automation technology based on metaphorical software robots (bots) or artificial intelligence (AI) workers" xml:space="preserve">
+    <value>Автоматизация роботизированных процессов (Robotic Process Automation – RPA) – это использование программного обеспечения с искусственным интеллектом (Artificial Intelligence-AI) и возможностями машинного обучения, которые ранее обрабатывали большие объемы воспроизводимых задач, необходимых людям.</value>
+  </data>
+  <data name="Robotic Process Automation (RPA) Solutions" xml:space="preserve">
+    <value>Решения для роботизированной автоматизации процессов (RPA)</value>
+  </data>
+  <data name="RPA Power" xml:space="preserve">
+    <value>Власти РПА</value>
+  </data>
+  <data name="Sample location tracking" xml:space="preserve">
+    <value>Отслеживание местоположения образца</value>
+  </data>
+  <data name="Sağlık Hizmetinizi Ayağınıza Getiren Teknoloji" xml:space="preserve">
+    <value>Технология, которая поднимает ваше здоровье</value>
+  </data>
+  <data name="See “real time” the number of doses per vaccine for commercial and VFC in your inventory." xml:space="preserve">
+    <value>Посмотрите в реальном времени количество доз на вакцину для коммерческих и VFC в вашем инвентаре.</value>
+  </data>
+  <data name="Self-Service Employee Portals" xml:space="preserve">
+    <value>Порталы самообслуживания сотрудников</value>
+  </data>
+  <data name="Separation or reservation of blood product" xml:space="preserve">
+    <value>Отделение или резервирование продукта крови</value>
+  </data>
+  <data name="Social Services" xml:space="preserve">
+    <value>Социальные службы</value>
+  </data>
+  <data name="Software" xml:space="preserve">
+    <value>программное</value>
+  </data>
+  <data name="Software can work integrated with the Electronic Registration Systems of Hospitals. It can work with MsSQL and Oracle databases. The software language is DELPHI.The system works with software and databases that are easily available on the market.If there is a server used, the system runs on the existing server, and even low capacity devices on the market are sufficient for terminals and printers." xml:space="preserve">
+    <value>Программное обеспечение может работать интегрировано с электронными регистрационными системами больниц. Он может работать с базами данных MsSQL и Oracle. Язык программного обеспечения-DELPHI.Система работает с программным обеспечением и базами данных, которые легко доступны на рынке.Если используется сервер, то система работает на существующем сервере, и даже устройств малой емкости на рынке достаточно для терминалов и принтеров.</value>
+  </data>
+  <data name="Software Solutions" xml:space="preserve">
+    <value>Программные решения</value>
+  </data>
+  <data name="Software Solutions for Healthcare Instutitions" xml:space="preserve">
+    <value>Программные решения для учреждений здравоохранения</value>
+  </data>
+  <data name="Softwares" xml:space="preserve">
+    <value>Програмное обеспечение</value>
+  </data>
+  <data name="Spot geographic trends" xml:space="preserve">
+    <value>Найди географические тренды</value>
+  </data>
+  <data name="Statistical reporting system adaptable to demand" xml:space="preserve">
+    <value>Система статистической адаптивной отчетности, адаптируемая к спросу</value>
+  </data>
+  <data name="Storage Information of the Blood Products:" xml:space="preserve">
+    <value>Информация о хранении продуктов крови:</value>
+  </data>
+  <data name="Structured Reports (SR)" xml:space="preserve">
+    <value>Структурированные отчеты (SR)</value>
+  </data>
+  <data name="Supported languages are; English,  Russian and Arabic. Due to its multi-language supporting infrastructure, it can easily be adapted to other languages. Our LIS Solution Having successfully passed the IHE(Integrating the Healthcare Enterprise) tests, which is considered as the only criterion of interoperability with other systems in the international platform, it has an IHE declaration in laboratory field knowledge." xml:space="preserve">
+    <value>Поддерживаемые языки: Английский, русский и арабский. Благодаря многоязыковой инфраструктуре, ее можно легко адаптировать к другим языкам. Наше решение LIS Успешно пройдя тесты IHE (Integrating the Healthcare Enterprise), которые рассматриваются как единственный критерий взаимодействия с другими системами на международной платформе, оно имеет декларацию IHE в области лабораторных знаний.</value>
+  </data>
+  <data name="Telemedıcıne &lt;/span&gt;Software" xml:space="preserve">
+    <value>Программное&lt;/span&gt; обеспечение телемедицины</value>
+  </data>
+  <data name="The Blood Products and Transfusion Information Management System is designed to be flexible enough to meet all registration, reporting and retention requirements of Blood Banks." xml:space="preserve">
+    <value>Система управления информацией о продуктах крови и переливании крови разработана таким образом, чтобы быть достаточно гибкой для удовлетворения всех требований к регистрации, отчетности и хранению банков крови.</value>
+  </data>
+  <data name="The inability to perform any other operation other than the disposal of unsuitable blood" xml:space="preserve">
+    <value>Невозможность выполнения какой-либо другой операции, кроме удаления неподходящей крови</value>
+  </data>
+  <data name="The registration of the blood product to the stock and the location information where it is stored can be recorded in the system, if necessary, barcode can be printed with or without ISBT standard or pre-printed ready barcodes can be used." xml:space="preserve">
+    <value>Регистрация продукта крови на складе и информация о местоположении, где он хранится, могут быть записаны в систему, при необходимости штрих-код может быть напечатан со стандартом ISBT или без него, а также могут быть использованы предварительно напечатанные готовые штрих-коды.</value>
+  </data>
+  <data name="Through the connection between the hospital Information System, radiology information system and PACS, radiological images, as well as reports of images and other recorded information of the patient can be observed via the intranet.So when the doctor presses a button, he can access all of the patient's information from his desk and make a comparative evaluation." xml:space="preserve">
+    <value>Благодаря установленной связи между информационной системой больницы, радиологической информационной системой и ПГС, в дополнение к радиологическим изображениям, отчеты об изображениях и другая информация, содержащаяся в декрете пациента, также могут наблюдаться через интрасеть. Таким образом, когда врач нажимает кнопку, он может получить доступ ко всей информации пациента со своего стола и провести сравнительную оценку.</value>
+  </data>
+  <data name="Time &amp; Expense Modules" xml:space="preserve">
+    <value>Модули времени и расходов</value>
+  </data>
+  <data name="Transfusion Reporting" xml:space="preserve">
+    <value>Отчет О Переливании Крови</value>
+  </data>
+  <data name="Turn Around Time Analysis" xml:space="preserve">
+    <value>Анализ времени поворота</value>
+  </data>
+  <data name="UBSIS Blood Products and Transfusion Information Management System Software" xml:space="preserve">
+    <value>Программное обеспечение системы управления информацией о продуктах крови и переливании UBSIS</value>
+  </data>
+  <data name="UBSIS Healthcare Instutitions Visual Analysis Software" xml:space="preserve">
+    <value>Программное обеспечение для визуального анализа медицинских учреждений UBSIS</value>
+  </data>
+  <data name="UBSIS Hospital Information Management System Software" xml:space="preserve">
+    <value>Программное обеспечение системы управления больничной информацией UBSIS</value>
+  </data>
+  <data name="UBSIS Human Resources and Asset Management Software" xml:space="preserve">
+    <value>UBSIS человеческих ресурсов и программного обеспечения по управлению активами</value>
+  </data>
+  <data name="UBSIS Laboratory Information Management System (LIMS) Software" xml:space="preserve">
+    <value>Программное обеспечение UBSIS Laboratory Information Management System (LIMS)</value>
+  </data>
+  <data name="UBSIS Multiscope Software" xml:space="preserve">
+    <value>Программное обеспечение UBSIS Multiscope</value>
+  </data>
+  <data name="UBSIS Picture Archiving and Communication Software (PACS)" xml:space="preserve">
+    <value>UBSIS передачи и архивации изображений, программное обеспечение (СКУД)</value>
+  </data>
+  <data name="UBSIS provides Robotic Process Automation (RPA) solutions with our business partner Automation Anywhere" xml:space="preserve">
+    <value>UBSIS предоставляет роботизированные решения для автоматизации технологических процессов (RPA) вместе с нашим деловым партнером  "Automation Anywhere"</value>
+  </data>
+  <data name="UBSIS Software team is developing brillant Software Solutions and RPA bots for Hospitals, Clinics and Labs, located in England, Turkey and Russia." xml:space="preserve">
+    <value>Команда UBSIS Software разрабатывает блестящие программные решения и RPA-боты для больниц, клиник и лабораторий, расположенных в Англии, Турции и России.</value>
+  </data>
+  <data name="UBSIS Telemedicine Software" xml:space="preserve">
+    <value>Телемедицинское программное обеспечение UBSIS</value>
+  </data>
+  <data name="UBSIS Vaccine Management Software" xml:space="preserve">
+    <value>Программное обеспечение для управления вакциной UBSIS</value>
+  </data>
+  <data name="UBSİS PACS Server DICOM 3.0 format images from all kinds of digital modalities are archived on the PACS server. Archived images are sent to UBSİS PACS Workstations with DICOM Query / Retrieve feature. Images on the PACS server can also be accessed over the intranet and the Internet via UBSİS PACS WADO. UBSİS PACS Server can run smoothly with Workstations of other manufacturers. Thanks to the lossless compression feature, the images can be compressed and archived at an average of 3 times the physical capacity of the server. The images that come to the PACS server can be automatically sent to different Workstations and PACS servers within the framework of the defined rule." xml:space="preserve">
+    <value>UBSİS PACS Server Изображения формата DICOM 3.0 из всех видов цифровых модальностей архивируются на сервере PACS. Архивные изображения отправляются на рабочие станции UBSİS PACS с функцией DICOM Query / Retrieve. Изображения на сервере PACS также могут быть доступны через интранет и Интернет через UBSİS PACS WADO. UBSİS PACS Server может работать без проблем с рабочими станциями других производителей. Благодаря функции сжатия без потерь изображения можно сжимать и архивировать в среднем в 3 раза больше физической емкости сервера. Образы, поступающие на сервер PACS, могут автоматически отправляться на разные рабочие станции и серверы PACS в рамках определенного правила.</value>
+  </data>
+  <data name="Understanding the big picture" xml:space="preserve">
+    <value>Понимание общей картины</value>
+  </data>
+  <data name="Vaccines have big importance in healtcare sector. Most vaccine management systems use paper or manual tools (like Excel spreadsheet) for tracking/managing of their vaccine inventory. While this system is widely in use, there is now a better choice , the power of software. With Vaccine management software you can enhance your vaccine management, facilitate overall administration burden and decrease possible faults nearly  %100 percent." xml:space="preserve">
+    <value>Вакцины имеют большое значение в сфере здравоохранения. Большинство систем управления вакцинами используют бумажные или ручные инструменты (например, электронные таблицы Excel) для отслеживания / управления своими запасами вакцин. В то время как эта система широко используется, теперь есть лучший выбор - мощь программного обеспечения. С помощью программного обеспечения для управления вакцинами вы можете улучшить управление вакцинами, облегчить общую нагрузку на администрацию и уменьшить возможные неисправности почти на 100%</value>
+  </data>
+  <data name="Vaccıne &lt;/span&gt; Management Software" xml:space="preserve">
+    <value>Программное обеспечение для&lt;/span&gt;  управления Vaccıne</value>
+  </data>
+  <data name="Video Conferencing" xml:space="preserve">
+    <value>Видео-конференция</value>
+  </data>
+  <data name="Visual analysis helping to see the big picture in health care systems" xml:space="preserve">
+    <value>Визуальный анализ помогает увидеть общую картину в системах здравоохранения</value>
+  </data>
+  <data name="We develop fabulous softwares for healthcare services..." xml:space="preserve">
+    <value>Мы разрабатываем великолепные программы для служб здравоохранения ...</value>
+  </data>
+  <data name="Web-based Health Insurance Portability and Accountability (HIPAA) compliant telemedicine system." xml:space="preserve">
+    <value>Система телемедицины, совместимая с системой медицинского страхования и мобильности (HIPAA).</value>
+  </data>
+  <data name="What is Robotic Process Automation (RPA)? Robotic Process Automation; It is the automation of high volume, rule - based, repetitive and human processes that do not need added value with 'software robots'. Software Robots; While performing a task, employees can learn and imitate the steps and interaction movements on software systems, enter applications and programs, read and process data, analyze and report the result." xml:space="preserve">
+    <value>Что такое роботизированная автоматизация процессов (RPA)? Роботизированная автоматизация процессов; Это автоматизация большого объема, основанных на правилах, повторяющихся и человеческих процессов, которые не нуждаются в добавленной стоимости с помощью «программных роботов». Программные роботы; Выполняя задачу, сотрудники могут изучать и имитировать шаги и движения взаимодействия в программных системах, вводить приложения и программы, считывать и обрабатывать данные, анализировать и сообщать о результатах.</value>
+  </data>
+  <data name="While routine operations in existing applications and systems are working continuously and error-free, 24/7; saves time and transaction costs as well as employees have the opportunity to focus on value - added jobs and increase productivity." xml:space="preserve">
+    <value>В то время как рутинные операции в существующих приложениях и системах работают непрерывно и безошибочно, 24/7; экономит время и транзакционные издержки, а также сотрудники имеют возможность сосредоточиться на работе с добавленной стоимостью и повысить производительность труда.</value>
+  </data>
+  <data name="With our software, pulling patient images from paper files is a thing of the past. Now all images can be retrieved and viewed through a computer workstation safely and securely anytime. You can even view images via the internet through your handheld or tablet device. Share images among attending or referring physicians or any parties concerned with the care of the patient with the click of a button." xml:space="preserve">
+    <value>С нашим программным обеспечением получение изображений пациентов из бумажных файлов уходит в прошлое. Теперь все изображения могут быть извлечены и просмотрены через компьютерную рабочую станцию безопасно и надежно в любое время. Вы даже можете просматривать изображения через Интернет через свое портативное или планшетное устройство. Одним нажатием кнопки делитесь изображениями между лечащими или направляющими врачами или любыми лицами, связанными с уходом за пациентом.</value>
+  </data>
+  <data name="With Robotic Process Automation;" xml:space="preserve">
+    <value>С автоматизированным процессом автоматизации;</value>
+  </data>
+  <data name="Workforce/Employee Management" xml:space="preserve">
+    <value>Управление персоналом / сотрудниками</value>
+  </data>
+</root>

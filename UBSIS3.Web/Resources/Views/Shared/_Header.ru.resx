@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="/en/ubsis-about-us" xml:space="preserve">
+    <value>/ru/ubsis-about-us</value>
+  </data>
+  <data name="/en/ubsis-career" xml:space="preserve">
+    <value>/ru/ubsis-career</value>
+  </data>
+  <data name="/en/ubsis-contact" xml:space="preserve">
+    <value>/ru/ubsis-contact</value>
+  </data>
+  <data name="/en/ubsis-software-solutions" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#blood" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions#blood</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#Endoscopy" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions#Endoscopy</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#HealthMapper" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions#HealthMapper</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#HIS" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions#HIS</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#HRM" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions#HRM</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#LIMS" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions#LIMS</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#PACS" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions#PACS</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#RPA" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions#RPA</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#Telemedicine" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions#Telemedicine</value>
+  </data>
+  <data name="/en/ubsis-software-solutions#vaccine" xml:space="preserve">
+    <value>/ru/ubsis-software-solutions#vaccine</value>
+  </data>
+  <data name="About IHMG" xml:space="preserve">
+    <value>О компании IMG</value>
+  </data>
+  <data name="ABOUT US" xml:space="preserve">
+    <value>О нас</value>
+  </data>
+  <data name="Be a Partner" xml:space="preserve">
+    <value>быть партнером</value>
+  </data>
+  <data name="Blood Products and Transfusion Information Management System Software" xml:space="preserve">
+    <value>Программное обеспечение для систем крови и информации о переливании крови</value>
+  </data>
+  <data name="Building Featured Health&lt;br /&gt; Facilities" xml:space="preserve">
+    <value>Здание Отличное&lt;br /&gt; здоровье </value>
+  </data>
+  <data name="Business Partners" xml:space="preserve">
+    <value>бизнес-партнер</value>
+  </data>
+  <data name="CAREER" xml:space="preserve">
+    <value>КАРЬЕРА</value>
+  </data>
+  <data name="Configuration Management of &lt;br /&gt;Public Health Institutions" xml:space="preserve">
+    <value>Управление конфигурацией &lt;br /&gt; учреждений общественного здравоохранения</value>
+  </data>
+  <data name="CONTACT" xml:space="preserve">
+    <value>СВЯЗАТЬСЯ С НАМИ</value>
+  </data>
+  <data name="Country Health Services &lt;br /&gt;Strategic Planning Management" xml:space="preserve">
+    <value>Службы здравоохранения страны &lt;br /&gt; Управление стратегическим планированием</value>
+  </data>
+  <data name="Diagnostic Applications" xml:space="preserve">
+    <value>Диагностические приложения</value>
+  </data>
+  <data name="E-Health &lt;br /&gt;SubManagement" xml:space="preserve">
+    <value>Электронное здравоохранение &lt;br /&gt; SubManagement</value>
+  </data>
+  <data name="E-Health Brain" xml:space="preserve">
+    <value>Мозг E-Health</value>
+  </data>
+  <data name="E-Health Configuration" xml:space="preserve">
+    <value>Конфигурация электронного здравоохранения</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>английский</value>
+  </data>
+  <data name="Going on Projects" xml:space="preserve">
+    <value>Продолжение проектов</value>
+  </data>
+  <data name="Health Institution Analyzer" xml:space="preserve">
+    <value>Анализатор учреждения здравоохранения</value>
+  </data>
+  <data name="HOME" xml:space="preserve">
+    <value>Домашняя страница</value>
+  </data>
+  <data name="Hospital Information System" xml:space="preserve">
+    <value>Больничная Информационная Система</value>
+  </data>
+  <data name="Hospital Information&lt;br/&gt;Management System" xml:space="preserve">
+    <value>Информация о больнице &lt;br /&gt; Система управления</value>
+  </data>
+  <data name="Human Resources &lt;br/&gt;Management" xml:space="preserve">
+    <value>человеческие &lt;br/&gt;ресурсы</value>
+  </data>
+  <data name="Human&lt;br /&gt; Resources &lt;br /&gt;Management" xml:space="preserve">
+    <value>Людьми,&lt;br /&gt; ресурсы &lt;br /&gt;управление</value>
+  </data>
+  <data name="IHMG" xml:space="preserve">
+    <value>IHMG</value>
+  </data>
+  <data name="Laboratory Information System" xml:space="preserve">
+    <value>Лабораторная информационная система</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Macro Health Service&lt;br /&gt; Technologies" xml:space="preserve">
+    <value>Служба макро-здоровья &lt;br /&gt; Технологии</value>
+  </data>
+  <data name="Macro Health Services &lt;br/&gt; Management" xml:space="preserve">
+    <value>Служба макроэкономики &lt;br /&gt; Управление</value>
+  </data>
+  <data name="Micro Health Service&lt;br/&gt;Technologies" xml:space="preserve">
+    <value>Микро Здравоохранение &lt;br /&gt; Технологии</value>
+  </data>
+  <data name="Micro Health Services Management" xml:space="preserve">
+    <value>Управление Микро Здравоохранением</value>
+  </data>
+  <data name="Mobile Health Services" xml:space="preserve">
+    <value>Мобильные службы здравоохранения</value>
+  </data>
+  <data name="Multiscope &lt;br/&gt;Software" xml:space="preserve">
+    <value>Программа &lt;br/&gt;Мультископ</value>
+  </data>
+  <data name="Multiscope Endosoftware" xml:space="preserve">
+    <value>Программа &lt;br/&gt;Мультископ</value>
+  </data>
+  <data name="PACS&lt;br/&gt; Software" xml:space="preserve">
+    <value>Программа &lt;br/&gt;PACS</value>
+  </data>
+  <data name="Presenting Featured &lt;br /&gt;Health Services" xml:space="preserve">
+    <value>Представляем Рекомендуемые &lt;br /&gt; Медицинские услуги</value>
+  </data>
+  <data name="Project Management" xml:space="preserve">
+    <value>Управление проектом</value>
+  </data>
+  <data name="Public Health Management" xml:space="preserve">
+    <value>Управление общественного здравоохранения</value>
+  </data>
+  <data name="Public Private Sector &lt;br /&gt;Cooperatıon Management" xml:space="preserve">
+    <value>Государственный частный сектор &lt;br /&gt; Управление сотрудничеством</value>
+  </data>
+  <data name="Quality And Efficiency&lt;br /&gt; Management In Health" xml:space="preserve">
+    <value>Качество и эффективность &lt;br /&gt; Управление в здравоохранении</value>
+  </data>
+  <data name="Quality, Accreditation and&lt;br /&gt; Efficiency Applications" xml:space="preserve">
+    <value>Приложения по качеству, &lt;br /&gt;аккредитации и эффективности</value>
+  </data>
+  <data name="RIS-Pacs" xml:space="preserve">
+    <value>RIS-Pacs</value>
+  </data>
+  <data name="Robotic Process Automation (RPA) Solutions" xml:space="preserve">
+    <value>Решения для роботизированной автоматизации процессов (RPA)</value>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>русский</value>
+  </data>
+  <data name="Social Security &lt;br /&gt;Systmes Automation" xml:space="preserve">
+    <value>Социальное обеспечение &lt;br /&gt; Системы автоматизации</value>
+  </data>
+  <data name="SOFTWARE SOLUTIONS" xml:space="preserve">
+    <value>ПРОГРАММНЫЕ РЕШЕНИЯ</value>
+  </data>
+  <data name="System Digital" xml:space="preserve">
+    <value>Система Цифровая</value>
+  </data>
+  <data name="TECHNOLAB LIMS" xml:space="preserve">
+    <value>ТЕХНОЛАБ ЛИМС</value>
+  </data>
+  <data name="Telemedicine" xml:space="preserve">
+    <value>телемедицина</value>
+  </data>
+  <data name="Telemedicine &lt;br/&gt;Software" xml:space="preserve">
+    <value>Теле&lt;br/&gt; медицина</value>
+  </data>
+  <data name="Treatment Service Management" xml:space="preserve">
+    <value>Управление лечением</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>турецкий</value>
+  </data>
+  <data name="Twinning Projects" xml:space="preserve">
+    <value>Твин Проект</value>
+  </data>
+  <data name="Vaccine &lt;br/&gt;Management" xml:space="preserve">
+    <value>Управление&lt;br/&gt; вакцинами</value>
+  </data>
+</root>

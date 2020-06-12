@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="--Select--" xml:space="preserve">
+    <value>--Seçiniz--</value>
+  </data>
+  <data name="Application Form" xml:space="preserve">
+    <value>Başvuru Formu</value>
+  </data>
+  <data name="Apply Now" xml:space="preserve">
+    <value>Hemen Başvur</value>
+  </data>
+  <data name="Bachelor’s degree in International Relations, Business Administration, Engineering or in a related field" xml:space="preserve">
+    <value>Uluslararası İlişkiler, İşletme, Mühendislik veya ilgili bir alanda lisans derecesi</value>
+  </data>
+  <data name="Business Development Expert" xml:space="preserve">
+    <value>İş Geliştirme Uzmanı</value>
+  </data>
+  <data name="Career Opportunities" xml:space="preserve">
+    <value>Kariyer Fırsatları</value>
+  </data>
+  <data name="Careers" xml:space="preserve">
+    <value>Kariyer</value>
+  </data>
+  <data name="Developing, planning, organizing, and managing events and brand communication strategies" xml:space="preserve">
+    <value>Etkinliklerin ve marka iletişim stratejilerinin geliştirilmesi, planlanması, organize edilmesi ve yönetilmesi</value>
+  </data>
+  <data name="Ensure all necessary reporting and follow up on the Project Implementation, bearing responsibility for the accomplishment of the project within the agreed time schedule and financial budget. Co-ordinate delivery, start-up and commissioning of new capital projects in cooperation with Manufacturing" xml:space="preserve">
+    <value>Proje Uygulamasına ilişkin gerekli tüm raporlamalarıntakibi,  mutabık kalınan zaman çizelgesi ve finansal bütçe dahilinde projenin tamamlanmasından sorumlu olma, imalat ile işbirliği içinde yeni sermaye projelerinin teslimi, başlatılması ve işletmeye alınması</value>
+  </data>
+  <data name="Excellent interpersonal communication and presentation skills" xml:space="preserve">
+    <value>Yüksek seviyede iletişim ve sunum becerileri</value>
+  </data>
+  <data name="Good command of written and spoken English (plus other foreign languages are preferred)" xml:space="preserve">
+    <value>İyi derecede yazılı ve sözlü İngilizce bilgisi (ilave yabancı diller tercih edilir)</value>
+  </data>
+  <data name="Good Communication Skills" xml:space="preserve">
+    <value>İyi iletişim becerileri</value>
+  </data>
+  <data name="Have 6+ years experience in Project Management Offices / IT / Departments with similar responsibilities" xml:space="preserve">
+    <value>Benzer sorumlulukları olan Proje Yönetim Ofislerinde  6 yıldan fazla deneyime sahip olmak</value>
+  </data>
+  <data name="Have graduated from Faculty of Engineering, Science or related disciplines" xml:space="preserve">
+    <value>Mühendislik, Fen Fakültesi veya ilgili disiplinlerden mezun olmak</value>
+  </data>
+  <data name="Have strong working knowledge of Project Management Methodologies, PMP or Scrum Master certification is a plus" xml:space="preserve">
+    <value>Proje Yönetimi Metodolojilerinde güçlü bir deneyime sahip olmak(tercihen PMP veya Scrum Master sertifikalarına sahip olmak)</value>
+  </data>
+  <data name="Having very strong collaboration with the other subsidiaries of the Company" xml:space="preserve">
+    <value>Şirketin diğer iştirakleri ile çok güçlü işbirliği içinde olmak</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Anasayfa</value>
+  </data>
+  <data name="Implementation of marketing strategies in line with company goals" xml:space="preserve">
+    <value>Şirket stratejileri doğrultusunda pazarlama stratejilerinin uygulanması</value>
+  </data>
+  <data name="In depth understanding and experience  of either SDLC or PDLC" xml:space="preserve">
+    <value>SDLC veya PDLC'de ileri düzeyde deneyim</value>
+  </data>
+  <data name="Innovative, agile and collaborative team player" xml:space="preserve">
+    <value>Yenilikçi, çevik ve işbirlikçi takım oyuncusu olmak</value>
+  </data>
+  <data name="Join our Fabulous Team of Intelligent Individuals" xml:space="preserve">
+    <value>Alanında en iyi olan bireylerden oluşan takımımıza katılın.</value>
+  </data>
+  <data name="Liaise with other departments of the company and third parties ( sales, stand contractors, CRM suppliers, and media companies)" xml:space="preserve">
+    <value>Şirketin diğer departmanları ve üçüncü taraflarla (satış, stant yüklenicileri, CRM tedarikçileri ve medya şirketleri) irtibat kurmak</value>
+  </data>
+  <data name="Max 5 MB allowed for resume file." xml:space="preserve">
+    <value>Özgeçmiş dosyanız 5 MB'ı geçmemelidir.</value>
+  </data>
+  <data name="Minimum 2 years of experience in marketing / business development area (health industry or IT sector experience is preferred)" xml:space="preserve">
+    <value>Pazarlama / iş geliştirme alanında en az 2 yıllık deneyim (sağlık sektörü veya BT sektörü deneyimi tercih edilir)</value>
+  </data>
+  <data name="Minimum of 4 live project rollouts" xml:space="preserve">
+    <value>En az 4 canlı proje sunumu</value>
+  </data>
+  <data name="Monitors the implementation of projects throughout their life cycle, starting with the design concept and ending with the last delivery to production, followed by activity measurement of the impact tools and delivered processes" xml:space="preserve">
+    <value>Tasarım konseptinden başlayıp üretime son teslimatla biten projelerin yaşam döngüleri boyunca uygulanmasını izler</value>
+  </data>
+  <data name="No domestic and international travel disability" xml:space="preserve">
+    <value>Yurtiçi ve yurtdışı seyahat engelinin olmaması</value>
+  </data>
+  <data name="Only .doc, .docx and .pdf file extensions are allowed." xml:space="preserve">
+    <value>Yalnızca .doc, .docx ve .pdf dosya uzantılarına izin verilir.</value>
+  </data>
+  <data name="Optimization of the internal and external efficiency of the marketing team, and lead with the planning and implementation of marketing campaign" xml:space="preserve">
+    <value>Pazarlama ekibinin iç ve dış verimliliğinin optimizasyonu ve pazarlama kampanyasının planlanması ve uygulanmasına öncülük etmek</value>
+  </data>
+  <data name="Please select salary currency" xml:space="preserve">
+    <value>Lütfen maaş para birimini seçin</value>
+  </data>
+  <data name="Proficient in Microsoft Office" xml:space="preserve">
+    <value>Office programlarına iyi derecede hakim olmak</value>
+  </data>
+  <data name="Project Executive" xml:space="preserve">
+    <value>Proje Yöneticisi</value>
+  </data>
+  <data name="Requirements" xml:space="preserve">
+    <value>Aranan Nitelikler</value>
+  </data>
+  <data name="Send Application" xml:space="preserve">
+    <value>Başvuru Gönder</value>
+  </data>
+  <data name="Team Player" xml:space="preserve">
+    <value>Takım Oyuncusu</value>
+  </data>
+  <data name="UBSIS Global Careers" xml:space="preserve">
+    <value>UBSIS Global Kariyer Fırsatları</value>
+  </data>
+  <data name="UBSIS Global Careers. Job application details. We are eager to expand our company family because we are eager to do business all over the world." xml:space="preserve">
+    <value>UBSIS küresel kariyer, iş başvurusu detayları. Şirket ailemizi genişletmeye hevesliyiz çünkü tüm dünyada iş yapmaya hevesliyiz.</value>
+  </data>
+  <data name="UPLOAD YOUR RESUME" xml:space="preserve">
+    <value>CV'NİZİ YÜKLEYİN</value>
+  </data>
+  <data name="We are looking for a 'Project Executive'  who will work for sub-company of our group located in Uzbekistan. The brief job description of the position and preferred qualifications for the suitable candidates are defined below." xml:space="preserve">
+    <value>Özbekistan'da bulunan grubumuzun alt şirketi için çalışacak 'Proje Yöneticisi' arıyoruz. Pozisyonun kısa görev tanımı ve uygun adaylar için tercih edilen nitelikler aşağıda tanımlanmıştır.</value>
+  </data>
+  <data name="We are looking for a ‘Business Development Expert’ to work on our projects." xml:space="preserve">
+    <value>Projelerimiz üzerinde çalışmak üzere İş Geliştirme Uzmanı arıyoruz.</value>
+  </data>
+  <data name="What we expect from you?" xml:space="preserve">
+    <value>Adaylardan Beklentilerimiz</value>
+  </data>
+  <data name="Work closely with local and other project engineering teams to deliver capital projects in terms of common Project implementation procedures" xml:space="preserve">
+    <value>Ortak Proje uygulama prosedürleri açısından sermaye projeleri sunmak için yerel ve diğer proje mühendisliği ekipleriyle yakın çalışma</value>
+  </data>
+</root>

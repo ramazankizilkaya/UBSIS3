@@ -1,0 +1,268 @@
+﻿@model CareerDto
+@inject IViewLocalizer _localizer
+
+@section Head {
+    <title>@_localizer["UBSIS Global Careers"]</title>
+
+    <meta name="description" content="@_localizer["UBSIS Global Careers. Job application details. We are eager to expand our company family because we are eager to do business all over the world."]" />
+}
+
+<input type="hidden" id="careerAlert" value="@ViewBag.alert" />
+<input type="hidden" id="uploadLabelRu" value="@_localizer["UPLOAD YOUR RESUME"]" />
+<input type="hidden" id="fileExtAlertRu" value="@_localizer["Only .doc, .docx and .pdf file extensions are allowed."]" />
+<input type="hidden" id="fileSizeAlertRu" value="@_localizer["Max 5 MB allowed for resume file."]" />
+
+<!-- Page Title
+        ============================================= -->
+<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('/images/parallax.jpg'); padding: 120px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+
+    <div class="container clearfix">
+        <h1>
+            @_localizer["Careers"]
+        </h1>
+        <span>@_localizer["Join our Fabulous Team of Intelligent Individuals"]</span>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">@_localizer["Home"]</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@_localizer["Career Opportunities"]</li>
+        </ol>
+    </div>
+
+</section><!-- #page-title end -->
+<!-- Content
+============================================= -->
+<section id="content">
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+
+            <div class="col_three_fifth nobottommargin">
+
+                <div class="fancy-title title-bottom-border">
+                    <h3>@_localizer["Business Development Expert"]</h3>
+                </div>
+
+                <p>@_localizer["We are looking for a ‘Business Development Expert’ to work on our projects."]ts.</p>
+
+                <div class="accordion accordion-bg clearfix">
+
+                    <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>@_localizer["Requirements"]</div>
+                    <div class="acc_content clearfix">
+                        <ul class="iconlist iconlist-color nobottommargin">
+                            <li><i class="icon-ok"></i>@_localizer["Bachelor’s degree in International Relations, Business Administration, Engineering or in a related field"]</li>
+                            <li><i class="icon-ok"></i>@_localizer["Minimum 2 years of experience in marketing / business development area (health industry or IT sector experience is preferred"])</li>
+                            <li><i class="icon-ok"></i>@_localizer["Good command of written and spoken English (plus other foreign languages are preferred)"]</li>
+                            <li><i class="icon-ok"></i>@_localizer["Excellent interpersonal communication and presentation skills"]</li>
+                            <li><i class="icon-ok"></i>@_localizer["No domestic and international travel disability"]</li>
+                            <li><i class="icon-ok"></i>@_localizer["Proficient in Microsoft Office"]</li>
+                            <li><i class="icon-ok"></i>@_localizer["Good Communication Skills"]s</li>
+                            <li><i class="icon-ok"></i>@_localizer["Team Player"]</li>
+                        </ul>
+                    </div>
+
+                    <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>@_localizer["What we expect from you?"]</div>
+                    <div class="acc_content clearfix">
+                        <ul class="iconlist iconlist-color nobottommargin">
+                            <li><i class="icon-plus-sign"></i>@_localizer["Implementation of marketing strategies in line with company goals"]</li>
+                            <li><i class="icon-plus-sign"></i>@_localizer["Optimization of the internal and external efficiency of the marketing team, and lead with the planning and implementation of marketing campaign"]n</li>
+                            <li><i class="icon-plus-sign"></i>@_localizer["Developing, planning, organizing, and managing events and brand communication strategies"]</li>
+                            <li><i class="icon-plus-sign"></i>@_localizer["Having very strong collaboration with the other subsidiaries of the Company"]</li>
+                            <li><i class="icon-plus-sign"></i>@_localizer["Liaise with other departments of the company and third parties ( sales, stand contractors, CRM suppliers, and media companies)"]</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                @*<a href="#" data-scrollto="#job-apply" class="button button-3d button-black nomargin">@_localizer["Apply Now"]</a>*@
+
+                <div class="divider divider-short"><i class="icon-star3"></i></div>
+
+                <div class="fancy-title title-bottom-border">
+                    <h3>@_localizer["Project Executive"]</h3>
+                </div>
+
+                <p>@_localizer["We are looking for a 'Project Executive'  who will work for sub-company of our group located in Uzbekistan. The brief job description of the position and preferred qualifications for the suitable candidates are defined below."].</p>
+
+                <div class="accordion accordion-bg clearfix">
+
+                    <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>@_localizer["Requirements"]</div>
+                    <div class="acc_content clearfix">
+                        <ul class="iconlist iconlist-color nobottommargin">
+                            <li><i class="icon-ok"></i>@_localizer["Have 6+ years experience in Project Management Offices / IT / Departments with similar responsibilities"]</li>
+                            <li><i class="icon-ok"></i>@_localizer["Have graduated from Faculty of Engineering, Science or related disciplines"]s</li>
+                            <li><i class="icon-ok"></i>@_localizer["Have strong working knowledge of Project Management Methodologies, PMP or Scrum Master certification is a plus"]</li>
+                            <li><i class="icon-ok"></i>@_localizer["Minimum of 4 live project rollouts"]s</li>
+                            <li><i class="icon-ok"></i>@_localizer["In depth understanding and experience  of either SDLC or PDLC"]</li>
+                            <li><i class="icon-ok"></i>@_localizer["Good Communication Skills"]</li>
+                            <li><i class="icon-ok"></i>@_localizer["Innovative, agile and collaborative team player"]r</li>
+                        </ul>
+                    </div>
+
+                    <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>@_localizer["What we expect from you?"]</div>
+
+                    <div class="acc_content clearfix">
+                        <ul class="iconlist iconlist-color nobottommargin">
+                            <li><i class="icon-plus-sign"></i>@_localizer["Work closely with local and other project engineering teams to deliver capital projects in terms of common Project implementation procedures"]</li>
+                            <li><i class="icon-plus-sign"></i>@_localizer["Ensure all necessary reporting and follow up on the Project Implementation, bearing responsibility for the accomplishment of the project within the agreed time schedule and financial budget. Co-ordinate delivery, start-up and commissioning of new capital projects in cooperation with Manufacturing"]</li>
+                            <li><i class="icon-plus-sign"></i>@_localizer["Monitors the implementation of projects throughout their life cycle, starting with the design concept and ending with the last delivery to production, followed by activity measurement of the impact tools and delivered processes"]</li>
+                        </ul>
+                    </div>
+                </div>
+
+                @*<a href="#" data-scrollto="#job-apply" class="button button-3d button-black nomargin">@_localizer["Apply Now"]</a>*@
+            </div>
+
+            <div class="col_two_fifth nobottommargin col_last">
+
+                <div class="fancy-title title-bottom-border">
+                    <h3>@_localizer["Application Form"]</h3>
+                </div>
+
+                <div>
+
+                    <form enctype="multipart/form-data" method="post" asp-controller="Home" asp-action="Career" id="careerForm">
+
+                        <div class="col_full">
+                            <label asp-for="Name"></label>
+                            <input type="text" asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="col_full">
+                            <label asp-for="Email"></label>
+                            <input type="text" asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="col_full">
+                            <label asp-for="Position"></label>
+                            <select asp-for="Position" tabindex="9" class="form-control">
+                                <option value="">@_localizer["--Select--"]</option>
+                                <option value="Business Development Expert">@_localizer["Business Development Expert"]</option>
+                                <option value="Project Executive">@_localizer["Project Executive"]</option>
+                            </select>
+                            <span asp-validation-for="Position" class="text-danger"></span>
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="col_full">
+                            <label asp-for="WebSite"></label>
+                            <input type="text" asp-for="WebSite" class="form-control" />
+                            <span asp-validation-for="WebSite" class="text-danger"></span>
+                        </div>
+
+                        <div class="col_half">
+                            <label asp-for="Salary"></label>
+                            <input type="number" asp-for="Salary" class="form-control" />
+                            <span asp-validation-for="Salary" class="text-danger"></span>
+                        </div>
+
+                        <div class="col_half col_last">
+                            <label asp-for="SalaryCurrency"></label>
+                            <select asp-for="SalaryCurrency" tabindex="9" class="form-control">
+                                <option value=""> @_localizer["--Select--"]</option>
+                                <option value="TL">₺</option>
+                                <option value="Dolar">$</option>
+                                <option value="Avro">€</option>
+                            </select>
+                            <span class="text-danger" style="display:none;" id="currencySpan">@_localizer["Please select salary currency"]</span>
+                        </div>
+
+                        <div class="col_full">
+                            <label asp-for="MotivationLetter"></label>
+                            <textarea asp-for="MotivationLetter" rows="6" tabindex="11" class="form-control"></textarea>
+                            <span asp-validation-for="MotivationLetter" class="text-danger"></span>
+                        </div>
+
+                        <div class="col_full">
+                            <input type="file" asp-for="Resume" accept=".doc, .docx, .pdf" class="form-control custom-file-input" id="resum" />
+                            <label class="custom-file-label" id="resumeLabel" asp-for="Resume"></label>
+                            <span asp-validation-for="Resume" class="text-danger"></span>
+                        </div>
+
+                        <div class="col_full">
+                            <button class="button button-3d button-large btn-block nomargin" type="submit" id="submitCareer">@_localizer["Send Application"]</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- #content end -->
+
+@section Scripts{
+
+    @*Career başvuru uyarı mesajı*@
+    <script>
+        tpj(document).ready(function () {
+            //debugger;
+            var responseAlert = document.getElementById('careerAlert').value;
+            if (responseAlert.length > 0) {
+                toastr.error(responseAlert);
+                document.getElementById('careerAlert').value = "";
+            }
+        });
+    </script>
+
+    @*file upload inputuna file ismi yazdırma*@
+    <script>
+        var uploadField = document.getElementById("resum");
+        uploadField.onchange = function () {
+
+            //dosya seçim ekranında cancel dediğinde hataya düşmesini engeller
+            if (this.files.item(0) == null || this.files.item(0) == undefined) {
+                this.value = "";
+                document.getElementById('resumeLabel').innerHTML = tpj('#uploadLabelRu').val();
+                return false;
+            }
+
+            var fileNamee = this.files.item(0).name;
+            var fileExtt = fileNamee.slice((fileNamee.lastIndexOf(".") - 1 >>> 0) + 2);
+            var fileLabell = document.getElementById('resumeLabel');
+
+            if (fileExtt != "doc" && fileExtt != "docx" && fileExtt != "pdf") {
+                toastr.error(tpj('#fileExtAlertRu').val());
+                this.value = "";
+                fileLabell.innerHTML = tpj('#uploadLabelRu').val();
+                return false;
+            }
+
+            if (this.files[0].size > 5242880) {
+                toastr.error(tpj('#fileSizeAlertRu').val());
+                this.value = "";
+                fileLabell.innerHTML = tpj('#uploadLabelRu').val();
+                return false;
+            };
+
+            if (this.files.length == 0) {
+                this.value = "";
+                fileLabell.innerHTML = tpj('#uploadLabelRu').val();
+                return false;
+            };
+
+            if (this.files.length > 0) {
+                fileLabell.innerHTML = this.files.item(0).name;
+                return false;
+            };
+
+        }
+
+    </script>
+
+
+    @*<script>
+            tpj('form#careerForm').submit(function (e) {
+                debugger;
+
+                if (tpj('#salary').isNumeric() && tpj('#SalaryCurrency').val() == "") {
+                    tpj('#SalaryCurrency').focus();
+                    toastr.warning("Please select salary currency");
+                    e.preventDefault();
+                }
+                else {
+                    tpj('form#careerForm').submit();
+                }
+            })
+        </script>*@
+}
+

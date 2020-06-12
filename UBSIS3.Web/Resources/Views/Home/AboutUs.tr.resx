@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="20 years of experience" xml:space="preserve">
+    <value>20 yıllık deneyim</value>
+  </data>
+  <data name="About Us" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="About Us. UBSIS is an international company providing Low-Cost Healthcare Softwares and Integrated Health Services with its international corporate identity." xml:space="preserve">
+    <value>Hakkımızda. UBSIS, uluslararası kurumsal kimliği ve yüksek teknolojisiyle Düşük Maliyetli Sağlık Yazılımları ve Entegre Sağlık Hizmetleri sunan uluslararası bir şirkettir.</value>
+  </data>
+  <data name="Accreditation Consultancy in Hospitals (JCI)" xml:space="preserve">
+    <value>Hastanelerde (JCI) Akreditasyon Danışmanlığı</value>
+  </data>
+  <data name="All hospitals , other units and elements which are under IHMG organization, work together for the same purpose in harmony with international coordination. Thus, starting from the first application, until the end of treatment at all stages, the patients in need of health care services, will communicate with a single organization and it will result in receiving reliable and high quality health service." xml:space="preserve">
+    <value>IHMG bünyesindeki tüm hastaneler, diğer birimler ve unsurlar, uluslararası koordinasyonla uyum içinde aynı amaç doğrultusunda birlikte çalışmaktadır. Bu nedenle sağlık hizmetlerine ihtiyaç duyan hastalar, ilk uygulamadan başlayarak tüm aşamalarda tedavinin sonuna kadar, tek bir kuruluşla iletişim kurar, sağlanan güvenilir ve kaliteli sağlık hizmeti neticesinde süreç memnuniyetle sonuçlanır.</value>
+  </data>
+  <data name="Ankara" xml:space="preserve">
+    <value>Ankara</value>
+  </data>
+  <data name="Application of &lt;br /&gt;Twinning Projects" xml:space="preserve">
+    <value>Eşleştirme Projelerinin &lt;br /&gt;Uygulaması</value>
+  </data>
+  <data name="Azerbaijan" xml:space="preserve">
+    <value>Azerbaycan</value>
+  </data>
+  <data name="Baku" xml:space="preserve">
+    <value>Bakü</value>
+  </data>
+  <data name="Building Featured &lt;br /&gt;Health Facilities" xml:space="preserve">
+    <value>Yüksek Teknoloji Sağlık&lt;br /&gt; Tesisleri İnşası</value>
+  </data>
+  <data name="Cairo" xml:space="preserve">
+    <value>Kahire</value>
+  </data>
+  <data name="Configuration Management of Public Health Institutions" xml:space="preserve">
+    <value>Kamu Sağlık Kurumlarının Konfigürasyon Yönetimi</value>
+  </data>
+  <data name="Configuring the digitization legislation" xml:space="preserve">
+    <value>Dijitalleşme mevzuatının yapılandırılması</value>
+  </data>
+  <data name="Configuring the e-Health Responsibility and Authorization Standardization in the country's corporate resources" xml:space="preserve">
+    <value>lke kurumsal kaynaklarında e-Sağlık Sorumluluk ve Yetki Standardizasyonunun yapılandırılması</value>
+  </data>
+  <data name="Cost Management Consultancy in Healthcare Institutions" xml:space="preserve">
+    <value>Sağlık Kurumlarında Maliyet Yönetimi Danışmanlığı</value>
+  </data>
+  <data name="Country Health Service Delivery Status Analysis" xml:space="preserve">
+    <value>Ülke Sağlık Hizmet Sunum Durum Analizlerinin Yapılması</value>
+  </data>
+  <data name="Country Health Services &lt;br /&gt;Strategic Planning Management" xml:space="preserve">
+    <value>Ülke Sağlık Hizmetleri &lt;br /&gt;Stratejik Planlama Yönetimi</value>
+  </data>
+  <data name="Defining a country-specific e-Health Project" xml:space="preserve">
+    <value>Ülkeye özelleştirilmiş e-Sağlık Projesi tanımlanması</value>
+  </data>
+  <data name="Defining Responsibility and Duties of Strategic Plan Parties within the Plan" xml:space="preserve">
+    <value>Stratejik Plan Taraflarının Plan Dahilinde Sorumluluk ve Görevlerinin Tanımlanması</value>
+  </data>
+  <data name="Defining Strategic Goals and Objectives" xml:space="preserve">
+    <value>Stratejik Amaç ve Hedeflerin Tanımlanması</value>
+  </data>
+  <data name="Determination of public investment and private sector investment needs" xml:space="preserve">
+    <value>Kamusal yatırım ve özel sektör yatırım ihtiyaçlarının belirlenmesi</value>
+  </data>
+  <data name="Determination of sectoral development areas in the country and region" xml:space="preserve">
+    <value>Ülke ve bölgede sektörel gelişim alanlarının belirlenmesi</value>
+  </data>
+  <data name="Determination of service procurement frameworks from the private sector and ensuring tender standardization" xml:space="preserve">
+    <value>Özel Sektörden hizmet alım çerçevelerinin belirlenmesi ve ihale standardizasyonunun sağlanması</value>
+  </data>
+  <data name="Diagnostic &lt;br /&gt; Applications" xml:space="preserve">
+    <value>Teşhis &lt;br /&gt; Uygulamaları</value>
+  </data>
+  <data name="E-Health &lt;br /&gt;Configuration" xml:space="preserve">
+    <value>E-Sağlık &lt;br /&gt; Yapılandırması</value>
+  </data>
+  <data name="E&lt;/span&gt;specially Mobile Diagnostic Units stand out in today's conditions. As IHMG, we are able to produce solutions for your needs with our 20 years Health Service experience and 10 years experience at designing Mobile Health Units." xml:space="preserve">
+    <value>Ö&lt;/span&gt;zellikle Mobil Teşhis Üniteleri günümüz şartlarında öne çıkmaktadır.
+                    IHMG olarak 20 yıllık Sağık Hizmet tecrübemiz ve 10 yıldır devam eden Mobil Sağlık Ünite Tasarım ve Uygulamalarımızla sizin ihtiyaçlarınıza önemli çözümler üretebilmekteyiz.</value>
+  </data>
+  <data name="ealization and Certification of the Responsible and Authorized Trainers" xml:space="preserve">
+    <value>Sorumlu ve Yetkililerin Konu Hakkında Eğitimlerinin Gerçekleştirilmesi ve Sertifikalandırılması</value>
+  </data>
+  <data name="Egypt" xml:space="preserve">
+    <value>Mısır</value>
+  </data>
+  <data name="Establishing the Required Standardization for Health Transformation and Creating the Standardization Required for Continuity" xml:space="preserve">
+    <value>Sağlıkta Dönüşüm İçin Gerekli Mevzuat Altyapısının Çıkarılması ve Sürekliliği İçin Gerekli Standardizasyonun Oluşturulması</value>
+  </data>
+  <data name="Establishing the Standardization Required for the Coordination of the Ministry of Health and Social Security Authority" xml:space="preserve">
+    <value>Sağlık Bakanlığı ve Sosyal Güvenlik Yetkili Kuruluş Koordinasyonu İçin Gerekli Standardizasyonun Oluşturulması</value>
+  </data>
+  <data name="Expectation Analysis from Healthcare Parties" xml:space="preserve">
+    <value>Sağlık Hizmetleri Taraflarından Beklenti Analizlerinin Yapılması</value>
+  </data>
+  <data name="Financial Management Consultancy in Healthcare Institutions" xml:space="preserve">
+    <value>Sağlık Kurumlarında Finansal Yönetim Danışmanlığı</value>
+  </data>
+  <data name="Health enterprises are private buildings. It contains important details during the construction phase as well as the complete design. It is only about work experience and coordination ability that tens of suppliers do the right thing together during the construction phase. Business Management Group provides a smooth project management with consultancy, supervision and supervision services from the beginning to the end in the production of Healthcare Business Buildings. All stages from Rough Construction to Fine Manufacturing, Air Conditioning Systems to Furniture and Latest Biomedical Configuration are under the supervision and supervision of our Business Management group.Our team, working with the understanding of Proactive Manufacturing Management, provides consultancy by transferring all the details to the production supervisors before manufacturing, thereby eliminating the risk of faulty or poor quality manufacturing. Each of our staff and units in the team has hundreds of hospital building experience, and consists of individuals and structures that have a high level of project management methodology. Our team in the Configuration Management works in continuous cooperation and coordination with the planning (design) team and provides concrete construction of thought product designs." xml:space="preserve">
+    <value>Sağlık işletmeleri özel yapılardır. Tasarımın eksiksiz olması kadar yapım aşamasında da önemli ayrıntıları barındırır. Yapım aşamasında onlarca tedarikçinin bir arada doğruyu yapması da ancak iş tecrübesi ve koordinasyon yeteneği ile ilgilidir. İş Yönetim Grubu Sağlık İşletme Yapılarının imalatında başlangıçtan sonlandırmaya kadar danışmanlık, kontrollük ve gözetmenlik hizmetleri ile sorunsuz bir proje yönetimine hizmet etmektedir. Kaba İnşaattan İnce İmalata, İklimlendirme Sistemlerinden Mobilyaya ve En Son Biyomedikal Yapılandırmaya kadar tüm aşamalar İş Yönetim grubumuzun denetimi ve gözetimi altındadır.Proaktif İmalat Yönetimi anlayışı ile çalışan ekibimiz, imalat öncesi imalat sorumlularına tüm detayları aktararak danışmanlık yapmakta böylelikle hatalı ya da kalitesiz imalat riski ortadan kaldırılmaktadır. Ekipte yer alan her personel ve birimimiz yüzlerce hastane yapım tecrübesine sahiptir ayrıca üst düzeyde proje yönetim metodolojisine hâkim kişi ve yapılardan oluşur. Yapılandırma Yönetiminde yer alan ekibimiz planlama(tasarım) ekibi ile sürekli iş birliği ve koordinasyon içinde çalışarak “Düşünce ürünü tasarımların somut olarak inşa edilmesini sağlamaktadır.</value>
+  </data>
+  <data name="Health Institutions Management Consultancy" xml:space="preserve">
+    <value>Sağlık Kurumları Yönetim Danışmanlığı</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Anasayfa</value>
+  </data>
+  <data name="Hospital Quality/Accreditation and Productivity Practices" xml:space="preserve">
+    <value>Hastane Kalite/Akreditasyon ve Verimlilik Uygulamaları</value>
+  </data>
+  <data name="I'm Savaş DOĞAN, founder and Ceo of International Health Management Group, IHMG. We serve for public health which has a major importance in our globalized world. We want to ensure that all people benefit from the best healthcare around the world and work for it. Creating a strong health care system is based on technology integration and experience accumulation. As Ubsis and IHMG, we have taken a very long distance in this regard over the last 20 years and have managed many projects in different parts of the world." xml:space="preserve">
+    <value>Adım Savaş DOĞAN, Uluslararası Sağlık Yönetimi Grubunun (IHMG) kurucusu ve CEO'suyum. Küreselleşen dünyamızda büyük önemi olan halk sağlığına hizmet etmekteyiz. Tüm insanların dünyadaki en iyi sağlık hizmetlerinden faydalanmasını için çalışıyoruz. Güçlü bir sağlık sistemi oluşturmak, teknoloji entegrasyonu ve deneyim birikimine dayanmaktadır. Ubsis ve IHMG olarak son 20 yılda bu konuda çok mesafe katettik ve dünyanın farklı bölgelerinde birçok projeyi yönettik.</value>
+  </data>
+  <data name="IHMG establishes and operates Medical Laboratories and Imaging Centers with its experience and competence through its own Diagnostic Centers. Within our services; System Setups Provision for Results Laboratory and Radiology Service Delivery Having the necessary equipment, consumables management and human resources especially in service delivery, IHMG actively manages all processes from installation to producing qualified reports. Especially for businesses that want to stay away from installation costs, MIS / UBSİS, which offers Result-Back Service Solutions, establishes the infrastructure suitable for capacity and charges only the produced result with the determined service prices." xml:space="preserve">
+    <value>IHMG kendi bünyesinde bulunan Teşhis Merkezleri vasıtası ile sahip olduğu tecrübe ve yeterlilik ile  Tıbbi Laboratuvar ve Görüntüleme Merkezlerini kurmakta ve talebe göre işletmektedir. Hizmetlerimiz içinde; Sistem Kurulumları Sonuç Karşılığı Laboratuvar ve Radyoloji Hizmet Sunumu Özellikle hizmet sunumu konusunda gerekli donanım, sarf yönetimi ve insan kaynağına sahip olan IHMG, kurulumdan nitelikli rapor üretmeye kadar tüm süreçleri aktif yönetmektedir. Özellikle kurulum maliyetlerinden uazak durmak isteyen işletmeler için Sonuç Karşılığı Hizmet Çözümleri sunan MIS/ UBSİS kapasiteye uygun altyapıyı kurmakta ve belirlenen hizmet fiyatları ile sadece üretilen sonucu bedellendirmektedir.</value>
+  </data>
+  <data name="IHMG has an important experience especially in Mobile Health Units, which is an effective application for access to service. With its Mobile Health Units, which has been designed and out of approved production error, the institution, which wants to provide regional mobile and wide-area health services, can produce important solutions for organizations. Thus, IHMG, which resolves all the resources within itself, offers important advantages in terms of cost in catching the quality in Mobile Units at a high level." xml:space="preserve">
+    <value>Özellikle hizmete erişim için etkili bir uygulama olan Mobil Sağlık Üniteleri konusunda IHMG önemli bir tecrübeye sahiptir. Kendi tasarladığı ve onaylı üretim hatarından çıkmış olan Mobil Sağlık Üniteleri ile bölgesel hareketli ve geniş alanlı sağlık hizmeti sunmak isteyen kurum kuruluşlar için önemli çözümler üretebilmektedir. Tüm kaynakları kendi içinde çözümleyen IHMG böylelikle Mobil Ünitelerde kaliteyi üst seviyede yakalamakta maliyet olarakta önemli avantajlar sunmaktadır.</value>
+  </data>
+  <data name="IHMG is doing business for more than 20 years globally." xml:space="preserve">
+    <value>IHMG küresel olarak 20 yıldan fazla bir süredir iş yapmaktadır.</value>
+  </data>
+  <data name="IHMG is incorporate with qualified hospitals in İstanbul, İzmir, Ankara and Antalya, in which experienced doctors and health personnel serve with high technology health devices and equipments." xml:space="preserve">
+    <value>IHMG, deneyimli doktorların ve sağlık personelinin yüksek teknolojili sağlık cihazları ve ekipmanları ile hizmet verdiği İstanbul, İzmir, Ankara ve Antalya'daki nitelikli hastanelerle hizmet vermektedir.</value>
+  </data>
+  <data name="International Health Management Group" xml:space="preserve">
+    <value>Uluslararası İş Yönetim Grubu</value>
+  </data>
+  <data name="International Project and Management" xml:space="preserve">
+    <value>Uluslararası Proje ve Yönetim</value>
+  </data>
+  <data name="Islamabad" xml:space="preserve">
+    <value>İslamabad</value>
+  </data>
+  <data name="Japan" xml:space="preserve">
+    <value>Japonya</value>
+  </data>
+  <data name="London" xml:space="preserve">
+    <value>Londra</value>
+  </data>
+  <data name="Macro Health Services Project Management" xml:space="preserve">
+    <value>Makro Sağlık Hizmetleri Proje Yönetimi</value>
+  </data>
+  <data name="Making the Reorganization Plan of the Ministry of Health and Affiliated Institutions" xml:space="preserve">
+    <value>Sağlık Bakanlığı ve Bağlı Kurum Kuruluşların Reorganizasyon Planının Yapılması</value>
+  </data>
+  <data name="Managing the necessary preparations in institutions" xml:space="preserve">
+    <value>Kurumlarda gerekli hazırlıkların yönetimi</value>
+  </data>
+  <data name="Marketing Consultancy in Healthcare Institutions" xml:space="preserve">
+    <value>Sağlık Kurumlarında Pazarlama Danışmanlığı</value>
+  </data>
+  <data name="Matching with countries with Advanced Health Systems is very important for the development of developing countries in the Health System. Training, orientation exchange and co-development programs are carried out especially among Health Education Institutions and Health Service Providers within this framework." xml:space="preserve">
+    <value>Gelişmekte olan ülkelerin Sağlık Sisteminde gelişiminde Gelişmiş Sağlık Sistemleri olan ülkelerle yapılacak Eşleştirmeler oldukça önemlidir. Özelikle Sağlık Öğrenim Kurumları ve Sağlık Hizmet Sunucuları arasında eğitim, oryantasyon değişim programları ve birlikte gelişim programları bu çerçevede gerçekleştirilmektedir.</value>
+  </data>
+  <data name="Micro Health Services Project Management" xml:space="preserve">
+    <value>Mikro Sağlık Hizmetleri Proje Yönetimi</value>
+  </data>
+  <data name="Mobile Health &lt;br /&gt;Services" xml:space="preserve">
+    <value>Mobil Sağlık &lt;br /&gt; Hizmetleri</value>
+  </data>
+  <data name="Mobile Health&lt;br/&gt; Services" xml:space="preserve">
+    <value>Mobil Sağlık &lt;br/&gt; Hizmetleri</value>
+  </data>
+  <data name="Mobile Healthcare Units" xml:space="preserve">
+    <value>Mobil Sağlık Üniteleri</value>
+  </data>
+  <data name="Moscow" xml:space="preserve">
+    <value>Moskova</value>
+  </data>
+  <data name="Operating since 2000, IHMG Business Management Group provides services in international institution/organization configuration services with its qualified infrastructure and human resources. Project Management oriented IHMG Business Management Group, besides its experience in the sector, creates a wide service network with business solutions that are common requirements for all sectors." xml:space="preserve">
+    <value>2000 yılından bu yana faaliyet gösteren IHMG İş Yönetim Grubu, nitelikli altyapısı ve insan kaynakları ile uluslararası kurum/kuruluş yapılandırma süreçlerinde hizmet vermektedir. Proje Yönetimi odaklı IHMG , sektördeki deneyiminin yanı sıra, tüm sektörler için ortak gereksinimler olan iş çözümleriyle geniş bir hizmet ağı oluşturur.</value>
+  </data>
+  <data name="Our Network" xml:space="preserve">
+    <value>Ağımız</value>
+  </data>
+  <data name="Pakistan" xml:space="preserve">
+    <value>Pakistan</value>
+  </data>
+  <data name="Preparation of National Health Quality Standards" xml:space="preserve">
+    <value>Ulusal Sağlıkta Kalite Standartlarının Hazırlanması</value>
+  </data>
+  <data name="Private Sector Dynamics is important for increasing the quality of service delivery in health transformation. Standardizing the procurement management within the framework of the cooperation with the Private Sector is very important in the success of the Transformation Project. Studies under this service;" xml:space="preserve">
+    <value>Sağlıkta dönüşümde hizmet sunum kalitesinin artışı için Özel Sektör Dinamiği önemlidir. Özel Sektör ile yapılacak işbirliği çerçevesinde alım yönetimlerinin standardize edilmesi Dönüşüm Projesinin başarısında oldukça önemlidir. Bu hizmet kapsamındaki çalışmalar;</value>
+  </data>
+  <data name="Public Health &lt;br /&gt;Instutitions" xml:space="preserve">
+    <value>Kamu Sağlık &lt;br /&gt; Kurumları</value>
+  </data>
+  <data name="Qualified hospitals with experienced doctors" xml:space="preserve">
+    <value>Nitelikli hastaneler ve deneyimli doktorlar</value>
+  </data>
+  <data name="Quality and &lt;br /&gt;Efficiency" xml:space="preserve">
+    <value>Kalite ve&lt;br /&gt; Verimlilik</value>
+  </data>
+  <data name="Quality And Efficiency Management In Health" xml:space="preserve">
+    <value>Sağlıkta Kalite ve Verimlilik Yönetimi</value>
+  </data>
+  <data name="Quality Management Consultancy in Hospitals" xml:space="preserve">
+    <value>Hastanelerde Kalite Yönetim Danışmanlığı</value>
+  </data>
+  <data name="Quality, Accreditation and Efficiency Applications" xml:space="preserve">
+    <value>Kalite, Akreditasyon ve Verimlilik Uygulamaları</value>
+  </data>
+  <data name="Quality, Accreditation&lt;br/&gt;and Efficiency Applications" xml:space="preserve">
+    <value>Kalite, Akreditasyon &lt;br/&gt; ve Verimlilik Uygulamaları</value>
+  </data>
+  <data name="Russia" xml:space="preserve">
+    <value>Rusya</value>
+  </data>
+  <data name="Service Procurement &lt;br/&gt;Management" xml:space="preserve">
+    <value>Hizmet Alımı &lt;br/&gt; Yönetimi</value>
+  </data>
+  <data name="Servıce Procurement&lt;br/&gt;Management" xml:space="preserve">
+    <value>Hizmet Alım &lt;br/&gt; Yönetimi</value>
+  </data>
+  <data name="Some of Our Softwares; HR Management, Hospital and Laboratory Information Management, Vaccine Management, PACS, Blood Products and Transfusion Management" xml:space="preserve">
+    <value>Bazı Yazılımlarımız; İK Yönetimi, Hastane ve Laboratuvar Bilgi Yönetimi, Aşı Yönetimi, PACS, Kan Ürünleri ve Transfüzyon Yönetimi</value>
+  </data>
+  <data name="Standardization of Building Standards and Physical Licensing Methods for Healthcare Facilities" xml:space="preserve">
+    <value>Sağlık Tesisleri İçin Yapı Standartlarının ve Fiziki Ruhsatlandırma Yöntemlerinin Standardizasyonu</value>
+  </data>
+  <data name="Standardization of Health Organization Quality and Efficiency Performance Criteria" xml:space="preserve">
+    <value>Sağlık Kuruluşu Kalite ve Verimlilik Performans Kriterlerinin Belirlenmsi ve Yönetiminin Standardizasyonu</value>
+  </data>
+  <data name="Standardization of Plan Monitoring and Evaluation Methods" xml:space="preserve">
+    <value>Plan İzleme ve Değerlendirme Yöntemlerinin Standardizasyonu</value>
+  </data>
+  <data name="Standardization of Satisfaction Determination and Improvement Studies" xml:space="preserve">
+    <value>Memnuniyet Belirleme ve İyileşitirme Çalışmalarının Standardizasyonu</value>
+  </data>
+  <data name="Standardization of tender construction evaluation and service implementation processes" xml:space="preserve">
+    <value>İhale yapım değerlendirme ve hizmet uygulamaya alım süreçlerinin standardizasyonu</value>
+  </data>
+  <data name="Standardization of the Health System is one of the most important projects in developing countries. The System Infrastructure required for the Standardization of the Health System is the e-Health System. Content of e-Health Configuration;" xml:space="preserve">
+    <value>Gelişmekte olan ülkelerde Sağlık Sisteminin Standardizasyonu en önemli projeler arasında yer almaktadır. Sağlık sisteminin standardizasyonu için ise gerekli sistem altyapısı  e-sağlık sistemidir. e-sağlık yapılandırması içeriği ;</value>
+  </data>
+  <data name="Standardizing Time-Based Action Plans" xml:space="preserve">
+    <value>Stratejik Plan Zamana Dayalı Faaliyet Planlarının Tanımlanması</value>
+  </data>
+  <data name="Strategic &lt;br /&gt;Planning" xml:space="preserve">
+    <value>Stratejik &lt;br /&gt; Planlama</value>
+  </data>
+  <data name="Structuring digitalization projects suitable for the country in the Health and Social Security System" xml:space="preserve">
+    <value>Sağlık ve Sosyal Güvenlik Sisteminde ülkeye uygun dijitalleşme projelerinin yapılandırılması</value>
+  </data>
+  <data name="Structuring of the Quality Control System" xml:space="preserve">
+    <value>Kalite Denetim Sisteminin Yapılandırılması</value>
+  </data>
+  <data name="T&lt;/span&gt;here have been important changes in the structure of health services due to easier access, widespread epidemic diseases and increased biosafety needs. Mobile Health Services is one of the leading solutions in this regard." xml:space="preserve">
+    <value>S&lt;/span&gt;ağlıkta hizmete erişimin kolaylaşması ve günümüzde salgın hastalıklar ve artan biogüvenlik gereksinimleri nedeni ile sağlık hizmetlerinin yapısında da önemli değişiklikler olmuştur. Mobil Sağlık Hizmetlerinde bu konuda en önde gelen çözümlerdendir. </value>
+  </data>
+  <data name="Tashkent" xml:space="preserve">
+    <value>Taşkent</value>
+  </data>
+  <data name="The Business Management Group has two important companies (IHMG) and has successfully completed 100 projects in 11 countries around the world." xml:space="preserve">
+    <value>IHMG İş Yönetim Grubunun iki önemli şirketi vardır ve dünyanın 11 ülkesinde 100 projeyi başarıyla tamamlamıştır.</value>
+  </data>
+  <data name="The most important requirement of large-scale projects is to set goals correctly. Preparing a Strategic Plan to guide these goals is decisive in the quality of the studies. Activities we carry out in our works;" xml:space="preserve">
+    <value>Büyük ölçülü projelerin en önemli gereksinimi hedeflerin doğru şekilde belirlenmesidir. Bu hedeflere ulaşabilmek için rehber olacak Stratejik Plan hazırlanması çalışmaların kalitesinde belirleyicidir. Çalışmalarımızda gerçekleştirdiğimiz faaliyetler;</value>
+  </data>
+  <data name="The most important step of the health transformation is the structuring the institutions that will take part in the transformation. Successful transformation of institutions is decisive in the success of Health Transformation. Studies Under This Service;" xml:space="preserve">
+    <value>Sağlık dönüşümünün en önemli basamağı dönüşümde yer alacak kuruluşların yapılandırılmasıdır. Kurumların dönüşümünin başarılı şekilde gerçekleştirilmesi, Sağlıkta Dönüşümün başarısında belirleyicidir. Bu Hizmet Kapsamındaki Çalışmalar;</value>
+  </data>
+  <data name="The purpose of all transformation and restructuring projects is to ensure Citizen Satisfaction as well as Medical Quality. Therefore, it is necessary to establish and implement decisive national standards for all health institutions. Studies Under This Service" xml:space="preserve">
+    <value>Tüm dönüşüm ve yapılandırma projelerinde amaç Tıbbi Kalitenin yanısıra Vatandaş Memnuniyetinin de sağlanmasıdır. Bu nedenle tüm sağlık kuruluşları için belirleyici ulusal standartların oluşturulması ve uygulamaya alınması gerekmektedir. 
+Bu Hizmet Kapsamındaki Çalışmalar;</value>
+  </data>
+  <data name="The purpose of all transformation and restructuring projects is to ensure Citizen Satisfaction as well as Medical Quality. Therefore, it is necessary to establish and implement decisive national standards for all health institutions. Studies Under This Service;" xml:space="preserve">
+    <value>Tüm dönüşüm ve yapılandırma projelerinde amaç Tıbbi Kalitenin yanısıra Vatandaş Memnuniyetinin de sağlanmasıdır. Bu nedenle tüm sağlık kuruluşları için belirleyici ulusal standartların oluşturulması ve uygulamaya alınması gerekmektedir. 
+Bu Hizmet Kapsamındaki Çalışmalar;</value>
+  </data>
+  <data name="The system is designed to screen citizens for epidemics. It is specially designed to maximize the safety of citizens and healthcare professionals. It is used for the screening of diseases with high risk of contamination such as COVID 19, SARS, EBOLA. All materials used in the unit are antibacterial. The risk of contamination is minimized due to the use of hand.It is configured with Hand Off technology(No door handle)." xml:space="preserve">
+    <value>Sistem vatandaşların salgın hastalık taraması için özel kurulmuş bir yapıdır. Vatandaş ve sağlık çalışanının güvenliğini azami sağlamak için özel tasarlanmıştır. COVİD 19, SARS, EBOLA ve Bulaşı riski yüksek hastalık taramalarında kullanılır. Tüm materyaller Antibakteriyal özeliktedir. Tasarımda el kullanımı nedeni ile bulaşı riski minimize edilmiştir. Hand Off teknolojisi ile yapılandırılmıştır (Kapı kolu bulunmamaktadır).</value>
+  </data>
+  <data name="The ventilation system is automatic and air circulation of each room is independent to eliminate the risk of contamination. Citizens and staff are never in contact. The room used by citizens is ventilated with a separate system from other rooms. Complete body disinfection system is available at the entry point of citizens and at the exit point of staff.Absolute disinfection is provided at the entrance and exit points of the unit." xml:space="preserve">
+    <value>Sistemin havalandırması otomatiktir ve bulaşı riskini ortadan kaldırmak için her oda havalandırması bağımsızdır. Vatandaş ile personel kesinlikle temas halinde değildir. Vatandaşların olduğu oda diğer odalardan ayrı sistemle havalandırılmaktadır. Vatandaşların giriş noktası ve personel çıkış noktası komple vücut dezenfektasyonu ile yapılır. Girişte ve çıkışta mutlaka tam dezenfeksiyon sağlanır.</value>
+  </data>
+  <data name="There is absolutely no intermediary or agent in this structure. The patient or his / her relative can apply directly to the IHMG diagnostic center in their country. All the processes, starting from the first contact until returning home are organised by IHMG. This feature of the IHMG ensures less cost, more confidence and comfort in terms of the patient." xml:space="preserve">
+    <value>IHMG'nin organizasyonel yapısında kesinlikle aracı bulunmamaktadır. Hasta veya hasta yakınları doğrudan ülkelerindeki IHMG tanı merkezine başvurabilmektedir. Tüm süreçler IHMG tarafından organize edilmektedir. IHMG'nin bu özelliği, hasta açısından daha az maliyet, daha fazla güven ve konfor sağlamaktadır.</value>
+  </data>
+  <data name="Tokyo" xml:space="preserve">
+    <value>Tokyo</value>
+  </data>
+  <data name="Training and Certification of Strategic Plan Parties" xml:space="preserve">
+    <value>Stratejik Plan Taraflarının Eğitilmesi ve Sertifikalandırılması</value>
+  </data>
+  <data name="Training of National Health Quality Auditors" xml:space="preserve">
+    <value>Ulusal Sağlık Kalite Denetçilerinin Yetiştirilmesi</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Türkiye</value>
+  </data>
+  <data name="Twinning &lt;br /&gt;Projects" xml:space="preserve">
+    <value>Eşleştirme &lt;br /&gt; Projeleri</value>
+  </data>
+  <data name="UBSIS has successfully completed hundreds of projects in several countries around the world." xml:space="preserve">
+    <value>UBSİS dünyanın çeşitli ülkelerinde yüzlerce projeyi başarıyla tamamlamıştır.</value>
+  </data>
+  <data name="UBSIS is an international company providing Integrated Health Services with its international corporate identity, high technology and experience capacity. UBSIS is also the founder and manager of International Health Management Group (IHMG)" xml:space="preserve">
+    <value>UBSİS, uluslararası kurumsal kimliği, yüksek teknolojisi ve deneyim kapasitesi ile Entegre Sağlık Hizmeti sunan uluslararası bir firmadır. UBSIS aynı zamanda Uluslararası Sağlık Yönetimi Grubu'nun (IHMG) kurucusu ve yöneticisidir.</value>
+  </data>
+  <data name="United Kingdom" xml:space="preserve">
+    <value>İngiltere</value>
+  </data>
+  <data name="Uzbekistan" xml:space="preserve">
+    <value>Özbekistan</value>
+  </data>
+</root>
