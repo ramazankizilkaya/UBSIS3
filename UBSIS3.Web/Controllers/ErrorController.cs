@@ -33,7 +33,7 @@ namespace UBSIS3.Web.Controllers
             ViewBag.Description= _localizer["Error occured. The page you were looking for, couldn't be found. We will handle it. Thanks for your patience..."];
 
             ViewBag.Oops= _localizer["Oops"];
-
+            //rgdrg
             var exceptionDetails = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
             if (exceptionDetails!=null)
             {
